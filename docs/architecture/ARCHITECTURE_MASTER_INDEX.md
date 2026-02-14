@@ -130,6 +130,11 @@ Freeze package should include:
 
 ## 8) Quick Navigation
 
+Planning and guide docs:
+- `docs/guide/README.md`
+- `docs/plan/BATTLE_PLAN_IMPLEMENTATION_V1.md`
+- `docs/plan/BACKLOG_INDEX.md`
+
 Core technical docs:
 - `docs/architecture/SYSTEM_ARCHITECTURE_DB_FIRST_V2.md`
 - `docs/architecture/OWNERSHIP_STATE_MACHINE_SPEC_V1.md`

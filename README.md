@@ -28,6 +28,9 @@ This repository is organized for product, backend, iOS, infrastructure, and rese
 
 ## Start Here
 
+- Interactive guide: `docs/guide/README.md`
+- Battle plan: `docs/plan/BATTLE_PLAN_IMPLEMENTATION_V1.md`
+- Backlog index: `docs/plan/BACKLOG_INDEX.md`
 - Architecture index: `docs/architecture/ARCHITECTURE_MASTER_INDEX.md`
 - Monorepo conventions: `docs/architecture/MONOREPO_CONVENTIONS_V1.md`
 - Operator runbook: `docs/operations/SYSTEM_RUNBOOK_V1.md`
