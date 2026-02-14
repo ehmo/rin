@@ -29,7 +29,8 @@ Goal:
 5. `docs/architecture/ARCHITECTURE_PLAN_OSS_V1.md`
 6. `docs/architecture/SYSTEM_ARCHITECTURE_DB_FIRST_V2.md`
 7. `docs/architecture/SERVICE_IMPLEMENTATION_BLUEPRINT_V1.md`
-8. `docs/simulations/SIMULATION_RESULTS_V1.md`
+8. `docs/architecture/GRAPH_DATA_LIFECYCLE_V1.md`
+9. `docs/simulations/SIMULATION_RESULTS_V1.md`
 
 Goal:
 - understand high-level infra and simulation-backed risks.
@@ -63,10 +64,11 @@ Goal:
 3. `docs/architecture/EVENT_CONTRACT_CATALOG_V1.md` encodes side-effects from ownership/dispute contracts.
 4. `docs/architecture/PROFILE_CLASS_CONTRACT_V1.md` constrains ownership + events + ranking.
 5. `docs/architecture/SCALE_GUARDRAIL_CONTRACT_V1.md` uses architecture + simulation + runbook targets.
-6. `docs/architecture/DATA_MODEL_BOUNDARIES_V1.md` enforces service ownership across all contracts.
-7. `docs/operations/SYSTEM_RUNBOOK_V1.md` operationalizes all of the above.
-8. `docs/architecture/MONOREPO_CONVENTIONS_V1.md` defines repository structure and change rules for implementation phase.
-9. `docs/architecture/SERVICE_IMPLEMENTATION_BLUEPRINT_V1.md` translates contracts into build-ready service boundaries.
+6. `docs/architecture/GRAPH_DATA_LIFECYCLE_V1.md` defines tiering and transitions for graph truth and history.
+7. `docs/architecture/DATA_MODEL_BOUNDARIES_V1.md` enforces service ownership across all contracts.
+8. `docs/operations/SYSTEM_RUNBOOK_V1.md` operationalizes all of the above.
+9. `docs/architecture/MONOREPO_CONVENTIONS_V1.md` defines repository structure and change rules for implementation phase.
+10. `docs/architecture/SERVICE_IMPLEMENTATION_BLUEPRINT_V1.md` translates contracts into build-ready service boundaries.
 
 ---
 
@@ -139,6 +141,7 @@ Planning and guide docs:
 Core technical docs:
 - `docs/architecture/SYSTEM_ARCHITECTURE_DB_FIRST_V2.md`
 - `docs/architecture/SERVICE_IMPLEMENTATION_BLUEPRINT_V1.md`
+- `docs/architecture/GRAPH_DATA_LIFECYCLE_V1.md`
 - `docs/architecture/OWNERSHIP_STATE_MACHINE_SPEC_V1.md`
 - `docs/architecture/EVENT_CONTRACT_CATALOG_V1.md`
 - `docs/architecture/PROFILE_CLASS_CONTRACT_V1.md`

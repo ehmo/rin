@@ -25,13 +25,13 @@
 
 ## Current Priority Queue (P0)
 - `rin-3i0.2.1` Design complete v1 user journey map with happy/unhappy paths
-- `rin-3i0.5.1` Define canonical graph data lifecycle (hot/warm/cold)
 - `rin-3i0.6.1` Operationalize dispute queue lanes and auto-adjudication tiers
 - `rin-3i0.7.1` Define iOS app architecture and module boundaries
 - `rin-3i0.12.1` Create App Store policy requirements checklist
 - `rin-3i0.16.1` Define beta cohort strategy and acceptance criteria
 
 ## Recently Completed (This Session)
+- `rin-3i0.5.1` Define canonical graph data lifecycle (hot/warm/cold)
 - `rin-3i0.4.1` Translate contract docs into service implementation blueprint
 - `rin-3i0.1.1` Finalize high-priority architecture open decisions
 - `rin-3i0.1.2` Define architecture freeze criteria and sign-off process

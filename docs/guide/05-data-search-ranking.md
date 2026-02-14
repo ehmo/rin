@@ -11,6 +11,7 @@ Define the graph pipeline and serving model for ranking and discovery at large r
 
 ## Working Docs
 - `docs/architecture/ARCHITECTURE_PLAN_OSS_V1.md`
+- `docs/architecture/GRAPH_DATA_LIFECYCLE_V1.md`
 - `docs/simulations/SIMULATION_RESULTS_V1.md`
 - `docs/product/RIN_SCORE_V1.md`
 
