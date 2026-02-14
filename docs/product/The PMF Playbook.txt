@@ -1,0 +1,520 @@
+﻿The PMF Playbook - Intentionally Finding Product Market Fit - John Danner, Danner Capital @jwdanner
+
+
+This doc is a continuous work in progress.  It will almost always be inconsistent as I take new learnings from my startups and incorporate them here.  Please send me comments on all of the inconsistencies and mistakes you see, it helps a lot!
+
+
+I’m a serial founder and also work with seed stage founders trying to get to product market fit (PMF) and raise their Series A.  My focus is on the future of learning and work, but I do think a lot of this approach is applicable to any consumer company and many enterprise SaaS businesses.  What I’d like to talk about here is the stages I see seed companies go through, and the milestones to achieve in those areas.  I have seen many companies pursue these milestones in a different order, and that can be mostly ok.  My caution is that jumping to growth before establishing magic and habit is almost always a huge waste of time and money.  
+
+
+To begin with, let’s start with the end.  Here is a report card that you can use to assess your current PMF.  While this will shine a light on a few areas where things aren’t working, consider that they are all connected, so often a bad 30-day retention rate can be because someone just wasn’t that excited about the magic, or didn’t have that strong a need to fill.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The PMF Report Card
+
+
+Stage
+	Metric
+	A
+	B
+	C
+	Your result
+	Your Grade
+	Funding Stage 
+	Magic
+	% of visitors who see your magic who become users 
+	80%
+	60%
+	40%
+	
+
+	
+
+	Idea
+	Habit
+	% Day 7 and Day 7->Day 30 retention
+	80%
+	60%
+	40%
+	
+
+	
+
+	Pre-seed
+	Engagement
+	Average visits per week
+	7
+	5
+	3
+	
+
+	
+
+	Pre-seed
+	Channel
+	Drive 1000 organic weekly visitors to your site
+	1000
+	800
+	600
+	
+
+	
+
+	Pre-seed
+	Growth 
+	Month over Month organic growth (exclude paid growth)
+	20%
+	15%
+	10%
+	
+
+	
+
+	Pre-seed
+	Activation
+	% Day 7 retention (yes, it’s a repeat, because you didn’t hit 80% before, but now spend more time on it) 
+	80%
+	60%
+	40%
+	
+
+	
+
+	Seed
+	
+
+Monetization 
+	% top of funnel who become paid customers
+	10%
+	7%
+	3%
+	
+
+	
+
+	Seed
+	GPA
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+All of these metrics are a little daunting, and sometimes you run up against one that’s very hard to move.  Here is the way I advise founders to think about it.  At each stage, you need to get to at least a “C” with the exception of magic where my advice is that you achieve at least a “B”. If you don’t get the magic right,  you can waste a lot of time on something people don’t really care about and often iterating quickly on the magic is the highest leverage thing you can do.
+
+
+Once you have gotten to a “C” across the board, then the best way to look at it is through the growth lens.  What levers are most likely to push my growth to an “A”?  In general, if you can get growth to an “A” (i.e. 20% MoM organic growth) and have at least “C” 30-day retention, most investors will dig in and try to figure out if they can help you on the rest.
+
+
+My Practice With Founders
+The thing that I think is really difficult during seed stage is keeping the big hairy audacious goals above in mind, and developing a cadence that lets you knock them down, despite the insane emotional roller coaster you are going through as a founder.  It’s totally normal to get down or depressed followed 20 minutes later by feeling like you are invincible because you got a good win.  It is very common to have some big project or partnership that just needs to get done.  Throughout all of this, your success is actually determined by the cadence with which you learn new things every day and every week.  I think this is the top reason that founders settle for good (local maxima) PMF when there is great PMF (absolute maxima) for their idea in an adjacency nearby.  They just aren’t organized enough or get worn down by the roller coaster and settle for good ideas.  My job is to try to help you to find great PMF.
+
+
+Let’s walk through a typical startup journey to illuminate and justify these metrics as the ones you need to master for PMF.
+
+
+A couple of Tips for Founders beyond the stages
+
+
+After doing this for a few years, I’ve gotten to see the things that people mess up the most, even if they are incredibly focused on product market fit.  Here are the things to keep yourself honest about:
+
+
+1 - Are you doing an experiment each day?  Without it, you don’t learn enough to completely explore a space in 6-12 months and it’s impossible to know when to pivot and very unlikely you find a global maxima for user need rather than just settle on a local maxima.
+
+
+2 - Do you go after only one metric at a time?  If you don’t, you don’t get enough quality time after each round of experiments to think about that single metric and what you’ve learned.  You need enough density that your brain can start to put things together.  If you go after magic and habit and engagement all at once, you don’t actually learn enough about any of them.
+
+
+3 - Are you willing to defer gratification?  This comes in many forms, but everything in the ecosystem encourages you to fake it.  Investors were seldom founders and they understand your companies 1% as well as you do, so it’s easy to buy traffic and play other tricks to get funding.  PMF always catches up with you though, whether you have $100M or $100 in your bank account.  So are you willing to grind on this until your user need and mechanics are just incredible?
+
+
+4 - Are you worrying about monetizing too early?  This is certainly less of a problem for Silicon Valley founders who have been bludgeoned into going after growth, but I still see a monetization obsession with many founders.  Monetization is friction, so applying it too early just adds friction and can make you think user need isn’t as strong as it is, resulting in a false negative.  Adding friction in later once you have removed it from everything else tends to work very well, especially if you have a pretty good fit with other products that people pay for.  There is monetization risk, but I put it last on the PMF list on purpose, to get you to think about all of the ways to get users excited before you make the ask.
+
+
+
+
+
+
+Stage 0: Idea Validation
+Joe has a great idea for a school for math geeks.  He has started a couple of other companies, but hasn’t yet gotten strong PMF in any.  Previously he was a high school calculus teacher.  
+
+
+Put in Place - Experimentation
+The difference between lucky and intentional startups is experimentation.  This is one of my main focuses with founders.  Take a look at this doc on how to do it well.
+
+
+The Milestone: Get a small number of users very excited by your product.
+
+
+Joe needs to get a few dozen students to experience ‘the magic’ of his math teaching and rave about it.  The magic is that moment when your user mentally puts together a big problem they have with the way your product solves it, usually resulting in cartoon smoke coming out of their brain.  The excitement needs to be very palpable, like people screaming about how much they love this.
+
+
+Typically, founders will get caught up in trying to make the first experience rock solid.  That’s not important.  At the magic stage, you want to only test the need and whether you have a solution that resonates with users.  It doesn’t have to be perfect to determine this, in fact it’s best if it isn’t because if you can get somebody excited about a bad product, you can later get them more excited about a good product.  My strong advice is to do this with ‘no code’.  You can easily use Zoom or Slack or Squarespace, cobble something together with the right language and images, and put that on Product Hunt, targeted Facebook groups, twitter chat or hundreds of other places where people go to find new ideas.  
+
+
+Funding Round: Idea
+Valuation: $1m
+Investment: $50k
+Likely Investors: Friends and Family (sometimes Dunce)
+Milestone: idea validation(Stage 0)
+
+
+As a founder, your job is to get to PMF before you run out of money, so I will intersperse typical funding milestones on the journey.  The idea stage check, which I write, is one of the most misunderstood.  I am often approached by founders with a snazzy deck and no magic.  Don’t waste your time with professional investors if you haven’t validated your idea, as outlined in stage 0 above.  You can raise money from Uncle Bob if you want, but instead I would focus on getting the right co-founders on board so that you can learn without spending much money.  Once you have users engaged, then put together a 3 slide deck saying who you are, the need you are addressing, and your initial solution.  Seriously.
+
+
+
+
+Stage 1: Magic
+
+
+Put In Place - Now you need to become systematic about your experimentation.  Most people try to avoid the hard product work by doing a bunch of paid acquisition instead.  This is especially true with accelerator companies, which are given three months to show great growth.  Don’t do this.  Focus on one thing at a time, because for your experiments to pay off, you have to be in the flow of that one thing and how to move it every week.
+
+
+Joe was able to get a bunch of students to do live sessions with him and they loved it.  They have told friends and Joe is starting to get some buzz.  For a founder, it’s easy to believe you have found product market fit at this point.  However, you need to validate that.  You need to know if there is really a business here.  
+
+
+The Milestone: 80% of visitors who see your magic become users 
+
+
+If you hit a visitor with your magic and they don’t become a user, you probably don’t have your magic right.   it’s likely that the smoke isn’t coming out of their ears, they never exclaimed ‘aha’ and all of the things people do when they realize they have been waiting for your product for a long time.
+
+
+Stage 2: Habit
+
+
+The Milestone: 65% of users should retain d30.
+
+
+Joe started charging after the first session and had the vast majority of students pay.  Now he needs to make sure this sticks.  Joe is a little weary from running all of the live classes himself.  Since this is going well, he starts to think about pulling in other teacher friends to teach classes.  Joe hasn’t written any code and he only has one full-time employee.  He also has a potential technical co-founder, who is working on this part-time, maybe paid, maybe not.  One crucial thing here is that it is not time to believe that you are a real company.  Don’t go out and hire a bunch of people.  Don’t go buying a bunch of leads.  The more people you have, the harder it will be to establish the experimental cadence you need to accomplish the challenges below.  The more you spend on acquisition, the harder it is to tell if you can grow organically.
+
+
+The simple math of organic user acquisition is that you need very high day 7 and day7->day30 retention to grow.  My bar is 80% for each.  When you combine those, you get an overall d30 retention of 65% (round up :)
+
+
+Users must form a habit around using your product. Hooked is the best book about this, so read it if you haven’t.   When people use your product several times per week, it becomes something they do automatically.  You need to get connected to an emotion, such that when people feel that emotion (stimulus), they go to your app (response) and they get rewarded.  For example, someone is feeling bored, so they play Candy Crush, lots of eye candy happens, and they are less bored.
+
+
+Someone has seen the magic and is psyched about your product.  That doesn’t mean they will become a habitual user.  Don’t leave this to chance!  My favorite example of this is the meditation app Calm, and their feature called ‘Daily Calm’.  Before Daily Calm, I had to go into the app every day and find a session I wanted to do.  That slight amount of friction was enough to keep me from forming a daily habit.  When ‘Daily Calm’ came out, it made it so simple that I easily became habitual.  Depending on your app, you will have to decide how many interactions a user needs to have and what is meaningful to form a habit.   Figure out how your app is going to improve their life every time they use it.  It will be obvious to some, but if you can retain a user into month two, your user lifetime value (LTV) doubles :)  Measure this with weekly retention cohorts so that you can isolate the effect of your experiments from past user behavior.
+
+
+
+
+Stage 3: Your First Channel
+
+
+The Milestone: Find a channel that can generate 1000 new organic users a week for you.
+
+
+Joe spent longer than he wanted in the previous stages, a full year, but in the process he learned a ton about his users and what they were really looking for.  They didn’t really want to go to math school, but they were really interested in math, especially when it was taught by someone enthusiastic like him.  He focused a lot on making that first lesson incredible and then getting them back into the classroom at least once in the first week.  He has 500 users now, who deeply love his product, spending about $50 per user per month on average.
+
+
+Now Joe can get students excited when they do their first session with him, and he knows how to establish the habit around coming back in the first week and then two or three sessions per week.  It is time for Joe to find a channel.  Briefly, a channel is any place that your users are already congregating.  For example, in the early internet, craigslist was a place where lots and lots of people congregated who wanted jobs or apartments or to buy and sell stuff, so many early companies like ebay used that channel to funnel the people who wanted to buy and sell stuff to their marketplace.  
+
+
+Likewise, your job is to try to figure out where these folks are right now in large enough numbers that you can get 1000 per week coming your way.  That number sounds a bit flippant, but it’s not.  At this stage, you are very very bad at converting top of funnel users to customers.  Typically early startups will convert single digit percentages of visitors into users.  So if you don’t have 1000 new people showing up, you aren’t going to have enough new users to even develop retention cohorts.  
+
+
+And before you waste your money, don’t do this with paid.  Do the hard work to find out where they are and get the word out.  That might be a set of working moms facebook groups for an early childhood learning company, or an existing freelance community for a new freelance marketplace.  There is a lot of creativity and experimentation in finding this channel.
+
+
+Joe played with a lot of possible channels but eventually settled on tik tok.  He knew that the recordings of his sessions gave a taste of the magic, enough to get a new user interested.  So he started running experiments around micro-influencers on tik tok, having his own students make tik tons, making tik yoke himself, etc.  I often recommend that founders invest in channel expertise at this stage.  One of my companies, Marketerhire, has done channel experimentation for hundreds of companies.  Whether you use them or someone else, getting a few hours a week from someone who really knows that channel can save you a ton of time and anguish.
+
+
+Joe found that giving his students their own recordings and encouraging them to mix them up on tik tok was a great way to get other students interested.  By being student-first in his user acquisition, he was betting that he could create something that students loved and that he could convince parents to pay for.  That allowed him to unlock a much higher growth channel than if he had tried to reach parents.
+
+
+Stage 4: Growth Loops
+
+
+The Milestone: You need to grow payers by 20% month over month (MoM) organically 
+
+
+That seems a bit insane until it doesn’t.  You won’t maintain 20% MoM forever, but you should during seed or you don’t have PMF.  Once you have found something people really want and a mechanism for them to spread the word, this is very achievable.  It also puts you in the top 1% of startups, and makes the rest of your startup life much easier.  I cut out paid growth here, because what you are really trying to prove is that you can acquire new users because people are letting other people know about it.
+
+
+For education companies specifically, the reason you need such high organic traffic, is that people consider education solutions important, and they need high trust to try them out.  That trust does not come from an ad, it comes from people they know and trust.  What’s great about education is that people have a large desire to raise themselves up through education, and they will often persist with your product much longer than other consumer products, but the trust hurdle is significant.  The best solution is to build a product that users love and need to tell their friends about and make that evangelism as easy as possible for them.  
+
+
+Stop thinking about acquisition as a one time event, and think about it as a loop.  Things like PR are a fine way for people to find out about your app, but they don’t continue to drive growth.  Shortly after the PR hit, you will have received all of the new users you are going to get from it.  Growth loops create sustainability, because your users make new users, much like compound interest on investments.   You need to run dozens of experiments to figure out the most natural way for your users to generate new users.  Here is a doc you can copy which goes through the main 8 growth loops and prompts you to ideate on ways you may be able to do that with your product.
+
+
+Here are some more ideas from Lenny, who is very smart. 
+
+
+Funding round: Pre-seed
+Typical monthly recurring revenue: $25k
+Valuation range: $2m-$5m
+Investment amount: $250k-500k
+
+
+Note that one of the biggest challenges I see is that a founder in an interesting space will raise a ‘seed’ round before getting Magic-Habit-Growth working.  It is incredibly easy to imagine that this hard work is no longer necessary, but if you skip it, you end up never focusing on the hard things.  The math of user lifetime value doesn’t work because your product isn’t good enough yet.  Growth is easy to fake through spend on ads, PR, etc. but none of these things scale.  Being MySpace or Yikyak had to suck.
+
+
+If you look at the way I stage the milestones, I want you to tackle the hardest ones first.  If you are getting A’s on magic, habit, and growth, skip to Stage 7: Building a Company!  Typically, what happens though is that you get one A and a couple of B’s and C’s.  The next three sections are the main mechanical problems with products that I see which keep founders from getting straight A’s.  By working on these after you get your pre-seed check, you have a few months to experiment and get straight A’s to raise your seed check.
+
+
+Stage 5: Activation
+
+
+The Milestone: 80% of the top of the funnel should retain day 7. (same as magic, but now you are getting down in the dirt)
+
+
+I focus on two main components of activation which usually result in the best chance of getting to that big hairy 80% d7 number.  First, get the magic in front of every single user as soon as they get to your site (what I call discovery). That is the biggest single bump to a user’s desire to use your product and you can’t delay at all.  Second, a carefully planned onboarding flow that teaches a user about your product, gets the information you need from them, builds their habit, and does that all while keeping them psyched.
+
+
+Discovery
+
+
+
+
+* Every user should experience the magic the first time they come to you.
+
+
+One of my favorite ways to say this was by a founder in one of Transcend Network’s cohorts, who described this as “time to magic”.  That’s a good way to look at it, since you typically only have between 15 and 30 seconds for someone to experience your magic.
+
+
+The reality of consumer startups is that they are equal parts love and math.  Your users have to love your product deeply, so deeply that they stick with you forever and tell all of their friends.  That love has to convert into math that works.  
+
+
+Specifically, the math that works is when you can grow your company 20% month over month (MoM) organically.  You want 20% MoM because that’s 7x year over year and that’s what makes big companies.  You want organic because that is a flywheel.  Your current users make new users.  That scales.
+
+
+This math ends up being pretty simple to relate to conversion to paid users.  On a 20% MoM growth rate company, by definition, 20% of your users are new each month.  And you want (and it’s usually true) that those new users are also responsible for the majority of your organic leads (they are new, they are excited, etc).  So to grow 20% month over month, you need every new user to yield at least one brand new paid user.  In fact, you need a little more than that - 1.2 users for every new user, but your existing users will make up the difference.  
+
+
+There are two components to getting that one new prospect for every new user.  First is that your new users have to be really psyched and tell as many people as possible.  Second, the people they tell have to actually go to your site, see your magic, pay, and retain.  That is why the work you did in the previous stages is so crucial - new users have to see the magic immediately and it has to resonate deeply.
+
+
+Let’s do some example math.  In scenario 1, people are really psyched and tell on average three friends.  80% of them see the magic, 80% of those convert, and 65% retain at day 30.  This results in about 33% converting, so about one new signup for every new user.  In scenario 2, people share this widely and tell 8 friends, 50% of those see the magic, 50% of those convert, and 50% of those retain at day 30.  So you are still netting one new user for every new user.  In both cases you can drive 20% MoM growth organically, so you are at the exit criteria for this stage.  However, which do you think is easier?  I would argue that the reason to focus on discovery (higher conversion of new users) first is that once you get that right, it will tend to be much more consistent at scale.  Additionally, if that part of your product is leaky, it may well be because you haven’t actually hit a true need, so don’t waste your time driving new leads before you are sure people care.   
+
+
+If more than 20% don’t get to the magic moment or more than 20% of those who see it don’t sign up, after a lot of experimentation, it may be a vitamin, not a painkiller.
+
+
+One of the most crucial things now is that ‘the magic’ doesn’t get delayed..  At the very beginning, people just showed up and Joe taught them.  If a new user shows up now and has to schedule a class and wait a few days to experience the magic, far fewer people are going to get there.  So, how does Joe scale up but maintain that ‘live’ feel that was so important to his initial success.  Joe decides to be live himself for several hours a day, running classes and talking to prospects
+
+
+
+
+
+
+The Pivot
+It’s extremely likely that you cannot accomplish the challenges in stages 1-4.  My opinion is that you give it six months or so, and if you can’t get the above metrics, don’t beat a dead horse.  If you are running an experiment every day (including weekends, you are a founder after all), you will have tried 180 things and if you can't get there, it’s likely that there is an adjacent need that is stronger and you need to figure it out.  You have to be the judge of this, and one of the hardest things is that there are always ten more experiments to run, and there is never a good time for a pivot.  But in my experience, founders who pivot at this stage into an adjacency have a reasonable shot of finding PMF if they have learned something that leads them to that adjacency.
+
+
+Founders are always in a big hurry to leave seed stage and get that big Series A check, because it’s a validator that they are doing something right.  My advice is to bake your startup as long as you can in seed stage to make it really hum.  Don’t worry about competitors getting to series A faster, because strong PMF wins over more money every time.  Investors will be even happier to see you in six months if you get your PMF rock solid.
+
+
+Onboarding
+
+
+Joe found that a lot of students loved their first session, but not all of them came back. 
+The best way to think about onboarding is that it is the bridge between the magic moment and habitual product use.  You need to have the user invest in learning your product to the point that they initially cement the core habit loop: stimulus (i.e. confusion) -> action (get joe’s help) -> reward (clarity).  
+
+
+So, what makes for good onboarding?  
+
+
+First, figure out what you want a user to do and make that your activation goal.  Say that someone is successfully onboarded or activated when they reach that goal.  Ideally, when they have hit that goal, they are very likely to have A’s on d7 and d30 retention.  For example, with one of my companies, they found that if someone DMs another student at least once, they have a 70% chance to engage three times that first week and retain d30.  
+
+
+Second, strip away everything that gets in the way of achieving that goal.  The main way to teach someone something quickly is to eliminate as many things as they need to learn as possible.  The blank canvas problem is when I start a new app and there is nothing there but 50 buttons with obscure icons.  That is completely overwhelming to a new user.  So instead of that, what if you figured out the two or three things that are easiest for them to do that produce little aha’s and only have those three buttons to start.
+
+
+So if the core action is to get someone to message another student, then the point of onboarding is to strip everything away until sending that message and getting a response happens almost every time. And as long as that’s working, they will spend enough time in your product that they will slowly but surely learn everything else, fueled by the spikes of dopamine they get when connecting with new people.
+
+
+Third, begin your manufactured habit loops as early as possible. So if the dopamine comes when you are messaging with other students, then when someone messages, make sure the other student gets an email to bring them back into the product.  Or if they have messaged someone, make sure they get an email the next time that person returns to the product.
+
+
+I saved the best for last.  A guy named Darius Contractor developed a Psych framework when he was doing onboarding for Dropbox. This is exactly the way you should think about onboarding.  The entire architecture is built around the user’s state of mind when they first experience your product.  For some reason, the trigger that got them to your landing page was good enough that they are a little bit psyched.  Your job now is to teach them what they need to know and get them to do the things you need them to do, while keeping that psych above 0 (the bounce point). If you use this method and then compare the way you have scored your pages against the dropoff points in your funnel, you will start slapping your hand against your forehead, because it is really obvious why your ask of the user at that point is too much.  The insight is just that onboarding is only about the user’s state of mind, it has nothing to do with the product yet, other than showing them enough magic that you increase their psych.
+
+
+Stage 6: Engagement
+
+
+The Milestone: Users should use your product daily.
+
+
+Joe’s students loved his first course and are raving about it to their friends.  He did some initial work with paid invites from his current students to new students and was able to get to 15% MoM organic growth.  The average user is taking two classes per week.  This is extremely important.  If users aren’t fully engaged, go back to stage 1 and build something better or come up with a better idea (one where the need is stronger).  You are working to develop insatiable demand.  That’s really what product-market fit is.  Your product fills a need which people badly have to satisfy.  The way your product fills it makes them want to tell everyone.  The virality of that causes new people to show up without you going to find them.  This lets you eliminate demand as a growth constraint and stay away from paid acquisition, which is no longer scalable as a growth strategy (advertising was my first business and the easy days of using google and facebook traffic profitably are over)
+
+
+For every product, there is a natural cadence which determines the number of times a user is going to use the product.  Generally, the higher the frequency, the better.  In the report card, I have 7x per week because that’s a frequency that indicates a core user.  What really matters most is that you find the level of engagement necessary for that user to retain d7/d30/d90/d180/d360.  If that is one visit per week with over 50% d180 retention, then so be it.  But before you know the correlations, shoot for daily engagement.
+
+
+A little example here.  Zillow is an app for looking for homes.  Home buying is one of those areas which you really really care about once every few years or decades.  So getting any kind of daily/weekly/monthly user engagement was tough for them.  But they realized that one thing people really care about is what their own home is worth.  When they built the Zestimate and started alerting users about their home value, it triggered the kind of engagement they needed so that users would remember them the next time they were buying a home.  
+
+
+To really learn math, Joe thinks students should be with him three times a week, but he found that students didn’t really understand that.  The point of onboarding is to take the initial excitement someone experiences when seeing the magic, and use that to help them learn how to build the core habits you want them to learn.  For Joe, that is doing three sessions with him a week.  
+
+
+Getting to very high engagements per week is really about taking your magic and using it as a reward that someone experiences over and over, putting your product top of mind for them and building a very strong habit.
+
+
+
+
+Stage 7: Monetization
+
+
+The Milestone: 10% of top of funnel visitors become paid users
+
+
+The People
+Joe is still chief problem solver and experimenter, but to exit this stage, he is going to need a small team, so he also becomes chief hirer, manager, and motivator.  The better Joe is about knowing his strengths and weaknesses, the better he can build his team.  In general, making sure that you have a good small team of engineers is job one.  In areas like Silicon Valley, hiring locally is almost impossible for the quality you want, so the company will start virtualizing.  If Joe is lucky enough to have some developer friends that have been waiting to join him, this is definitely the time.  I’m also a big fan of getting product, growth, data analytics and design folks in at this stage.  It may feel like overkill, but in the push to get to 20% MoM organic growth, every point of friction needs to be eliminated and the quantitative experimental focus needs to increase.  I still would not have more than 6 to 8 total people at this stage.  Joe should be able to raise a seed round now, $1-$2m usually around a $5-10m valuation, giving him a solid 12-18 months to figure out everything he needs for PMF.
+
+
+Depending on your product, conversion to paid can happen at very different points in time and one app may require a very different conversion rate than another in order to have a good business.  I use products with a trial as a benchmark.  In general, you want a very high conversion rate from trial to paid, since you have explicitly created a pay wall, and a user has gone through the work to sign up for the trial, so probably has strong intent.  Netflix has an epic 93% conversion rate from trial to paid.  
+
+
+A lot of these conversion rate statistics are really a matter of timing.  If someone can’t see your magic until they get in trial, then the number that go into trial will be small, but the conversion rate will be high.  If someone can see your magic before trial, it’s likely that you will have a lot more people trialing, which naturally creates downward pressure on conversion rate, but may still generate many more paid users than hiding the magic.
+
+
+Monetization is the last seed step for me for a number of reasons.  Mainly, all of the work you have done in the previous steps is going to be necessary to hit high monetization numbers.  One way to look at a trial or a feature locked product is that only people who see the magic, get onboarded well, develop a habit and become core users are likely to convert.  Once you have those, then your main focus here is how best to get them to make the leap.  Is it better to feature lock and let a bunch of your core features be free to develop the habit?  Is your magic so strong that just seeing the magic a couple of times may do it?  Once again, experiment with a lot of bets here, all focused on the user’s psychology and how psyched they are about your product right at the moment of the ask.
+
+
+A note on k12 and enterprise SaaS monetization:
+
+
+The best consumer businesses are free.  So it is not uncommon for the user and payer to be different.  For example, Google and Facebook are free to us, and paid for by companies that want to connect with us.  In the k12 space, the user is under 18 and often their parent is paying for your service.  This is a difficult dynamic.  For a long time, companies have focused on parents, since whatever parents would pay for is the right thing.  Lately, companies like Synthesis School have developed models where students find out about the service, get to experience the magic, and then become big advocates for payment from their parents.  My opinion is that when you can treat students as first-class citizens, show them the magic, get them engaged, and develop them as champions, your growth is going to be much higher than a company in the same space that treats parents as the target.  
+
+
+Here’s the thing about markets like this where user and payer are different.  You almost certainly need to have a magic moment for the user and another for the payer.  The magic moment for the user is everything we’ve talked about in this document.  The magic moment for the payer is often a report that justifies paying for this because it’s actually doing something they consider valuable.  For example, Synthesis shows parents how their kids game playing develops strategy and leadership skills.  Since that’s something parents care about and Synthesis does it in a compelling way, they create a magic moment that causes lots of parents to pay.  
+
+
+This is extremely similar to what we have been doing for the last twenty years in SaaS.  The end user has to get value out of inviting their co-workers on Slack, but their boss needs to feel like Slack drives better communication and culture for the team in order to pay.  Often that second piece of magic is not treated as a first class problem in early SaaS companies without a lot of sales people.  But once that conversion to paid becomes important and sales people show up, the magic moment for the payer starts to be an area of intense focus.
+
+
+The same is true for enterprise learning products.  Startups have a decision to make about whether they take a top-down sales approach, often with HR or at the departmental or VP level to sell their product, or they can focus on individuals throughout the organizations and develop them as champions through their use of the product.  I am a big fan of this latter approach because I would rather have startups investing in product than building out sales, and ultimately because much more learning happens sooner by getting your product into the hands of people than by convincing a few payers and waiting for slow trickle down to actual users.
+
+
+Funding Round: Seed
+Typical monthly recurring revenue: $50-100k
+Typical valuation: $5m-$10m
+Typical funding: $1m-2m
+
+
+
+
+Stage 8: Building a Company
+
+
+Joe spent a lot of time trying to expose users to his magic quickly, ultimately hiring a friend to do live classes several hours per day that new students could participate in.  Then Joe built a cool feature allowing a student to share a snippet of their class with friends on Instagram.  Although this was a little geeky, for some kids, it was cool to show themselves solving a hard problem with Joe.  This led to others coming to Joe’s site and he kept focusing on the magic and converting them.  That got him to 3 referrals per new user, resulting in four thousand users spending a total of $200k/mo.   Now Joe is in the top 1% of all seed stage startups and will have a great Series A fundraise process.
+
+
+Here are the things to work on before you raise Series A.  They are all negotiable with VCs if your growth and organic leads are awesome as Joe’s are.  Work on them now anyway because solving these issues along with strong PMF is what makes very big companies.
+
+
+1. $200K MRR
+
+
+This metric moves around and can be thrown out the window if an investor gets excited about you before you have the revenues, but is a solid metric to shoot for.
+
+
+2. 20% MoM organic growth 
+
+
+Getting to 20% MoM organic growth is the best quantitative measure I know for product-market fit.  It never ever happens by accident.   
+
+
+3. Your unit model needs to work.  Principally, COGS should be a maximum of 50% of your Revenue.  If it’s more than that, you won’t have the resources necessary to build a great product in my experience.
+
+
+For example, if Joe is paying a teacher $20 for a half hour one on one class, and charging a student $30 for it, then his gross margin is only 30%.  That’s not awesome.  The reason to deal with unit economics now is that early, you can do all kinds of unscalable things because you didn’t have many users.  But now you need to get yourself set up to scale.  PMF achieved by giving away dollar bills for 95 cents is not PMF.   
+
+
+I don’t have a hard and fast rule about how things have to work here, other than your net customer lifetime value (LTV) should be 6 times your customer acquisition cost (CAC).  That word ‘net’ is incredibly important.  You need to only count revenue after COGS for the purposes of this calculation.  Once you do that, you have lots of comparables with software companies that have 90%+ gross margins.  Yes, you can survive at a 3:1 LTV/CAC ratio, but life’s too short.  If you have 80% organic and a 6:1, you can pump so much money into the product and your growth loops that no one will stop you.
+
+
+4. Your total available market (TAM) for your initial focus should be quite small (Facebook's GTM focused on students at Harvard) but for Series A you will have to make the case about how you can move to adjacencies without changing your product.  In general, a bottoms-up market analysis where you take your customer LTV and multiply by a target group of users and get to $1b is fine for now. 
+
+
+5. You need to be thinking about moat now.
+
+
+It’s just a fact that great ideas get copied.  If there is a reason like a network effect that your business is harder to copy, that’s a very very good thing.  Moat is the kind of thing that starts to get pounded by Series C, but is extremely useful to think about now, because you are based on organic leads.  Since the network you have created is arguably the best form of moat, thinking about it at the same time can be quite useful.
+
+
+I see a lot of companies think nothing about how they are going to compete if others come into their marketplace until much later in their company development.  I don’t think it’s ever too early to figure out what makes the company stronger as it gets bigger.  What makes it far more likely someone will choose them than a competitor.  A lot of times that can be as simple as brand and awareness.  But watch out for this as your sole defense.  
+
+
+For example, if Joe’s math school was awesome but a competitor came along with a great experience, you could imagine the price of the two services falling, which would be terrible.  If instead, Joe had a pair problem solving part of his school where he matched advanced students to work together on hard problems, he would start to build stickiness around the community, and not just to himself.  You need to think about the moat in seed stage.  You may not be able to deliver on it yet, but have some hypotheses and start to test that out.  As with everything, read everything you can about moats and start thinking about what you can do,
+
+
+6. Figure out the things that are toughest to scale and come up with solutions.
+
+
+If you are fortunate to have a pure software business, then likely the above are the main things you have to do.  Many of the companies I work with have a human component to them (the school thing), so a huge part of seed is to figure out how to scale the humans.  I’ve written posts on some of the innovative ways my companies have done that, but in general I’ve come to believe that some sort of ‘hack’ is necessary to get scalability.  Brute force hiring is just too difficult without some sort of positive feedback loop.  For example, lambda school uses current students as TAs to work with a small group of students daily for a few months of their time at lambda.  This means the more students they have, the more TAs they have, a nice loop.
+
+
+7. Double Down on Product
+
+
+Now that you have PMF in your first niche in the market, it’s time to really understand what they love, and to understand who you aren’t reaching yet.  The best way I have seen to do that is with the Superhuman test.You have enough customers to really understand what differentiates core from non-core users.  By understanding both what your core users love about your product and what the gaps are, you will be able to focus development time on those areas.  It’s really worth it to move these another ten or twenty percent towards what users want.  Often that allows you to think more clearly about the adjacencies from the group of users who initially got you to product market fit.  
+
+
+For example, let’s say that Joe got amazing PMF with homeschool parents.  What they loved was how his team helped their children reason about high school math.  Their two or three areas that they love most are expertise and the range of questions they ask the student.  However, there are a large number of users who try joe's service a few times but churn out.  When he surveys these non-core users, they also appreciate the instructors and questions, but they have two main areas that would make them a lot more excited.  First, their kids are middle schoolers, not high schoolers.  The topics Joe is teaching aren’t applicable to middle schoolers and his teachers aren’t great at working with middle schoolers.   Second, they don’t  have the time to schedule classes with joe.  They just want to be able to have their children come on the system when they have questions and work with someone great.  
+
+
+Given this information, the challenge becomes how to double down on the things that the core loves while devoting development resources and teacher recruiting  to middle school and scheduling to create a larger audience.
+
+
+The best metric is the percentage of users who would be very disappointed if you pull your product.  This metric is too manipulable for investor presentations, but it is very useful internally.  Ironically I have found that a lower number here initially is better, because it shows that there is so much demand for your product that even people who it doesn’t really satisfy are willing to respond to your survey.
+
+
+I know this sounds like a long journey, and in fact there are a lot of things to get done.  I hope that having concrete goals for your company performance will help make decision making and focus easier as you build your company!
