@@ -1,6 +1,6 @@
 # Architecture Decision Closure V1 (High-Priority)
 
-Status: `proposed_for_founder_signoff`
+Status: `approved`
 Linked bead: `rin-3i0.1.1`
 Date: 2026-02-14
 
@@ -19,12 +19,12 @@ This document covers:
 
 | ID | Decision | Proposed Default | Status |
 |---|---|---|---|
-| AD-001 | Hold windows | `24h low`, `48h medium`, `72h high`; unknown jurisdiction defaults to high | proposed |
-| AD-002 | Shadow profile limits | Unlimited creation; strict friction on discoverability/reach actions; never ranked | proposed |
-| AD-003 | Business authority proof | Tiered: lightweight proof for create/manage, strict legal proof for transfer/dispute/high-risk | proposed |
-| AD-004 | External search default | `PG FTS` in starter mode, `Meilisearch` as first external engine on trigger | proposed |
-| AD-005 | Whale sync ceiling | Acceptable max completion: `24h` per full whale sync under safety throttles | proposed |
-| AD-006 | Replay authorization | Two-person approval for production replays affecting identity/dispute/rank; full audit trail mandatory | proposed |
+| AD-001 | Hold windows | `24h low`, `48h medium`, `72h high`; unknown jurisdiction defaults to high | approved |
+| AD-002 | Shadow profile limits | Unlimited creation; strict friction on discoverability/reach actions; never ranked | approved |
+| AD-003 | Business authority proof | Tiered: lightweight proof for create/manage, strict legal proof for transfer/dispute/high-risk | approved |
+| AD-004 | External search default | `PG FTS` in starter mode, `Meilisearch` as first external engine on trigger | approved |
+| AD-005 | Whale sync ceiling | Acceptable max completion: `24h` per full whale sync under safety throttles | approved |
+| AD-006 | Replay authorization | Two-person approval for production replays affecting identity/dispute/rank; full audit trail mandatory | approved |
 
 ## AD-001: Hold Windows by Risk/Jurisdiction
 ### Proposed
@@ -117,13 +117,13 @@ Production replay classes:
 - Replay not complete until divergence checks pass.
 
 ## Approval Block
-Set each decision to `approved` or `needs_change`.
+Founder sign-off: `approved` (2026-02-14)
 
-- AD-001 Hold windows: `pending`
-- AD-002 Shadow profile friction model: `pending`
-- AD-003 Business authority strictness: `pending`
-- AD-004 External search default: `pending`
-- AD-005 Whale sync ceiling: `pending`
-- AD-006 Replay authorization policy: `pending`
+- AD-001 Hold windows: `approved`
+- AD-002 Shadow profile friction model: `approved`
+- AD-003 Business authority strictness: `approved`
+- AD-004 External search default: `approved`
+- AD-005 Whale sync ceiling: `approved`
+- AD-006 Replay authorization policy: `approved`
 
-When all six are `approved`, close bead `rin-3i0.1.1`.
+All six decisions approved. Bead `rin-3i0.1.1` can be closed.

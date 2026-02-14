@@ -93,16 +93,12 @@ Closure packet:
 - `docs/plan/freeze/ARCH_DECISION_CLOSURE_V1.md`
 
 High priority:
-1. Default hold windows by risk/jurisdiction (24h/48h/72h).
-2. Shadow profile limits and progressive friction policy.
-3. Business authority verification strictness (legal proof requirements in v1).
-4. External search default engine (OpenSearch vs Meilisearch).
-5. Maximum acceptable whale sync duration under safety throttles.
+1. Completed and approved in `docs/plan/freeze/ARCH_DECISION_CLOSURE_V1.md` on 2026-02-14.
 
 Medium priority:
 6. Business public metric policy (if no personal ranking).
 7. Employee org-affiliation visibility defaults.
-8. Replay authorization and operator SQL incident policy.
+8. Operator SQL incident policy hardening.
 
 ---
 
