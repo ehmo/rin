@@ -89,6 +89,9 @@ Goal:
 
 ## 5) Open Decisions (Need Founder Confirmation)
 
+Closure packet:
+- `docs/plan/freeze/ARCH_DECISION_CLOSURE_V1.md`
+
 High priority:
 1. Default hold windows by risk/jurisdiction (24h/48h/72h).
 2. Shadow profile limits and progressive friction policy.
