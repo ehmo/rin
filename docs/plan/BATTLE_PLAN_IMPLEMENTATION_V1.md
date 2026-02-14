@@ -40,7 +40,7 @@ This plan is tied to the bead program epic `rin-3i0`.
 Outcomes:
 - Close high-priority open architecture decisions.
 - Confirm freeze criteria and sign-off model.
-- Convert contracts into implementation outlines.
+- Convert contracts into implementation-ready planning specs.
 
 Primary beads:
 - `rin-3i0.1.1`, `rin-3i0.1.2`, `rin-3i0.1.3`
@@ -72,7 +72,7 @@ Primary beads:
 - `rin-3i0.4.*`, `rin-3i0.5.*`, `rin-3i0.9.*`, `rin-3i0.11.1`
 
 Gate:
-- Deployment topology + observability outline approved.
+- Deployment topology + observability planning specs approved.
 
 ### Phase 3: App Store and Launch Readiness Design
 Outcomes:
