@@ -1,5 +1,8 @@
 # Rin User Journey Plan (UX + System + Backend)
 
+Companion onboarding flow:
+- `docs/product/IOS_INSTALL_TO_FIRST_VALUE_UX_V1.md`
+
 ## Scope (Updated)
 
 This plan reflects latest product decisions:
