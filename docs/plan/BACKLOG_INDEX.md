@@ -30,6 +30,7 @@
 - `rin-3i0.16.1` Define beta cohort strategy and acceptance criteria
 
 ## Recently Completed (This Session)
+- `rin-3i0.8.1` Implement onboarding and verification UX specification
 - `rin-3i0.2.1` Design complete v1 user journey map with happy/unhappy paths
 - `rin-3i0.5.1` Define canonical graph data lifecycle (hot/warm/cold)
 - `rin-3i0.4.1` Translate contract docs into service implementation blueprint

@@ -190,5 +190,5 @@ Important iOS platform note:
 - `user.first_session_primary_action`
 
 ## 10) Next UX Artifact
-Create next:
-- `IOS_ONBOARDING_SCREEN_SPEC_V1.md` with per-screen content, states, and empty/loading/error variants.
+Completed:
+- `docs/product/IOS_ONBOARDING_SCREEN_SPEC_V1.md` with per-screen content, states, and empty/loading/error variants.
