@@ -1,17 +1,17 @@
 # Agent Instructions
 
-Rin workspace for lightweight local tasks and document handling.
+Rin monorepo for product docs, architecture, infrastructure, backend, and iOS app.
 
 ## Scope
 
-This folder currently contains standalone files (for example, downloaded chat exports) and is **not** a git repository.
-
-Use these instructions as the default workflow for this workspace.
+Use these instructions as the default workflow for this repository.
 
 ## Boundaries
 
 **Never**:
 - Commit or expose secrets, credentials, or `.env` files
+- Force push to any branch
+- Rewrite published history unless explicitly approved
 - Run destructive delete commands outside this folder without explicit approval
 
 **Ask First**:
@@ -22,6 +22,19 @@ Use these instructions as the default workflow for this workspace.
 - Prefer minimal, reversible edits
 - Keep outputs in readable plain text formats (like `.md`) unless asked otherwise
 - Keep the scratch pad up to date every session
+
+## Git Workflow
+
+When completing work:
+1. Ensure branch is current with remote (`git pull --rebase` when needed)
+2. Commit related changes in focused commits
+3. Push to remote before ending the session
+4. Verify clean state (`git status`) and upstream tracking
+
+Rules:
+- Do not leave completed work only in local commits.
+- Avoid large mixed commits across unrelated areas.
+- Commit `.scratch-pad.md` with session changes.
 
 ## Scratch Pad (Continual Learning)
 
