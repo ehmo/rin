@@ -11,6 +11,7 @@ Translate product behavior and contracts into service boundaries and implementat
 
 ## Working Docs
 - `docs/architecture/SYSTEM_ARCHITECTURE_DB_FIRST_V2.md`
+- `docs/architecture/SERVICE_IMPLEMENTATION_BLUEPRINT_V1.md`
 - `docs/architecture/DATA_MODEL_BOUNDARIES_V1.md`
 - `docs/architecture/OWNERSHIP_STATE_MACHINE_SPEC_V1.md`
 - `docs/architecture/EVENT_CONTRACT_CATALOG_V1.md`

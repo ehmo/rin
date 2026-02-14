@@ -28,7 +28,8 @@ Goal:
 
 5. `docs/architecture/ARCHITECTURE_PLAN_OSS_V1.md`
 6. `docs/architecture/SYSTEM_ARCHITECTURE_DB_FIRST_V2.md`
-7. `docs/simulations/SIMULATION_RESULTS_V1.md`
+7. `docs/architecture/SERVICE_IMPLEMENTATION_BLUEPRINT_V1.md`
+8. `docs/simulations/SIMULATION_RESULTS_V1.md`
 
 Goal:
 - understand high-level infra and simulation-backed risks.
@@ -65,6 +66,7 @@ Goal:
 6. `docs/architecture/DATA_MODEL_BOUNDARIES_V1.md` enforces service ownership across all contracts.
 7. `docs/operations/SYSTEM_RUNBOOK_V1.md` operationalizes all of the above.
 8. `docs/architecture/MONOREPO_CONVENTIONS_V1.md` defines repository structure and change rules for implementation phase.
+9. `docs/architecture/SERVICE_IMPLEMENTATION_BLUEPRINT_V1.md` translates contracts into build-ready service boundaries.
 
 ---
 
@@ -136,6 +138,7 @@ Planning and guide docs:
 
 Core technical docs:
 - `docs/architecture/SYSTEM_ARCHITECTURE_DB_FIRST_V2.md`
+- `docs/architecture/SERVICE_IMPLEMENTATION_BLUEPRINT_V1.md`
 - `docs/architecture/OWNERSHIP_STATE_MACHINE_SPEC_V1.md`
 - `docs/architecture/EVENT_CONTRACT_CATALOG_V1.md`
 - `docs/architecture/PROFILE_CLASS_CONTRACT_V1.md`

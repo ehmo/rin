@@ -150,13 +150,14 @@ For each successful command:
 4. update read models asynchronously.
 
 Minimum event subjects by domain:
-- `rin.identity.*`
-- `rin.ownership.*`
-- `rin.contacts.*`
-- `rin.circles.*`
-- `rin.profile.*`
-- `rin.dispute.*`
-- `rin.rank.*`
+- `identity.*`
+- `channel.*`
+- `contact.*`
+- `policy.*`
+- `profile.*`
+- `security.*`
+- `trust.*`
+- `score.*`
 
 See canonical event structure:
 - `docs/architecture/EVENT_CONTRACT_CATALOG_V1.md`
