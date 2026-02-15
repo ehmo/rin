@@ -30,6 +30,18 @@
 - `rin-3i0.16.1` Define beta cohort strategy and acceptance criteria
 
 ## Recently Completed (This Session)
+- `rin-3i0.7.1` Define iOS app architecture and module boundaries
+- `rin-3i0.9.3` Define secrets, config, and key management model
+- `rin-3i0.12.1` Create App Store policy requirements checklist
+- `rin-3i0.16.1` Define beta cohort strategy and acceptance criteria
+- `rin-3i0.6.3` Define business authority verification and offboarding controls
+- `rin-3i0.6.1` Operationalize dispute queue lanes and auto-adjudication tiers
+- `rin-3i0.6.2` Define anti-abuse policy for shadow profile misuse
+- `rin-3i0.2.3` Design trust and dispute user-facing flows
+- `rin-3i0.2.4` Design business and employee role UX
+- `rin-3i0.2.5` Design shadow profile UX and safeguards
+- `rin-3i0.8.2` Implement contacts import and sync UX specification
+- `rin-3i0.2.2` Define circle management UX with low cognitive load
 - `rin-3i0.8.1` Implement onboarding and verification UX specification
 - `rin-3i0.2.1` Design complete v1 user journey map with happy/unhappy paths
 - `rin-3i0.5.1` Define canonical graph data lifecycle (hot/warm/cold)

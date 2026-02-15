@@ -11,6 +11,9 @@ Prepare iOS implementation and release path with compliance-first App Store exec
 
 ## Working Docs
 - `docs/plan/BATTLE_PLAN_IMPLEMENTATION_V1.md`
+- `docs/plan/APPSTORE_COMPLIANCE_CHECKLIST_V1.md`
+- `docs/plan/BETA_COHORT_STRATEGY_V1.md`
+- `docs/architecture/IOS_APP_ARCHITECTURE_V1.md`
 - `docs/product/USER_JOURNEY_PLAN.md`
 - `docs/architecture/PROFILE_CLASS_CONTRACT_V1.md`
 

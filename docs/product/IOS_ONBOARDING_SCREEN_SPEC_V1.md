@@ -187,13 +187,22 @@ Events:
 Purpose:
 - set one global default before advanced circle overrides.
 
+Full circle UX: `docs/product/CIRCLE_MANAGEMENT_UX_V1.md`
+
 Content:
 - Title: `Set default sharing`
 - Body: `You can override this for each circle later.`
 
-System circles shown:
-- `Everyone` (immutable)
-- `Public` (immutable)
+Circles shown:
+- `Contacts` (immutable) — baseline access for all imported contacts
+- `Public` (immutable) — follow-style visibility
+- `Family` (prepopulated, deletable)
+- `Friends` (prepopulated, deletable)
+- `Colleagues` (prepopulated, deletable)
+
+Per-field access control:
+- Each field shows Allow / Don't Allow / Ask toggle.
+- Recommended defaults pre-set per circle (see Circle Management UX V1 §3.4).
 
 Actions:
 - Primary: `Save defaults`

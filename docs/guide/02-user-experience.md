@@ -14,6 +14,10 @@ Define how single users, shadow profiles, and business/employee profiles behave 
 - `docs/product/USER_JOURNEY_PLAN.md`
 - `docs/product/IOS_INSTALL_TO_FIRST_VALUE_UX_V1.md`
 - `docs/product/IOS_ONBOARDING_SCREEN_SPEC_V1.md`
+- `docs/product/CIRCLE_MANAGEMENT_UX_V1.md`
+- `docs/product/CONTACTS_IMPORT_SYNC_UX_V1.md`
+- `docs/product/SHADOW_PROFILE_UX_V1.md`
+- `docs/product/BUSINESS_EMPLOYEE_UX_V1.md`
 - `docs/product/NOTES_TO_JOURNEY_MAPPING.md`
 - `docs/operations/DISPUTE_PLAYBOOK_V1.md`
 - `docs/architecture/PROFILE_CLASS_CONTRACT_V1.md`

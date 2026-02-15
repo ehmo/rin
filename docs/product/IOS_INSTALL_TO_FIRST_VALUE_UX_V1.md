@@ -156,10 +156,13 @@ Re-prompt strategy:
 - contextual prompts only when action needs contacts, not repeated nagging.
 
 ## 7) Circle UX Automation Rules
-To reduce circle-maintenance burden:
-1. Keep only immutable system circles initially (`Everyone`, `Public`).
-2. Use suggestions and passive maintenance prompts, not mandatory taxonomy work.
-3. Batch recommendations into periodic review moments.
+
+Full circle management UX specification: `docs/product/CIRCLE_MANAGEMENT_UX_V1.md`
+
+Summary:
+1. Two mandatory circles (Contacts, Public) + three prepopulated (Family, Friends, Colleagues).
+2. Per-field access control with three states: Allow, Don't Allow, Ask.
+3. Smart suggestions and passive assistance, not mandatory taxonomy work.
 4. Show "why this person is here" provenance for trust and reversibility.
 
 Future concept:

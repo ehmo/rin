@@ -343,10 +343,12 @@ Each edge case must map to:
 
 ---
 
-## 14) Decisions to Confirm with Founder
+## 14) Founder Decisions (Approved)
 
-1. Default hold windows by risk tier (24h/48h/72h).
-2. Whether reassigned numbers require forced cooldown before transfer.
-3. How much evidence to expose in-app vs keep internal.
-4. Whether business disputes require external/legal verification in v1.
-5. Shadow-profile public discoverability default (recommended: off).
+1. **Hold windows**: 24h low-risk / 48h medium / 72h high-risk. See `docs/operations/DISPUTE_OPERATIONS_V1.md` §5.
+2. **Phone cooldown**: 7-day forced cooldown for carrier-reassigned numbers. See `docs/operations/DISPUTE_OPERATIONS_V1.md` §5.
+3. **User transparency**: outcome + required actions only. No internal evidence or confidence scores exposed. See `docs/operations/DISPUTE_OPERATIONS_V1.md` §6.
+4. **Business disputes**: require domain or legal-entity verification. See `docs/product/BUSINESS_EMPLOYEE_UX_V1.md` §4.
+5. **Shadow discoverability**: off by default (confirmed). See `docs/product/SHADOW_PROFILE_UX_V1.md` §2.
+6. **Auto-adjudication threshold**: 95%+ confidence for auto-resolve. See `docs/operations/DISPUTE_OPERATIONS_V1.md` §4.
+7. **V1 staffing**: founder + auto-adjudication. See `docs/operations/DISPUTE_OPERATIONS_V1.md` §2.
