@@ -14,6 +14,9 @@ Define the graph pipeline and serving model for ranking and discovery at large r
 - `docs/architecture/GRAPH_DATA_LIFECYCLE_V1.md`
 - `docs/simulations/SIMULATION_RESULTS_V1.md`
 - `docs/product/RIN_SCORE_V1.md`
+- `docs/operations/SCORE_RELEASE_CADENCE_V1.md`
+- `docs/analytics/PRODUCT_ANALYTICS_EVENT_TAXONOMY_V1.md`
+- `docs/analytics/KPI_HIERARCHY_V1.md`
 
 ## Beads Mapping
 - `rin-3i0.5.*`

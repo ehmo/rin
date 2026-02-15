@@ -13,6 +13,8 @@ Define production topology, scaling transitions, and portability strategy across
 - `docs/architecture/SCALE_GUARDRAIL_CONTRACT_V1.md`
 - `docs/architecture/ARCHITECTURE_PLAN_OSS_V1.md`
 - `docs/operations/SYSTEM_RUNBOOK_V1.md`
+- `docs/architecture/CLOUD_PROVIDER_STRATEGY_V1.md`
+- `docs/operations/INCIDENT_RESPONSE_V1.md`
 
 ## Beads Mapping
 - `rin-3i0.9.*`

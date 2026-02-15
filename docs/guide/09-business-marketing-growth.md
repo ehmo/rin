@@ -13,6 +13,8 @@ Define monetization and distribution that reinforce trust and relationship utili
 - `docs/product/PMF_AGENT_EVALUATION.md`
 - `docs/product/The PMF Playbook.txt`
 - `docs/plan/BACKLOG_INDEX.md`
+- `docs/plan/ICP_MESSAGING_PILLARS_V1.md`
+- `docs/plan/IAP_SUBSCRIPTION_COMPLIANCE_V1.md`
 
 ## Beads Mapping
 - `rin-3i0.13.*`

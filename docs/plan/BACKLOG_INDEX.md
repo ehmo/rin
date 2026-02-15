@@ -24,10 +24,7 @@
 - `rin-3i0.18` Developer ecosystem and superapp platform
 
 ## Current Priority Queue (P0)
-- `rin-3i0.6.1` Operationalize dispute queue lanes and auto-adjudication tiers
-- `rin-3i0.7.1` Define iOS app architecture and module boundaries
-- `rin-3i0.12.1` Create App Store policy requirements checklist
-- `rin-3i0.16.1` Define beta cohort strategy and acceptance criteria
+- All task-level P0 items completed. See `bd ready` for next available work.
 
 ## Recently Completed (This Session)
 - `rin-3i0.7.1` Define iOS app architecture and module boundaries
@@ -52,6 +49,36 @@
 - `rin-3i0.9.1` Define environment topology for dev/staging/prod
 - `rin-3i0.9.2` Define CI/CD pipeline stages and quality gates
 - `rin-3i0.11.1` Define SLO/SLI dashboard implementation plan
+- `rin-3i0.5.3` Define score computation release cadence and publish policy
+- `rin-3i0.15.1` Define product analytics event taxonomy
+- `rin-3i0.15.2` Define KPI hierarchy and weekly operating metrics
+- `rin-3i0.16.2` Define launch readiness checklist across teams
+- `rin-3i0.12.3` TestFlight rollout plan (covered by Beta Cohort Strategy)
+- `rin-3i0.7.2` Define iOS navigation and state management approach
+- `rin-3i0.7.3` Define iOS API client and contract versioning strategy
+- `rin-3i0.7.4` Define local storage and offline behavior plan
+- `rin-3i0.8.3` Implement profile and circle management UX specification
+- `rin-3i0.8.4` Implement search and discovery UX specification
+- `rin-3i0.8.5` Implement score and explanation UX specification
+- `rin-3i0.3.1` Create iOS component inventory and token system
+- `rin-3i0.3.2` Produce key screen wireframes for v1
+- `rin-3i0.4.3` Define migration plan from starter mode to distributed mode
+- `rin-3i0.4.4` Define failure-domain and resiliency model
+- `rin-3i0.5.2` Define search relevance and indexing strategy by profile class
+- `rin-3i0.5.4` Build ranking quality evaluation framework
+- `rin-3i0.5.5` Document data retention and deletion policy implementation model
+- `rin-3i0.9.4` Define backup and restore drills for OLTP and lake
+- `rin-3i0.10.1` Evaluate cloud providers against Rin workload and constraints
+- `rin-3i0.10.3` Define portability strategy for data and compute layers
+- `rin-3i0.11.2` Define incident response process and escalation matrix
+- `rin-3i0.6.4` Define incident communication templates and user notices
+- `rin-3i0.12.2` Define App Store listing and metadata plan
+- `rin-3i0.12.4` Define in-app purchase/subscription compliance path
+- `rin-3i0.16.3` Define post-launch stabilization plan (30/60/90 days)
+- `rin-3i0.13.1` Define initial ICPs and messaging pillars
+- `rin-3i0.14.1` Define premium feature ladder and pricing hypotheses
+- `rin-3i0.15.3` Define experimentation framework and governance
+- `rin-3i0.1.3` Create decision register with immutable ADR format
 
 ## How To Use This Index
 - Inspect program: `bd show rin-3i0`

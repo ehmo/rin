@@ -15,6 +15,7 @@ Design the runtime trust system for verification, disputes, abuse handling, and 
 - `docs/operations/SHADOW_ANTI_ABUSE_POLICY_V1.md`
 - `docs/operations/SYSTEM_RUNBOOK_V1.md`
 - `docs/architecture/OWNERSHIP_STATE_MACHINE_SPEC_V1.md`
+- `docs/operations/INCIDENT_RESPONSE_V1.md`
 
 ## Beads Mapping
 - `rin-3i0.6.*`

@@ -16,6 +16,8 @@ Prepare iOS implementation and release path with compliance-first App Store exec
 - `docs/architecture/IOS_APP_ARCHITECTURE_V1.md`
 - `docs/product/USER_JOURNEY_PLAN.md`
 - `docs/architecture/PROFILE_CLASS_CONTRACT_V1.md`
+- `docs/plan/APPSTORE_LISTING_METADATA_V1.md`
+- `docs/plan/IAP_SUBSCRIPTION_COMPLIANCE_V1.md`
 
 ## Beads Mapping
 - `rin-3i0.7.*`
