@@ -18,6 +18,8 @@ Prepare iOS implementation and release path with compliance-first App Store exec
 - `docs/architecture/PROFILE_CLASS_CONTRACT_V1.md`
 - `docs/plan/APPSTORE_LISTING_METADATA_V1.md`
 - `docs/plan/IAP_SUBSCRIPTION_COMPLIANCE_V1.md`
+- `docs/product/IOS_PAYWALL_SUBSCRIPTION_SPEC_V1.md`
+- `docs/product/IOS_PREMIUM_FEATURES_SCREEN_SPEC_V1.md`
 
 ## Beads Mapping
 - `rin-3i0.7.*`

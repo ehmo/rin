@@ -19,6 +19,18 @@ Define how single users, shadow profiles, and business/employee profiles behave 
 - `docs/product/SHADOW_PROFILE_UX_V1.md`
 - `docs/product/BUSINESS_EMPLOYEE_UX_V1.md`
 - `docs/product/NOTES_TO_JOURNEY_MAPPING.md`
+- `docs/product/IOS_HOME_TAB_SCREEN_SPEC_V1.md`
+- `docs/product/IOS_CONTACT_NOTES_HISTORY_SPEC_V1.md`
+- `docs/product/IOS_SETTINGS_SCREEN_SPEC_V1.md`
+- `docs/product/IOS_SECURITY_INBOX_SCREEN_SPEC_V1.md`
+- `docs/product/IOS_NOTIFICATION_STRATEGY_V1.md`
+- `docs/product/IOS_PREMIUM_FEATURES_SCREEN_SPEC_V1.md`
+- `docs/product/IOS_PAYWALL_SUBSCRIPTION_SPEC_V1.md`
+- `docs/product/IOS_ACCOUNT_LIFECYCLE_SPEC_V1.md`
+- `docs/product/IOS_INVITE_REFERRAL_SCREEN_SPEC_V1.md`
+- `docs/product/IOS_BLOCKING_BEHAVIOR_SPEC_V1.md`
+- `docs/product/IOS_ERROR_EMPTY_STATE_CATALOG_V1.md`
+- `docs/product/IOS_RETENTION_LOOP_SPEC_V1.md`
 - `docs/operations/DISPUTE_PLAYBOOK_V1.md`
 - `docs/architecture/PROFILE_CLASS_CONTRACT_V1.md`
 
