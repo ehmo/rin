@@ -1,0 +1,122 @@
+[
+  {
+    "slug": "01_dot_notch_disc",
+    "file": "design/assets/logo-concepts/generated/2026-02-16-v3-simple/01_dot_notch_disc.png",
+    "core_prompt": "Design an ultra-simple symbol using only two primitives: one solid disc and one geometric notch cut. The notch should create a distinctive silhouette. Monochrome black on white.",
+    "full_prompt": "Design an ultra-simple symbol using only two primitives: one solid disc and one geometric notch cut. The notch should create a distinctive silhouette. Monochrome black on white.\n\nsingle logo mark, flat vector, geometric precision, centered composition, white background, no text, no wordmark, no mockup, no shadows, no gradients unless specified, no photorealism, high contrast, export-ready brand symbol. avoid: 3D, bevel, shadow, mockup, gradient overload, tiny details, photorealism, watermark, extra symbols, letters beyond intended mark.",
+    "model": "gemini-3-pro-image-preview",
+    "attempts": 1,
+    "status": "ok",
+    "response_text": ""
+  },
+  {
+    "slug": "02_offset_ring",
+    "file": "design/assets/logo-concepts/generated/2026-02-16-v3-simple/02_offset_ring.png",
+    "core_prompt": "Create one thick circular ring with a single offset opening. No extra elements. The opening position must make the shape instantly recognizable. Monochrome black on white.",
+    "full_prompt": "Create one thick circular ring with a single offset opening. No extra elements. The opening position must make the shape instantly recognizable. Monochrome black on white.\n\nsingle logo mark, flat vector, geometric precision, centered composition, white background, no text, no wordmark, no mockup, no shadows, no gradients unless specified, no photorealism, high contrast, export-ready brand symbol. avoid: 3D, bevel, shadow, mockup, gradient overload, tiny details, photorealism, watermark, extra symbols, letters beyond intended mark.",
+    "model": "gemini-3-pro-image-preview",
+    "attempts": 1,
+    "status": "ok",
+    "response_text": ""
+  },
+  {
+    "slug": "03_twin_node_bridge",
+    "file": "design/assets/logo-concepts/generated/2026-02-16-v3-simple/03_twin_node_bridge.png",
+    "core_prompt": "Design exactly two solid nodes connected by one thick bridge stroke. Keep perfect symmetry and heavy geometry. No detail beyond these forms. Monochrome black on white.",
+    "full_prompt": "Design exactly two solid nodes connected by one thick bridge stroke. Keep perfect symmetry and heavy geometry. No detail beyond these forms. Monochrome black on white.\n\nsingle logo mark, flat vector, geometric precision, centered composition, white background, no text, no wordmark, no mockup, no shadows, no gradients unless specified, no photorealism, high contrast, export-ready brand symbol. avoid: 3D, bevel, shadow, mockup, gradient overload, tiny details, photorealism, watermark, extra symbols, letters beyond intended mark.",
+    "model": "gemini-3-pro-image-preview",
+    "attempts": 1,
+    "status": "ok",
+    "response_text": ""
+  },
+  {
+    "slug": "04_gate_block",
+    "file": "design/assets/logo-concepts/generated/2026-02-16-v3-simple/04_gate_block.png",
+    "core_prompt": "Create a minimal gate-like block symbol: two vertical pillars and one top bar, all thick and rounded. One clean negative-space opening only. Monochrome black on white.",
+    "full_prompt": "Create a minimal gate-like block symbol: two vertical pillars and one top bar, all thick and rounded. One clean negative-space opening only. Monochrome black on white.\n\nsingle logo mark, flat vector, geometric precision, centered composition, white background, no text, no wordmark, no mockup, no shadows, no gradients unless specified, no photorealism, high contrast, export-ready brand symbol. avoid: 3D, bevel, shadow, mockup, gradient overload, tiny details, photorealism, watermark, extra symbols, letters beyond intended mark.",
+    "model": "gemini-3-pro-image-preview",
+    "attempts": 1,
+    "status": "ok",
+    "response_text": ""
+  },
+  {
+    "slug": "05_monolith_single_cut",
+    "file": "design/assets/logo-concepts/generated/2026-02-16-v3-simple/05_monolith_single_cut.png",
+    "core_prompt": "Design a single bold monolith shape carved by one precise diagonal cut. The cut must be the identity. No second-level decoration. Monochrome black on white.",
+    "full_prompt": "Design a single bold monolith shape carved by one precise diagonal cut. The cut must be the identity. No second-level decoration. Monochrome black on white.\n\nsingle logo mark, flat vector, geometric precision, centered composition, white background, no text, no wordmark, no mockup, no shadows, no gradients unless specified, no photorealism, high contrast, export-ready brand symbol. avoid: 3D, bevel, shadow, mockup, gradient overload, tiny details, photorealism, watermark, extra symbols, letters beyond intended mark.",
+    "model": "gemini-3-pro-image-preview",
+    "attempts": 1,
+    "status": "ok",
+    "response_text": ""
+  },
+  {
+    "slug": "06_pill_split",
+    "file": "design/assets/logo-concepts/generated/2026-02-16-v3-simple/06_pill_split.png",
+    "core_prompt": "Create one horizontal pill shape split by one vertical notch into two unequal masses. Keep edges smooth, structure basic, and silhouette unique. Monochrome black on white.",
+    "full_prompt": "Create one horizontal pill shape split by one vertical notch into two unequal masses. Keep edges smooth, structure basic, and silhouette unique. Monochrome black on white.\n\nsingle logo mark, flat vector, geometric precision, centered composition, white background, no text, no wordmark, no mockup, no shadows, no gradients unless specified, no photorealism, high contrast, export-ready brand symbol. avoid: 3D, bevel, shadow, mockup, gradient overload, tiny details, photorealism, watermark, extra symbols, letters beyond intended mark.",
+    "model": "gemini-3-pro-image-preview",
+    "attempts": 1,
+    "status": "ok",
+    "response_text": ""
+  },
+  {
+    "slug": "07_arc_anchor",
+    "file": "design/assets/logo-concepts/generated/2026-02-16-v3-simple/07_arc_anchor.png",
+    "core_prompt": "Design a symbol with one thick lower arc and one small centered anchor dot above it. Exactly two components, balanced and architectural. Monochrome black on white.",
+    "full_prompt": "Design a symbol with one thick lower arc and one small centered anchor dot above it. Exactly two components, balanced and architectural. Monochrome black on white.\n\nsingle logo mark, flat vector, geometric precision, centered composition, white background, no text, no wordmark, no mockup, no shadows, no gradients unless specified, no photorealism, high contrast, export-ready brand symbol. avoid: 3D, bevel, shadow, mockup, gradient overload, tiny details, photorealism, watermark, extra symbols, letters beyond intended mark.",
+    "model": "gemini-3-pro-image-preview",
+    "attempts": 1,
+    "status": "ok",
+    "response_text": ""
+  },
+  {
+    "slug": "08_square_aperture",
+    "file": "design/assets/logo-concepts/generated/2026-02-16-v3-simple/08_square_aperture.png",
+    "core_prompt": "Create one rounded square with one internal circular aperture cut. No additional elements. Prioritize clean spacing and icon readability at tiny sizes. Monochrome black on white.",
+    "full_prompt": "Create one rounded square with one internal circular aperture cut. No additional elements. Prioritize clean spacing and icon readability at tiny sizes. Monochrome black on white.\n\nsingle logo mark, flat vector, geometric precision, centered composition, white background, no text, no wordmark, no mockup, no shadows, no gradients unless specified, no photorealism, high contrast, export-ready brand symbol. avoid: 3D, bevel, shadow, mockup, gradient overload, tiny details, photorealism, watermark, extra symbols, letters beyond intended mark.",
+    "model": "gemini-3-pro-image-preview",
+    "attempts": 1,
+    "status": "ok",
+    "response_text": ""
+  },
+  {
+    "slug": "09_step_bridge",
+    "file": "design/assets/logo-concepts/generated/2026-02-16-v3-simple/09_step_bridge.png",
+    "core_prompt": "Design a stepped bridge symbol using three rectangular levels merged into one continuous form. Keep it basic, thick, and highly structured. Monochrome black on white.",
+    "full_prompt": "Design a stepped bridge symbol using three rectangular levels merged into one continuous form. Keep it basic, thick, and highly structured. Monochrome black on white.\n\nsingle logo mark, flat vector, geometric precision, centered composition, white background, no text, no wordmark, no mockup, no shadows, no gradients unless specified, no photorealism, high contrast, export-ready brand symbol. avoid: 3D, bevel, shadow, mockup, gradient overload, tiny details, photorealism, watermark, extra symbols, letters beyond intended mark.",
+    "model": "gemini-3-pro-image-preview",
+    "attempts": 1,
+    "status": "ok",
+    "response_text": ""
+  },
+  {
+    "slug": "10_disc_pointer",
+    "file": "design/assets/logo-concepts/generated/2026-02-16-v3-simple/10_disc_pointer.png",
+    "core_prompt": "Create one solid disc with one triangular directional bite removed from its edge. The bite should imply guidance without looking like an arrow icon. Monochrome black on white.",
+    "full_prompt": "Create one solid disc with one triangular directional bite removed from its edge. The bite should imply guidance without looking like an arrow icon. Monochrome black on white.\n\nsingle logo mark, flat vector, geometric precision, centered composition, white background, no text, no wordmark, no mockup, no shadows, no gradients unless specified, no photorealism, high contrast, export-ready brand symbol. avoid: 3D, bevel, shadow, mockup, gradient overload, tiny details, photorealism, watermark, extra symbols, letters beyond intended mark.",
+    "model": "gemini-3-pro-image-preview",
+    "attempts": 1,
+    "status": "ok",
+    "response_text": ""
+  },
+  {
+    "slug": "11_column_loop",
+    "file": "design/assets/logo-concepts/generated/2026-02-16-v3-simple/11_column_loop.png",
+    "core_prompt": "Design a minimal looped column form: one vertical column merged with one simple loop. Avoid lettering; keep abstract and geometric. Monochrome black on white.",
+    "full_prompt": "Design a minimal looped column form: one vertical column merged with one simple loop. Avoid lettering; keep abstract and geometric. Monochrome black on white.\n\nsingle logo mark, flat vector, geometric precision, centered composition, white background, no text, no wordmark, no mockup, no shadows, no gradients unless specified, no photorealism, high contrast, export-ready brand symbol. avoid: 3D, bevel, shadow, mockup, gradient overload, tiny details, photorealism, watermark, extra symbols, letters beyond intended mark.",
+    "model": "gemini-3-pro-image-preview",
+    "attempts": 1,
+    "status": "ok",
+    "response_text": ""
+  },
+  {
+    "slug": "12_core_halo",
+    "file": "design/assets/logo-concepts/generated/2026-02-16-v3-simple/12_core_halo.png",
+    "core_prompt": "Create a two-part symbol: one compact core dot and one thick halo arc around it with a single break. Keep forms heavy, clean, and memorable. Monochrome black on white.",
+    "full_prompt": "Create a two-part symbol: one compact core dot and one thick halo arc around it with a single break. Keep forms heavy, clean, and memorable. Monochrome black on white.\n\nsingle logo mark, flat vector, geometric precision, centered composition, white background, no text, no wordmark, no mockup, no shadows, no gradients unless specified, no photorealism, high contrast, export-ready brand symbol. avoid: 3D, bevel, shadow, mockup, gradient overload, tiny details, photorealism, watermark, extra symbols, letters beyond intended mark.",
+    "model": "gemini-3-pro-image-preview",
+    "attempts": 1,
+    "status": "ok",
+    "response_text": ""
+  }
+]

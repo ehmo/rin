@@ -1,0 +1,62 @@
+[
+  {
+    "file": "02_offset_ring.png",
+    "edge_density": 0.0183,
+    "ink_ratio": 0.0627
+  },
+  {
+    "file": "01_dot_notch_disc.png",
+    "edge_density": 0.0207,
+    "ink_ratio": 0.1953
+  },
+  {
+    "file": "08_square_aperture.png",
+    "edge_density": 0.0219,
+    "ink_ratio": 0.1945
+  },
+  {
+    "file": "10_disc_pointer.png",
+    "edge_density": 0.022,
+    "ink_ratio": 0.1239
+  },
+  {
+    "file": "07_arc_anchor.png",
+    "edge_density": 0.0229,
+    "ink_ratio": 0.1043
+  },
+  {
+    "file": "04_gate_block.png",
+    "edge_density": 0.0242,
+    "ink_ratio": 0.1334
+  },
+  {
+    "file": "03_twin_node_bridge.png",
+    "edge_density": 0.027,
+    "ink_ratio": 0.1757
+  },
+  {
+    "file": "12_core_halo.png",
+    "edge_density": 0.0314,
+    "ink_ratio": 0.094
+  },
+  {
+    "file": "11_column_loop.png",
+    "edge_density": 0.0357,
+    "ink_ratio": 0.0935
+  },
+  {
+    "file": "06_pill_split.png",
+    "edge_density": 0.0361,
+    "ink_ratio": 0.4655
+  },
+  {
+    "file": "05_monolith_single_cut.png",
+    "edge_density": 0.0393,
+    "ink_ratio": 0.4025
+  },
+  {
+    "file": "09_step_bridge.png",
+    "edge_density": 0.0399,
+    "ink_ratio": 0.302
+  }
+]

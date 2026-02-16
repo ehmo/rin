@@ -1,0 +1,521 @@
+{
+  "generated_at_utc": "2026-02-16T07:56:07.314598+00:00",
+  "ios": {
+    "count": 80,
+    "errors": 0,
+    "monochrome_ratio": 0.175,
+    "avg_saturation": 0.509,
+    "avg_edge_density": 0.093,
+    "top_hues": [
+      {
+        "bin": 7,
+        "label": "blue",
+        "count": 17
+      },
+      {
+        "bin": 11,
+        "label": "pink-red",
+        "count": 14
+      },
+      {
+        "bin": 0,
+        "label": "red",
+        "count": 10
+      },
+      {
+        "bin": 8,
+        "label": "indigo",
+        "count": 9
+      },
+      {
+        "bin": 1,
+        "label": "orange",
+        "count": 6
+      },
+      {
+        "bin": 6,
+        "label": "cyan",
+        "count": 6
+      }
+    ],
+    "least_complex": [
+      {
+        "rank": 29,
+        "name": "Netflix",
+        "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5d/b0/ef/5db0ef99-5ca9-7fb2-3f73-b71e99dcabeb/AppIcon-0-0-1x_U007emarketing-0-11-0-sRGB-0-85-220.png/100x100bb.png",
+        "developer": "Netflix, Inc.",
+        "id": "363590051",
+        "avg_sat": 0.2400650829076767,
+        "avg_val": 0.17149215936660767,
+        "hue_bin": 11,
+        "edge_density": 0.0167,
+        "monochrome": false
+      },
+      {
+        "rank": 2,
+        "name": "Google Gemini",
+        "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a4/26/f6/a426f619-5326-a203-f605-3ff613810f93/AppIcon-0-1x_U007epad-0-0-0-1-0-0-0-0-85-220-0.png/100x100bb.png",
+        "developer": "Google",
+        "id": "6477489729",
+        "avg_sat": 0.07722039520740509,
+        "avg_val": 0.9467199444770813,
+        "hue_bin": 7,
+        "edge_density": 0.0219,
+        "monochrome": true
+      },
+      {
+        "rank": 52,
+        "name": "Ticketmaster\uff0dBuy, Sell Tickets",
+        "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b8/08/eb/b808eb16-8e41-fe29-5e15-f3fcd02da714/AppIcon-0-0-1x_U007emarketing-0-1-0-85-220.png/100x100bb.png",
+        "developer": "Ticketmaster",
+        "id": "500003565",
+        "avg_sat": 0.9007361531257629,
+        "avg_val": 0.8855318427085876,
+        "hue_bin": 7,
+        "edge_density": 0.0413,
+        "monochrome": false
+      },
+      {
+        "rank": 69,
+        "name": "TV Remote - Universal Control",
+        "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/63/37/57/6337576c-1a17-9802-26de-af3c53db4270/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/100x100bb.png",
+        "developer": "EVOLLY.APP",
+        "id": "1539090879",
+        "avg_sat": 0.7395160794258118,
+        "avg_val": 0.2886117994785309,
+        "hue_bin": 8,
+        "edge_density": 0.042,
+        "monochrome": false
+      },
+      {
+        "rank": 10,
+        "name": "Google Maps",
+        "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cd/0c/6c/cd0c6c9c-40fa-61e5-9a77-7384c4496251/maps-0-1x_U007epad-0-0-0-1-0-0-0-0-85-220-0.png/100x100bb.png",
+        "developer": "Google",
+        "id": "585027354",
+        "avg_sat": 0.16448235511779785,
+        "avg_val": 0.9646760821342468,
+        "hue_bin": 4,
+        "edge_density": 0.044,
+        "monochrome": false
+      },
+      {
+        "rank": 77,
+        "name": "Google Drive",
+        "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/35/a4/22/35a42269-754c-9125-7724-9ac7f99bad9e/drive_2020q4-0-0-1x_U007epad-0-0-0-1-0-0-0-0-85-220.png/100x100bb.png",
+        "developer": "Google",
+        "id": "507874739",
+        "avg_sat": 0.25020864605903625,
+        "avg_val": 0.9221318364143372,
+        "hue_bin": 7,
+        "edge_density": 0.0455,
+        "monochrome": false
+      },
+      {
+        "rank": 48,
+        "name": "PayPal - Pay, Send, Save",
+        "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/46/f1/3f/46f13f17-00bf-8ecd-509e-76654f69ac1b/AppIcon-0-0-1x_U007ephone-0-1-0-GLES2_U002c0-85-220.png/100x100bb.png",
+        "developer": "PayPal, Inc.",
+        "id": "283646709",
+        "avg_sat": 0.8031120896339417,
+        "avg_val": 0.6524101495742798,
+        "hue_bin": 7,
+        "edge_density": 0.0462,
+        "monochrome": false
+      },
+      {
+        "rank": 9,
+        "name": "Whatnot: Shop, Sell, Connect",
+        "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/25/8d/a5/258da5fe-f080-a2b6-dd31-33b10ea2e1b8/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/100x100bb.png",
+        "developer": "Whatnot Inc.",
+        "id": "1488269261",
+        "avg_sat": 0.2706925868988037,
+        "avg_val": 0.26554903388023376,
+        "hue_bin": 1,
+        "edge_density": 0.0464,
+        "monochrome": false
+      }
+    ],
+    "most_complex": [
+      {
+        "rank": 75,
+        "name": "Bible",
+        "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/52/7b/96/527b96e2-8104-efb4-e0ac-5a5ec6b87f24/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-0-85-220.png/100x100bb.png",
+        "developer": "Life.Church",
+        "id": "282935706",
+        "avg_sat": 0.5490710139274597,
+        "avg_val": 0.7220419645309448,
+        "hue_bin": 0,
+        "edge_density": 0.219,
+        "monochrome": false
+      },
+      {
+        "rank": 1,
+        "name": "ChatGPT",
+        "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/71/ff/6c/71ff6c58-6537-dea4-40b3-17704932c02f/AppIcon-0-0-1x_U007epad-0-0-0-1-0-P3-85-220.png/100x100bb.png",
+        "developer": "OpenAI OpCo, LLC",
+        "id": "6448311069",
+        "avg_sat": 0.0,
+        "avg_val": 0.7709592580795288,
+        "hue_bin": -1,
+        "edge_density": 0.2008,
+        "monochrome": true
+      },
+      {
+        "rank": 3,
+        "name": "Threads",
+        "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/2d/47/f3/2d47f3bf-e3c6-285c-8af5-a8b60322a0f4/Prod-0-0-1x_U007ephone-0-0-0-1-0-0-P3-85-220.png/100x100bb.png",
+        "developer": "Instagram, Inc.",
+        "id": "6446901002",
+        "avg_sat": 0.0,
+        "avg_val": 0.25545254349708557,
+        "hue_bin": -1,
+        "edge_density": 0.1877,
+        "monochrome": true
+      },
+      {
+        "rank": 26,
+        "name": "Spotify: Music and Podcasts",
+        "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b2/15/6e/b2156ed5-d79f-72e7-81ff-ec5856f57e88/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-85-220.png/100x100bb.png",
+        "developer": "Spotify",
+        "id": "324684580",
+        "avg_sat": 0.4381949305534363,
+        "avg_val": 0.3788270652294159,
+        "hue_bin": 4,
+        "edge_density": 0.1839,
+        "monochrome": false
+      },
+      {
+        "rank": 17,
+        "name": "Instagram",
+        "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/56/1c/57/561c573e-af66-ceea-1aa7-1859f9b3dbd9/Prod-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/100x100bb.png",
+        "developer": "Instagram, Inc.",
+        "id": "389801252",
+        "avg_sat": 0.7399890422821045,
+        "avg_val": 0.9712886810302734,
+        "hue_bin": 10,
+        "edge_density": 0.1783,
+        "monochrome": false
+      },
+      {
+        "rank": 15,
+        "name": "Grok",
+        "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/10/b2/4c/10b24cf9-dc86-c590-1e55-c644595f55de/AppIcon-0-0-1x_U007epad-0-0-0-1-0-0-P3-85-220.png/100x100bb.png",
+        "developer": "xAI",
+        "id": "6670324846",
+        "avg_sat": 0.0,
+        "avg_val": 0.14129921793937683,
+        "hue_bin": -1,
+        "edge_density": 0.1722,
+        "monochrome": true
+      },
+      {
+        "rank": 36,
+        "name": "Life360: Stay Connected & Safe",
+        "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fb/f7/f6/fbf7f6b4-8251-1add-e4af-b132ab492903/AppIcon-0-0-1x_U007ephone-0-1-0-0-85-220.png/100x100bb.png",
+        "developer": "Life360",
+        "id": "384830320",
+        "avg_sat": 0.5598623752593994,
+        "avg_val": 1.0,
+        "hue_bin": 8,
+        "edge_density": 0.1587,
+        "monochrome": false
+      },
+      {
+        "rank": 44,
+        "name": "Amazon Prime Video",
+        "icon_url": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ff/b1/28/ffb128f3-4b1a-7980-92f4-36e0b5220ac0/AppIcon-0-0-1x_U007epad-0-1-0-0-85-220.png/100x100bb.png",
+        "developer": "AMZN Mobile LLC",
+        "id": "545519333",
+        "avg_sat": 0.8621023297309875,
+        "avg_val": 1.0,
+        "hue_bin": 7,
+        "edge_density": 0.1542,
+        "monochrome": false
+      }
+    ],
+    "top_30_names": [
+      "ChatGPT",
+      "Google Gemini",
+      "Threads",
+      "CapCut: Photo & Video Editor",
+      "Freecash - Get Paid Real Money",
+      "Google",
+      "Temu: Shop Like a Billionaire",
+      "DoorDash: Food, Grocery, More",
+      "Whatnot: Shop, Sell, Connect",
+      "Google Maps",
+      "Claude by Anthropic",
+      "Peacock TV: Stream TV & Movies",
+      "SHEIN - Shopping Online",
+      "ReelShort - Stream Drama & TV",
+      "Grok",
+      "WhatsApp Messenger",
+      "Instagram",
+      "TikTok - Videos, Shop & LIVE",
+      "Walmart: Shopping & Savings",
+      "Uber - Request a ride",
+      "OpenTable",
+      "HBO Max: Stream Movies & TV",
+      "Duolingo - Language Lessons",
+      "Tubi: Movies & Live TV",
+      "Gmail - Email by Google",
+      "Spotify: Music and Podcasts",
+      "Discord - Talk, Play, Hang Out",
+      "The Roku App (Official)",
+      "Netflix",
+      "X"
+    ]
+  },
+  "android": {
+    "count": 80,
+    "errors": 0,
+    "monochrome_ratio": 0.212,
+    "avg_saturation": 0.491,
+    "avg_edge_density": 0.106,
+    "top_hues": [
+      {
+        "bin": 7,
+        "label": "blue",
+        "count": 18
+      },
+      {
+        "bin": 0,
+        "label": "red",
+        "count": 12
+      },
+      {
+        "bin": 6,
+        "label": "cyan",
+        "count": 11
+      },
+      {
+        "bin": 11,
+        "label": "pink-red",
+        "count": 7
+      },
+      {
+        "bin": 5,
+        "label": "green-cyan",
+        "count": 6
+      },
+      {
+        "bin": 1,
+        "label": "orange",
+        "count": 6
+      }
+    ],
+    "least_complex": [
+      {
+        "rank": 38,
+        "name": "Netflix",
+        "icon_url": "https://lh3.googleusercontent.com/fUdWP7f22ggFZNlxCb25m7TllChNLSCIjxSBEmz7zPuWF74pFDO-OzDiGx_dpt19ZRHwLt-OL-Y84ai15zJQJPgq=s48",
+        "href": "https://www.appbrain.com/app/netflix/com.netflix.mediaclient",
+        "avg_sat": 0.35951295495033264,
+        "avg_val": 0.3020094335079193,
+        "hue_bin": 11,
+        "edge_density": 0.0,
+        "monochrome": false
+      },
+      {
+        "rank": 45,
+        "name": "Easy Mail - Email Launcher",
+        "icon_url": "https://lh3.googleusercontent.com/mgLMC6gECEaPZ8jKBwhQDP5U69iczznWwwStX3QncvTEcf4gJBag4E40qxr-HtreWp418IwL1K9g8vCTnIwsn7II05FwLLTYWog=s48",
+        "href": "https://www.appbrain.com/app/easy-mail-email-launcher/com.applabstudios.ai.mail.homescreen.inbox",
+        "avg_sat": 0.6171361207962036,
+        "avg_val": 0.5257717967033386,
+        "hue_bin": 7,
+        "edge_density": 0.0283,
+        "monochrome": false
+      },
+      {
+        "rank": 28,
+        "name": "TurboTax: File Your Tax Return",
+        "icon_url": "https://lh3.googleusercontent.com/ljGQJ_q25Fxj1KoJbzD9CZMA1IJEPNvugHOpGJDr-sc21xYOLqQAo9Y2bt5ZTibyRuXNUXdITu_3nRXIhUgONRrY=s48",
+        "href": "https://www.appbrain.com/app/turbotax-file-your-tax-return/com.intuit.turbotax.mobile",
+        "avg_sat": 0.7852678894996643,
+        "avg_val": 0.8433388471603394,
+        "hue_bin": 0,
+        "edge_density": 0.0358,
+        "monochrome": false
+      },
+      {
+        "rank": 74,
+        "name": "Microsoft Word: Edit Documents",
+        "icon_url": "https://lh3.googleusercontent.com/Zcgdv3f8G_8rpdIAfZ1SKYceYdkiPAme6D1sICXFRwHA8sldz7yITFCEz33fe3yZ0qQnqqsOy5jEYa2wXbxYhlYHa-beBmIgVGTG2g=s48",
+        "href": "https://www.appbrain.com/app/microsoft-word-edit-documents/com.microsoft.office.word",
+        "avg_sat": 0.30331292748451233,
+        "avg_val": 0.9722109436988831,
+        "hue_bin": 7,
+        "edge_density": 0.0382,
+        "monochrome": false
+      },
+      {
+        "rank": 67,
+        "name": "Cyber WiFi",
+        "icon_url": "https://lh3.googleusercontent.com/f1n7aKK3_8B-9glAEIQ2T6n7bj4be8cJBTAxpR0LmzDPwSgLp7mMzW5dqVqEZxE7oXyttrYohmCYFmhM6ysYGmcsCWvFrzkr-Tdw=s48",
+        "href": "https://www.appbrain.com/app/cyber-wifi/com.cyber.wf.viadot",
+        "avg_sat": 0.7831396460533142,
+        "avg_val": 0.8675110340118408,
+        "hue_bin": 1,
+        "edge_density": 0.04,
+        "monochrome": false
+      },
+      {
+        "rank": 49,
+        "name": "Google Gemini",
+        "icon_url": "https://lh3.googleusercontent.com/1VhfZl_mUf8A1In73SCBNp2TDrEt0q9xiLW5htUDN0URX0zUaq6o0-Id0g4ZYxYm_zWbymJ02pefQuT11LfqzkaHAo5pnLzz_aRudQ=s48",
+        "href": "https://www.appbrain.com/app/google-gemini/com.google.android.apps.bard",
+        "avg_sat": 0.14756391942501068,
+        "avg_val": 0.9702544808387756,
+        "hue_bin": 7,
+        "edge_density": 0.0426,
+        "monochrome": true
+      },
+      {
+        "rank": 19,
+        "name": "\u200b\u200bMicrosoft Copilot",
+        "icon_url": "https://lh3.googleusercontent.com/-IDorYudqPrPdcRcYbufBtPxfdyEfE1twAz7HekB85GUZHRlg_gD2dt-S59nH3IjvguGhMDYRgWgTkNBBqXvj5qFXigRJbgbvQkh7Q=s48",
+        "href": "https://www.appbrain.com/app/%E2%80%8B%E2%80%8Bmicrosoft-copilot/com.microsoft.copilot",
+        "avg_sat": 0.236372172832489,
+        "avg_val": 0.9522541165351868,
+        "hue_bin": 0,
+        "edge_density": 0.0461,
+        "monochrome": false
+      },
+      {
+        "rank": 50,
+        "name": "Chime \u2013 Mobile Banking",
+        "icon_url": "https://lh3.googleusercontent.com/3Cfgkxlaf1eL8DI5TXebKYk_NbI8BB9nrwEd-vpcXuEhqXfQ1LYLfFlnTjbaA1yLT4QDRoEROYe71WA5A9aDww=s48",
+        "href": "https://www.appbrain.com/app/chime-mobile-banking/com.onedebit.chime",
+        "avg_sat": 0.6122007966041565,
+        "avg_val": 0.8593027591705322,
+        "hue_bin": 5,
+        "edge_density": 0.0468,
+        "monochrome": false
+      }
+    ],
+    "most_complex": [
+      {
+        "rank": 58,
+        "name": "AI Video Maker With Music",
+        "icon_url": "https://lh3.googleusercontent.com/T1ounfJidZodOGMI_RPlLo3txrD3Kp6x6khohNA4EMePN4x5JAKys8yIXGAVMtftePY4X4iHHl4vwBbwBNVE4P5VSNlsv2K5jJb6=s48",
+        "href": "https://www.appbrain.com/app/ai-video-maker-with-music/slideshow.video.status.maker.videomaker",
+        "avg_sat": 0.489182710647583,
+        "avg_val": 0.49205687642097473,
+        "hue_bin": 0,
+        "edge_density": 0.3043,
+        "monochrome": false
+      },
+      {
+        "rank": 1,
+        "name": "ChatGPT",
+        "icon_url": "https://lh3.googleusercontent.com/JgD5qmkQcWm16GrLgDjHIJkK-Cd5ymmZIW24EeGo0uVU-15CKZ6_72q74Yte_uMmvNRofoQqJa4R8dah_E6c7N7ijVFS4cg_DkIb=s48",
+        "href": "https://www.appbrain.com/app/chatgpt/com.openai.chatgpt",
+        "avg_sat": 0.0,
+        "avg_val": 0.8263505697250366,
+        "hue_bin": -1,
+        "edge_density": 0.2706,
+        "monochrome": true
+      },
+      {
+        "rank": 31,
+        "name": "Document Reader-PDF Launcher",
+        "icon_url": "https://lh3.googleusercontent.com/x_LhjM_-E0qOp0SknIVEweUzgh22BJO2MyhHnSyIfgds3MO8muimzscvC6K2rSkQromCZdOzx3MUUiYdBfPjhr_5sQMY--EHmMz-aA=s48",
+        "href": "https://www.appbrain.com/app/document-reader-pdf-launcher/com.document.reader.cairety",
+        "avg_sat": 0.47958627343177795,
+        "avg_val": 0.5264274477958679,
+        "hue_bin": 11,
+        "edge_density": 0.2119,
+        "monochrome": false
+      },
+      {
+        "rank": 16,
+        "name": "Threads",
+        "icon_url": "https://lh3.googleusercontent.com/ouR1wHv36haf-hyKGcX8uCo77T66LVLbIiw02OnqqaJkyoGgIQiH7p3WjD9RBuXQZhfSqo613Rty-EafyT4CLhnFIHN8cTlyD-gz=s48",
+        "href": "https://www.appbrain.com/app/threads/com.instagram.barcelona",
+        "avg_sat": 0.0,
+        "avg_val": 0.22778940200805664,
+        "hue_bin": -1,
+        "edge_density": 0.1949,
+        "monochrome": true
+      },
+      {
+        "rank": 30,
+        "name": "PDF Reader - Editor &amp; Viewer",
+        "icon_url": "https://lh3.googleusercontent.com/vkAYE1QBEftHL6eRyVsmkub7gGi8t2KLRwnyIFb4JimA80qoZZjGsl3JtX_eorJMtYeB1kzBUK8ULVIrhjatL6W4CqVMg0z3LNdCHQ=s48",
+        "href": "https://www.appbrain.com/app/pdf-reader-editor-viewer/pdf.reader.editor.office",
+        "avg_sat": 0.48904940485954285,
+        "avg_val": 0.9504105448722839,
+        "hue_bin": 0,
+        "edge_density": 0.1855,
+        "monochrome": false
+      },
+      {
+        "rank": 34,
+        "name": "CVS Health",
+        "icon_url": "https://lh3.googleusercontent.com/mHr3phaHJaqJRtcAyCyKg1O2YPi7IaGUYbnDSuevDLKujK3yCg7YVQsEMVyawMzCADW-WJSQ859Duu1KdyfptIXv1VZZPvqBseWS=s48",
+        "href": "https://www.appbrain.com/app/cvs-health/com.cvs.launchers.cvs",
+        "avg_sat": 0.08339294791221619,
+        "avg_val": 0.9409160017967224,
+        "hue_bin": 0,
+        "edge_density": 0.1814,
+        "monochrome": true
+      },
+      {
+        "rank": 11,
+        "name": "CapCut - Video Editor",
+        "icon_url": "https://lh3.googleusercontent.com/n6vOoAnloImhTT7qVnd8UK5DMh_Ffi1HKlL2-TS4tUszFY3s1Upi8v9pEKMqLssl5eF-Vxxe1m8ckvssWtStEm27NT-fC0HhbkHbcQ=s48",
+        "href": "https://www.appbrain.com/app/capcut-video-editor/com.lemon.lvoverseas",
+        "avg_sat": 0.0,
+        "avg_val": 0.7467859387397766,
+        "hue_bin": -1,
+        "edge_density": 0.1797,
+        "monochrome": true
+      },
+      {
+        "rank": 25,
+        "name": "PDF Reader",
+        "icon_url": "https://lh3.googleusercontent.com/V3s5cyKcdCsOkDY5Iaa06Jjif4CqokhPNXxpPzjlmkC_O5SsQsH7d83q4VvjEZjow9OUjqEwnbhZtnSreDpvTAFsqh42aB4R_rw=s48",
+        "href": "https://www.appbrain.com/app/pdf-reader/com.backforge.olimpic.axiomdrivecenter",
+        "avg_sat": 0.48329296708106995,
+        "avg_val": 0.9520961046218872,
+        "hue_bin": 0,
+        "edge_density": 0.1729,
+        "monochrome": false
+      }
+    ],
+    "top_30_names": [
+      "ChatGPT",
+      "EdgeAura",
+      "TikTok Lite - Faster TikTok",
+      "TikTok - Videos, Shop &amp; LIVE",
+      "WhatsApp Messenger",
+      "Temu: Shop Like a Billionaire",
+      "Peacock TV: Stream TV &amp; Movies",
+      "Instagram",
+      "Photo Editor Video Maker Music",
+      "Easy Homescreen",
+      "CapCut - Video Editor",
+      "Whatnot: Shop, Sell, Connect",
+      "Cash App",
+      "Cleaner Launcher for Android",
+      "DoorDash - Dasher",
+      "Threads",
+      "Freecash: Earn Money",
+      "Snapchat",
+      "\u200b\u200bMicrosoft Copilot",
+      "Facebook",
+      "Tubi: Free Movies &amp; Live TV",
+      "Telegram",
+      "ReelShort - Stream Drama &amp; TV",
+      "Grok \u2022 Smartest AI Advisor",
+      "PDF Reader",
+      "Discord - Talk, Play, Hang Out",
+      "Walmart: Shopping &amp; Savings",
+      "TurboTax: File Your Tax Return",
+      "Indeed Job Search",
+      "PDF Reader - Editor &amp; Viewer"
+    ]
+  }
+}
