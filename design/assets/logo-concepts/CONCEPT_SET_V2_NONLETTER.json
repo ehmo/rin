@@ -1,0 +1,54 @@
+{
+  "name": "rin-nonletter-v2",
+  "notes": "Memorable symbol-first concepts with no letterform dependency.",
+  "concepts": [
+    {
+      "slug": "01_signal_beacon",
+      "prompt": "Design a logo symbol of a single vertical beacon with two asymmetric radiating arcs. The beacon should feel precise and confident, not telecom-cliche. Prioritize a unique silhouette that reads instantly at app-icon size."
+    },
+    {
+      "slug": "02_bridge_span",
+      "prompt": "Create a minimal symbol with two grounded pillars connected by one elegant suspended span, representing trusted connection between people. Keep geometry bold and ownable with one dominant contour."
+    },
+    {
+      "slug": "03_trust_knot",
+      "prompt": "Design a simple interlocking knot symbol made from two continuous bands, suggesting mutual trust and reciprocity. Avoid Celtic ornamentation; keep it modern, geometric, and scalable."
+    },
+    {
+      "slug": "04_open_aperture",
+      "prompt": "Create an abstract aperture symbol: a near-closed geometric ring with one deliberate opening that suggests selective visibility and clarity. The opening should be the memorable signature."
+    },
+    {
+      "slug": "05_orbit_pivot",
+      "prompt": "Design a symbol with a stable core and one orbit line that pivots off-axis to imply intelligence and dynamic relationship structure. Keep components minimal and non-astronomy-cliche."
+    },
+    {
+      "slug": "06_compass_gate",
+      "prompt": "Create a mark that combines an open gate silhouette with a subtle directional cue, suggesting guided access and trustworthy navigation. Keep it abstract and premium, not literal map iconography."
+    },
+    {
+      "slug": "07_echo_seal",
+      "prompt": "Design a circular seal-like symbol with concentric echo bands and one intentional break. It should feel like a modern verification stamp, calm and authoritative."
+    },
+    {
+      "slug": "08_anchor_constellation",
+      "prompt": "Create a sparse 3-node constellation anchored by one grounded base shape, representing relationship topology with stability. Avoid generic network-diagram visuals."
+    },
+    {
+      "slug": "09_thread_path",
+      "prompt": "Design a single-thread path symbol weaving through two fixed points, representing long-term relationship continuity. Keep the path thick and legible at tiny sizes."
+    },
+    {
+      "slug": "10_lens_portal",
+      "prompt": "Create a portal-like circular symbol with one focused center point and one outer interruption, conveying clear insight into signal vs noise. Keep form minimal and iconic."
+    },
+    {
+      "slug": "11_split_horizon",
+      "prompt": "Design a symbol built from two horizontal masses with one precise offset join, expressing bridge-building across distance. The offset should become the recognisable brand move."
+    },
+    {
+      "slug": "12_monolith_cut",
+      "prompt": "Create an app-icon-first monolith symbol: a solid rounded form carved by one clean geometric cut. The cut should imply both connection and clarity without resembling any letter."
+    }
+  ]
+}

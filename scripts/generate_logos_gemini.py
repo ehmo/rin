@@ -89,6 +89,25 @@ SHARED_SUFFIX = (
 )
 
 
+def load_concepts(concept_file: str | None) -> list[tuple[str, str]]:
+    if not concept_file:
+        return CONCEPTS
+
+    path = pathlib.Path(concept_file)
+    payload = json.loads(path.read_text())
+    items = payload.get("concepts", payload)
+    out: list[tuple[str, str]] = []
+    for item in items:
+        slug = item["slug"]
+        prompt = item.get("prompt") or item.get("core_prompt")
+        if not prompt:
+            raise ValueError(f"Concept {slug} missing prompt/core_prompt")
+        out.append((slug, prompt))
+    if not out:
+        raise ValueError("No concepts loaded from concept file")
+    return out
+
+
 def call_model(api_key: str, model: str, prompt: str) -> tuple[bytes | None, str]:
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
     payload = {
@@ -124,23 +143,27 @@ def main() -> int:
     )
     parser.add_argument("--model", default="gemini-3-pro-image-preview")
     parser.add_argument("--overwrite", action="store_true")
+    parser.add_argument("--concept-file", help="Path to JSON file with concept prompts")
+    parser.add_argument("--shared-suffix", default=SHARED_SUFFIX, help="Shared style suffix")
     args = parser.parse_args()
 
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
         raise SystemExit("GEMINI_API_KEY is required")
 
+    concepts = load_concepts(args.concept_file)
     out_dir = pathlib.Path(args.output_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
     manifest_path = out_dir / "manifest.json"
     manifest: list[dict] = []
 
-    for idx, (slug, core_prompt) in enumerate(CONCEPTS, start=1):
+    total = len(concepts)
+    for idx, (slug, core_prompt) in enumerate(concepts, start=1):
         out_file = out_dir / f"{slug}.png"
-        full_prompt = f"{core_prompt}\n\n{SHARED_SUFFIX}"
+        full_prompt = f"{core_prompt}\n\n{args.shared_suffix}"
 
         if out_file.exists() and not args.overwrite:
-            print(f"[{idx:02d}/12] skip {slug} (exists)")
+            print(f"[{idx:02d}/{total:02d}] skip {slug} (exists)")
             manifest.append(
                 {
                     "slug": slug,
@@ -176,7 +199,7 @@ def main() -> int:
 
         if image:
             out_file.write_bytes(image)
-            print(f"[{idx:02d}/12] ok   {slug}")
+            print(f"[{idx:02d}/{total:02d}] ok   {slug}")
             manifest.append(
                 {
                     "slug": slug,
@@ -190,7 +213,7 @@ def main() -> int:
                 }
             )
         else:
-            print(f"[{idx:02d}/12] fail {slug} ({error})")
+            print(f"[{idx:02d}/{total:02d}] fail {slug} ({error})")
             manifest.append(
                 {
                     "slug": slug,
@@ -206,11 +229,10 @@ def main() -> int:
 
     manifest_path.write_text(json.dumps(manifest, indent=2))
     ok_count = sum(1 for item in manifest if item.get("status") in {"ok", "skipped_existing"})
-    print(f"done: {ok_count}/12 available")
+    print(f"done: {ok_count}/{total} available")
     print(f"manifest: {manifest_path}")
     return 0
 
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

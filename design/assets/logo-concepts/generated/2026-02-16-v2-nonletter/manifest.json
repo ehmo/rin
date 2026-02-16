@@ -1,0 +1,122 @@
+[
+  {
+    "slug": "01_signal_beacon",
+    "file": "design/assets/logo-concepts/generated/2026-02-16-v2-nonletter/01_signal_beacon.png",
+    "core_prompt": "Design a logo symbol of a single vertical beacon with two asymmetric radiating arcs. The beacon should feel precise and confident, not telecom-cliche. Prioritize a unique silhouette that reads instantly at app-icon size.",
+    "full_prompt": "Design a logo symbol of a single vertical beacon with two asymmetric radiating arcs. The beacon should feel precise and confident, not telecom-cliche. Prioritize a unique silhouette that reads instantly at app-icon size.\n\nsingle logo mark, flat vector, geometric precision, centered composition, white background, no text, no wordmark, no mockup, no shadows, no gradients unless specified, no photorealism, high contrast, export-ready brand symbol. avoid: 3D, bevel, shadow, mockup, gradient overload, tiny details, photorealism, watermark, extra symbols, letters beyond intended mark.",
+    "model": "gemini-3-pro-image-preview",
+    "attempts": 1,
+    "status": "ok",
+    "response_text": ""
+  },
+  {
+    "slug": "02_bridge_span",
+    "file": "design/assets/logo-concepts/generated/2026-02-16-v2-nonletter/02_bridge_span.png",
+    "core_prompt": "Create a minimal symbol with two grounded pillars connected by one elegant suspended span, representing trusted connection between people. Keep geometry bold and ownable with one dominant contour.",
+    "full_prompt": "Create a minimal symbol with two grounded pillars connected by one elegant suspended span, representing trusted connection between people. Keep geometry bold and ownable with one dominant contour.\n\nsingle logo mark, flat vector, geometric precision, centered composition, white background, no text, no wordmark, no mockup, no shadows, no gradients unless specified, no photorealism, high contrast, export-ready brand symbol. avoid: 3D, bevel, shadow, mockup, gradient overload, tiny details, photorealism, watermark, extra symbols, letters beyond intended mark.",
+    "model": "gemini-3-pro-image-preview",
+    "attempts": 1,
+    "status": "ok",
+    "response_text": ""
+  },
+  {
+    "slug": "03_trust_knot",
+    "file": "design/assets/logo-concepts/generated/2026-02-16-v2-nonletter/03_trust_knot.png",
+    "core_prompt": "Design a simple interlocking knot symbol made from two continuous bands, suggesting mutual trust and reciprocity. Avoid Celtic ornamentation; keep it modern, geometric, and scalable.",
+    "full_prompt": "Design a simple interlocking knot symbol made from two continuous bands, suggesting mutual trust and reciprocity. Avoid Celtic ornamentation; keep it modern, geometric, and scalable.\n\nsingle logo mark, flat vector, geometric precision, centered composition, white background, no text, no wordmark, no mockup, no shadows, no gradients unless specified, no photorealism, high contrast, export-ready brand symbol. avoid: 3D, bevel, shadow, mockup, gradient overload, tiny details, photorealism, watermark, extra symbols, letters beyond intended mark.",
+    "model": "gemini-3-pro-image-preview",
+    "attempts": 1,
+    "status": "ok",
+    "response_text": ""
+  },
+  {
+    "slug": "04_open_aperture",
+    "file": "design/assets/logo-concepts/generated/2026-02-16-v2-nonletter/04_open_aperture.png",
+    "core_prompt": "Create an abstract aperture symbol: a near-closed geometric ring with one deliberate opening that suggests selective visibility and clarity. The opening should be the memorable signature.",
+    "full_prompt": "Create an abstract aperture symbol: a near-closed geometric ring with one deliberate opening that suggests selective visibility and clarity. The opening should be the memorable signature.\n\nsingle logo mark, flat vector, geometric precision, centered composition, white background, no text, no wordmark, no mockup, no shadows, no gradients unless specified, no photorealism, high contrast, export-ready brand symbol. avoid: 3D, bevel, shadow, mockup, gradient overload, tiny details, photorealism, watermark, extra symbols, letters beyond intended mark.",
+    "model": "gemini-3-pro-image-preview",
+    "attempts": 1,
+    "status": "ok",
+    "response_text": ""
+  },
+  {
+    "slug": "05_orbit_pivot",
+    "file": "design/assets/logo-concepts/generated/2026-02-16-v2-nonletter/05_orbit_pivot.png",
+    "core_prompt": "Design a symbol with a stable core and one orbit line that pivots off-axis to imply intelligence and dynamic relationship structure. Keep components minimal and non-astronomy-cliche.",
+    "full_prompt": "Design a symbol with a stable core and one orbit line that pivots off-axis to imply intelligence and dynamic relationship structure. Keep components minimal and non-astronomy-cliche.\n\nsingle logo mark, flat vector, geometric precision, centered composition, white background, no text, no wordmark, no mockup, no shadows, no gradients unless specified, no photorealism, high contrast, export-ready brand symbol. avoid: 3D, bevel, shadow, mockup, gradient overload, tiny details, photorealism, watermark, extra symbols, letters beyond intended mark.",
+    "model": "gemini-3-pro-image-preview",
+    "attempts": 1,
+    "status": "ok",
+    "response_text": ""
+  },
+  {
+    "slug": "06_compass_gate",
+    "file": "design/assets/logo-concepts/generated/2026-02-16-v2-nonletter/06_compass_gate.png",
+    "core_prompt": "Create a mark that combines an open gate silhouette with a subtle directional cue, suggesting guided access and trustworthy navigation. Keep it abstract and premium, not literal map iconography.",
+    "full_prompt": "Create a mark that combines an open gate silhouette with a subtle directional cue, suggesting guided access and trustworthy navigation. Keep it abstract and premium, not literal map iconography.\n\nsingle logo mark, flat vector, geometric precision, centered composition, white background, no text, no wordmark, no mockup, no shadows, no gradients unless specified, no photorealism, high contrast, export-ready brand symbol. avoid: 3D, bevel, shadow, mockup, gradient overload, tiny details, photorealism, watermark, extra symbols, letters beyond intended mark.",
+    "model": "gemini-3-pro-image-preview",
+    "attempts": 1,
+    "status": "ok",
+    "response_text": ""
+  },
+  {
+    "slug": "07_echo_seal",
+    "file": "design/assets/logo-concepts/generated/2026-02-16-v2-nonletter/07_echo_seal.png",
+    "core_prompt": "Design a circular seal-like symbol with concentric echo bands and one intentional break. It should feel like a modern verification stamp, calm and authoritative.",
+    "full_prompt": "Design a circular seal-like symbol with concentric echo bands and one intentional break. It should feel like a modern verification stamp, calm and authoritative.\n\nsingle logo mark, flat vector, geometric precision, centered composition, white background, no text, no wordmark, no mockup, no shadows, no gradients unless specified, no photorealism, high contrast, export-ready brand symbol. avoid: 3D, bevel, shadow, mockup, gradient overload, tiny details, photorealism, watermark, extra symbols, letters beyond intended mark.",
+    "model": "gemini-3-pro-image-preview",
+    "attempts": 1,
+    "status": "ok",
+    "response_text": ""
+  },
+  {
+    "slug": "08_anchor_constellation",
+    "file": "design/assets/logo-concepts/generated/2026-02-16-v2-nonletter/08_anchor_constellation.png",
+    "core_prompt": "Create a sparse 3-node constellation anchored by one grounded base shape, representing relationship topology with stability. Avoid generic network-diagram visuals.",
+    "full_prompt": "Create a sparse 3-node constellation anchored by one grounded base shape, representing relationship topology with stability. Avoid generic network-diagram visuals.\n\nsingle logo mark, flat vector, geometric precision, centered composition, white background, no text, no wordmark, no mockup, no shadows, no gradients unless specified, no photorealism, high contrast, export-ready brand symbol. avoid: 3D, bevel, shadow, mockup, gradient overload, tiny details, photorealism, watermark, extra symbols, letters beyond intended mark.",
+    "model": "gemini-3-pro-image-preview",
+    "attempts": 1,
+    "status": "ok",
+    "response_text": ""
+  },
+  {
+    "slug": "09_thread_path",
+    "file": "design/assets/logo-concepts/generated/2026-02-16-v2-nonletter/09_thread_path.png",
+    "core_prompt": "Design a single-thread path symbol weaving through two fixed points, representing long-term relationship continuity. Keep the path thick and legible at tiny sizes.",
+    "full_prompt": "Design a single-thread path symbol weaving through two fixed points, representing long-term relationship continuity. Keep the path thick and legible at tiny sizes.\n\nsingle logo mark, flat vector, geometric precision, centered composition, white background, no text, no wordmark, no mockup, no shadows, no gradients unless specified, no photorealism, high contrast, export-ready brand symbol. avoid: 3D, bevel, shadow, mockup, gradient overload, tiny details, photorealism, watermark, extra symbols, letters beyond intended mark.",
+    "model": "gemini-3-pro-image-preview",
+    "attempts": 1,
+    "status": "ok",
+    "response_text": ""
+  },
+  {
+    "slug": "10_lens_portal",
+    "file": "design/assets/logo-concepts/generated/2026-02-16-v2-nonletter/10_lens_portal.png",
+    "core_prompt": "Create a portal-like circular symbol with one focused center point and one outer interruption, conveying clear insight into signal vs noise. Keep form minimal and iconic.",
+    "full_prompt": "Create a portal-like circular symbol with one focused center point and one outer interruption, conveying clear insight into signal vs noise. Keep form minimal and iconic.\n\nsingle logo mark, flat vector, geometric precision, centered composition, white background, no text, no wordmark, no mockup, no shadows, no gradients unless specified, no photorealism, high contrast, export-ready brand symbol. avoid: 3D, bevel, shadow, mockup, gradient overload, tiny details, photorealism, watermark, extra symbols, letters beyond intended mark.",
+    "model": "gemini-3-pro-image-preview",
+    "attempts": 1,
+    "status": "ok",
+    "response_text": ""
+  },
+  {
+    "slug": "11_split_horizon",
+    "file": "design/assets/logo-concepts/generated/2026-02-16-v2-nonletter/11_split_horizon.png",
+    "core_prompt": "Design a symbol built from two horizontal masses with one precise offset join, expressing bridge-building across distance. The offset should become the recognisable brand move.",
+    "full_prompt": "Design a symbol built from two horizontal masses with one precise offset join, expressing bridge-building across distance. The offset should become the recognisable brand move.\n\nsingle logo mark, flat vector, geometric precision, centered composition, white background, no text, no wordmark, no mockup, no shadows, no gradients unless specified, no photorealism, high contrast, export-ready brand symbol. avoid: 3D, bevel, shadow, mockup, gradient overload, tiny details, photorealism, watermark, extra symbols, letters beyond intended mark.",
+    "model": "gemini-3-pro-image-preview",
+    "attempts": 1,
+    "status": "ok",
+    "response_text": ""
+  },
+  {
+    "slug": "12_monolith_cut",
+    "file": "design/assets/logo-concepts/generated/2026-02-16-v2-nonletter/12_monolith_cut.png",
+    "core_prompt": "Create an app-icon-first monolith symbol: a solid rounded form carved by one clean geometric cut. The cut should imply both connection and clarity without resembling any letter.",
+    "full_prompt": "Create an app-icon-first monolith symbol: a solid rounded form carved by one clean geometric cut. The cut should imply both connection and clarity without resembling any letter.\n\nsingle logo mark, flat vector, geometric precision, centered composition, white background, no text, no wordmark, no mockup, no shadows, no gradients unless specified, no photorealism, high contrast, export-ready brand symbol. avoid: 3D, bevel, shadow, mockup, gradient overload, tiny details, photorealism, watermark, extra symbols, letters beyond intended mark.",
+    "model": "gemini-3-pro-image-preview",
+    "attempts": 1,
+    "status": "ok",
+    "response_text": ""
+  }
+]
