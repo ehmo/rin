@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "01_offset_ring_cut",
+    "file": "design/assets/logo-concepts/generated/2026-02-16-v4-social-simple6/01_offset_ring_cut.png",
+    "core_prompt": "Design an app icon symbol as one thick ring with a single offset cut. No extra elements. The cut placement must make it ownable and instantly recognizable.",
+    "full_prompt": "Design an app icon symbol as one thick ring with a single offset cut. No extra elements. The cut placement must make it ownable and instantly recognizable.\n\nsingle logo mark, flat vector, geometric precision, centered composition, white background, no text, no wordmark, no mockup, no shadows, no gradients unless specified, no photorealism, high contrast, export-ready brand symbol. avoid: 3D, bevel, shadow, mockup, gradient overload, tiny details, photorealism, watermark, extra symbols, letters beyond intended mark.",
+    "model": "gemini-3-pro-image-preview",
+    "attempts": 1,
+    "status": "ok",
+    "response_text": ""
+  },
+  {
+    "slug": "02_monolith_bite",
+    "file": "design/assets/logo-concepts/generated/2026-02-16-v4-social-simple6/02_monolith_bite.png",
+    "core_prompt": "Design one bold rounded monolith shape with one clean geometric bite removed from the edge. Keep silhouette extremely simple and memorable.",
+    "full_prompt": "Design one bold rounded monolith shape with one clean geometric bite removed from the edge. Keep silhouette extremely simple and memorable.\n\nsingle logo mark, flat vector, geometric precision, centered composition, white background, no text, no wordmark, no mockup, no shadows, no gradients unless specified, no photorealism, high contrast, export-ready brand symbol. avoid: 3D, bevel, shadow, mockup, gradient overload, tiny details, photorealism, watermark, extra symbols, letters beyond intended mark.",
+    "model": "gemini-3-pro-image-preview",
+    "attempts": 1,
+    "status": "ok",
+    "response_text": ""
+  },
+  {
+    "slug": "03_square_aperture",
+    "file": "design/assets/logo-concepts/generated/2026-02-16-v4-social-simple6/03_square_aperture.png",
+    "core_prompt": "Design a rounded square symbol with one centered circular aperture removed. No secondary details. Prioritize home-screen legibility.",
+    "full_prompt": "Design a rounded square symbol with one centered circular aperture removed. No secondary details. Prioritize home-screen legibility.\n\nsingle logo mark, flat vector, geometric precision, centered composition, white background, no text, no wordmark, no mockup, no shadows, no gradients unless specified, no photorealism, high contrast, export-ready brand symbol. avoid: 3D, bevel, shadow, mockup, gradient overload, tiny details, photorealism, watermark, extra symbols, letters beyond intended mark.",
+    "model": "gemini-3-pro-image-preview",
+    "attempts": 1,
+    "status": "ok",
+    "response_text": ""
+  },
+  {
+    "slug": "04_disc_notch",
+    "file": "design/assets/logo-concepts/generated/2026-02-16-v4-social-simple6/04_disc_notch.png",
+    "core_prompt": "Design one solid disc with one sharp directional notch removed from the perimeter. The notch should suggest guidance without looking like a generic arrow.",
+    "full_prompt": "Design one solid disc with one sharp directional notch removed from the perimeter. The notch should suggest guidance without looking like a generic arrow.\n\nsingle logo mark, flat vector, geometric precision, centered composition, white background, no text, no wordmark, no mockup, no shadows, no gradients unless specified, no photorealism, high contrast, export-ready brand symbol. avoid: 3D, bevel, shadow, mockup, gradient overload, tiny details, photorealism, watermark, extra symbols, letters beyond intended mark.",
+    "model": "gemini-3-pro-image-preview",
+    "attempts": 1,
+    "status": "ok",
+    "response_text": ""
+  },
+  {
+    "slug": "05_twin_nodes_bridge",
+    "file": "design/assets/logo-concepts/generated/2026-02-16-v4-social-simple6/05_twin_nodes_bridge.png",
+    "core_prompt": "Design exactly two circular nodes connected by one thick bridge bar. Keep spacing strict and geometry bold. One symbol only, no decoration.",
+    "full_prompt": "Design exactly two circular nodes connected by one thick bridge bar. Keep spacing strict and geometry bold. One symbol only, no decoration.\n\nsingle logo mark, flat vector, geometric precision, centered composition, white background, no text, no wordmark, no mockup, no shadows, no gradients unless specified, no photorealism, high contrast, export-ready brand symbol. avoid: 3D, bevel, shadow, mockup, gradient overload, tiny details, photorealism, watermark, extra symbols, letters beyond intended mark.",
+    "model": "gemini-3-pro-image-preview",
+    "attempts": 1,
+    "status": "ok",
+    "response_text": ""
+  },
+  {
+    "slug": "06_gate_core",
+    "file": "design/assets/logo-concepts/generated/2026-02-16-v4-social-simple6/06_gate_core.png",
+    "core_prompt": "Design a minimal gate form: two vertical pillars and one top bar with one centered internal opening. Make the silhouette clean, thick, and iconic.",
+    "full_prompt": "Design a minimal gate form: two vertical pillars and one top bar with one centered internal opening. Make the silhouette clean, thick, and iconic.\n\nsingle logo mark, flat vector, geometric precision, centered composition, white background, no text, no wordmark, no mockup, no shadows, no gradients unless specified, no photorealism, high contrast, export-ready brand symbol. avoid: 3D, bevel, shadow, mockup, gradient overload, tiny details, photorealism, watermark, extra symbols, letters beyond intended mark.",
+    "model": "gemini-3-pro-image-preview",
+    "attempts": 1,
+    "status": "ok",
+    "response_text": ""
+  }
+]

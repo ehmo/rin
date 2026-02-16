@@ -1,0 +1,30 @@
+{
+  "name": "rin-social-simple-v4",
+  "notes": "Six ultra-simple social-category-aligned icon concepts. One dominant symbol with one ownable structural move.",
+  "concepts": [
+    {
+      "slug": "01_offset_ring_cut",
+      "prompt": "Design an app icon symbol as one thick ring with a single offset cut. No extra elements. The cut placement must make it ownable and instantly recognizable."
+    },
+    {
+      "slug": "02_monolith_bite",
+      "prompt": "Design one bold rounded monolith shape with one clean geometric bite removed from the edge. Keep silhouette extremely simple and memorable."
+    },
+    {
+      "slug": "03_square_aperture",
+      "prompt": "Design a rounded square symbol with one centered circular aperture removed. No secondary details. Prioritize home-screen legibility."
+    },
+    {
+      "slug": "04_disc_notch",
+      "prompt": "Design one solid disc with one sharp directional notch removed from the perimeter. The notch should suggest guidance without looking like a generic arrow."
+    },
+    {
+      "slug": "05_twin_nodes_bridge",
+      "prompt": "Design exactly two circular nodes connected by one thick bridge bar. Keep spacing strict and geometry bold. One symbol only, no decoration."
+    },
+    {
+      "slug": "06_gate_core",
+      "prompt": "Design a minimal gate form: two vertical pillars and one top bar with one centered internal opening. Make the silhouette clean, thick, and iconic."
+    }
+  ]
+}
