@@ -19,6 +19,7 @@ Define monetization and distribution that reinforce trust and relationship utili
 - `docs/plan/REFERRAL_NETWORK_EFFECTS_V1.md`
 - `docs/plan/MONETIZATION_EXPERIMENTS_V1.md`
 - `docs/plan/UNIT_ECONOMICS_V1.md`
+- `docs/plan/COMPETITIVE_POSITIONING_V1.md`
 - `docs/product/IOS_INVITE_REFERRAL_SCREEN_SPEC_V1.md`
 - `docs/product/IOS_RETENTION_LOOP_SPEC_V1.md`
 
