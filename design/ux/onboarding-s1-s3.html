@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rin — Onboarding S1-S3</title>
+  <link rel="stylesheet" href="rin-tokens.css">
+  <style>
+    /* Onboarding-specific styles */
+    .onboarding-content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding-top: var(--rin-space-2xl);
+    }
+
+    .onboarding-hero {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 var(--rin-space-base);
+    }
+
+    .onboarding-icon {
+      width: 120px;
+      height: 120px;
+      margin-bottom: var(--rin-space-xl);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* Abstract geometric illustrations */
+    .illustration-network {
+      position: relative;
+      width: 120px;
+      height: 120px;
+    }
+    .illustration-network .node {
+      position: absolute;
+      border-radius: 50%;
+      background: var(--rin-brand-primary);
+    }
+    .illustration-network .node.center { width: 24px; height: 24px; top: 48px; left: 48px; }
+    .illustration-network .node.n1 { width: 16px; height: 16px; top: 12px; left: 52px; opacity: 0.7; }
+    .illustration-network .node.n2 { width: 14px; height: 14px; top: 28px; left: 88px; opacity: 0.5; }
+    .illustration-network .node.n3 { width: 18px; height: 18px; top: 78px; left: 82px; opacity: 0.6; }
+    .illustration-network .node.n4 { width: 12px; height: 12px; top: 92px; left: 44px; opacity: 0.4; }
+    .illustration-network .node.n5 { width: 16px; height: 16px; top: 68px; left: 16px; opacity: 0.5; }
+    .illustration-network .node.n6 { width: 14px; height: 14px; top: 24px; left: 20px; opacity: 0.6; }
+    .illustration-network .line {
+      position: absolute;
+      height: 1.5px;
+      background: var(--rin-brand-primary);
+      opacity: 0.15;
+      transform-origin: left center;
+    }
+    .illustration-network .line.l1 { width: 42px; top: 59px; left: 60px; transform: rotate(-48deg); }
+    .illustration-network .line.l2 { width: 38px; top: 58px; left: 62px; transform: rotate(-18deg); }
+    .illustration-network .line.l3 { width: 35px; top: 64px; left: 62px; transform: rotate(26deg); }
+    .illustration-network .line.l4 { width: 28px; top: 68px; left: 52px; transform: rotate(68deg); }
+    .illustration-network .line.l5 { width: 40px; top: 62px; left: 48px; transform: rotate(168deg); }
+    .illustration-network .line.l6 { width: 36px; top: 56px; left: 48px; transform: rotate(212deg); }
+
+    .illustration-shield {
+      width: 80px;
+      height: 96px;
+      border: 3px solid var(--rin-brand-primary);
+      border-radius: 8px 8px 40px 40px;
+      position: relative;
+      opacity: 0.85;
+    }
+    .illustration-shield::after {
+      content: '';
+      position: absolute;
+      top: 30px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 24px;
+      height: 24px;
+      border: 3px solid var(--rin-brand-primary);
+      border-radius: 50%;
+    }
+    .illustration-shield .check {
+      position: absolute;
+      top: 35px;
+      left: 50%;
+      transform: translateX(-50%) rotate(45deg);
+      width: 8px;
+      height: 14px;
+      border-bottom: 3px solid var(--rin-brand-primary);
+      border-right: 3px solid var(--rin-brand-primary);
+    }
+
+    .illustration-lock {
+      position: relative;
+      width: 64px;
+      height: 88px;
+    }
+    .illustration-lock .lock-body {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 64px;
+      height: 52px;
+      background: var(--rin-brand-primary);
+      border-radius: 10px;
+      opacity: 0.12;
+    }
+    .illustration-lock .lock-body-stroke {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 64px;
+      height: 52px;
+      border: 3px solid var(--rin-brand-primary);
+      border-radius: 10px;
+      opacity: 0.85;
+    }
+    .illustration-lock .lock-shackle {
+      position: absolute;
+      top: 0;
+      left: 12px;
+      width: 40px;
+      height: 44px;
+      border: 3px solid var(--rin-brand-primary);
+      border-bottom: none;
+      border-radius: 20px 20px 0 0;
+      opacity: 0.85;
+    }
+    .illustration-lock .lock-hole {
+      position: absolute;
+      bottom: 24px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 10px;
+      height: 10px;
+      background: var(--rin-brand-primary);
+      border-radius: 50%;
+      opacity: 0.6;
+    }
+
+    .onboarding-title {
+      font-size: var(--rin-type-title1);
+      font-weight: 700;
+      line-height: var(--rin-lh-title1);
+      color: var(--rin-text-primary);
+      text-align: center;
+      margin-bottom: var(--rin-space-md);
+    }
+
+    .onboarding-body {
+      font-size: var(--rin-type-body);
+      font-weight: 400;
+      line-height: var(--rin-lh-body);
+      color: var(--rin-text-secondary);
+      text-align: center;
+      max-width: 320px;
+    }
+
+    .onboarding-footer {
+      padding: var(--rin-space-base) 0 var(--rin-space-lg);
+      display: flex;
+      flex-direction: column;
+      gap: var(--rin-space-xs);
+      align-items: center;
+    }
+
+    .onboarding-footer .page-dots {
+      margin-bottom: var(--rin-space-lg);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ===== S1: Welcome 1 — Value ===== -->
+  <div class="iphone-frame" style="position:relative;">
+    <span class="frame-label">S1 — Welcome: Value</span>
+    <div class="dynamic-island"></div>
+    <div class="status-bar">
+      <span class="time">9:41</span>
+      <span class="icons">
+        <svg width="17" height="12" viewBox="0 0 17 12"><rect x="0" y="3" width="3" height="9" rx="1" fill="currentColor" opacity="0.3"/><rect x="4.5" y="2" width="3" height="10" rx="1" fill="currentColor" opacity="0.5"/><rect x="9" y="1" width="3" height="11" rx="1" fill="currentColor" opacity="0.7"/><rect x="13.5" y="0" width="3" height="12" rx="1" fill="currentColor"/></svg>
+        <svg width="16" height="12" viewBox="0 0 16 12"><path d="M8 2.4C5.6 2.4 3.4 3.3 1.8 4.8L0 3C2 1.1 4.8 0 8 0s6 1.1 8 3l-1.8 1.8C12.6 3.3 10.4 2.4 8 2.4z" fill="currentColor" opacity="0.3"/><path d="M8 5.6c-1.6 0-3 .6-4.2 1.6L2 5.4C3.6 4 5.7 3.2 8 3.2s4.4.8 6 2.2l-1.8 1.8C11 6.2 9.6 5.6 8 5.6z" fill="currentColor" opacity="0.6"/><path d="M8 8.8c-.8 0-1.6.3-2.2.8L8 12l2.2-2.4C9.6 9.1 8.8 8.8 8 8.8z" fill="currentColor"/></svg>
+        <svg width="27" height="12" viewBox="0 0 27 12"><rect x="0" y="1" width="23" height="10" rx="3" stroke="currentColor" stroke-width="1" fill="none" opacity="0.35"/><rect x="24" y="4" width="2" height="4" rx="1" fill="currentColor" opacity="0.3"/><rect x="1.5" y="2.5" width="18" height="7" rx="2" fill="currentColor"/></svg>
+      </span>
+    </div>
+    <div class="screen-content">
+      <div class="onboarding-content">
+        <div class="onboarding-hero">
+          <div class="onboarding-icon">
+            <div class="illustration-network">
+              <div class="line l1"></div>
+              <div class="line l2"></div>
+              <div class="line l3"></div>
+              <div class="line l4"></div>
+              <div class="line l5"></div>
+              <div class="line l6"></div>
+              <div class="node center"></div>
+              <div class="node n1"></div>
+              <div class="node n2"></div>
+              <div class="node n3"></div>
+              <div class="node n4"></div>
+              <div class="node n5"></div>
+              <div class="node n6"></div>
+            </div>
+          </div>
+          <h1 class="onboarding-title">Own your network.</h1>
+          <p class="onboarding-body">Rin helps you clean, organize, and control your contacts.</p>
+        </div>
+        <div class="onboarding-footer">
+          <div class="page-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+          <button class="btn-primary">Continue</button>
+          <button class="btn-secondary">Skip intro</button>
+        </div>
+      </div>
+    </div>
+    <div class="home-indicator"></div>
+  </div>
+
+  <!-- ===== S2: Welcome 2 — Control ===== -->
+  <div class="iphone-frame" style="position:relative;">
+    <span class="frame-label">S2 — Welcome: Control</span>
+    <div class="dynamic-island"></div>
+    <div class="status-bar">
+      <span class="time">9:41</span>
+      <span class="icons">
+        <svg width="17" height="12" viewBox="0 0 17 12"><rect x="0" y="3" width="3" height="9" rx="1" fill="currentColor" opacity="0.3"/><rect x="4.5" y="2" width="3" height="10" rx="1" fill="currentColor" opacity="0.5"/><rect x="9" y="1" width="3" height="11" rx="1" fill="currentColor" opacity="0.7"/><rect x="13.5" y="0" width="3" height="12" rx="1" fill="currentColor"/></svg>
+        <svg width="16" height="12" viewBox="0 0 16 12"><path d="M8 2.4C5.6 2.4 3.4 3.3 1.8 4.8L0 3C2 1.1 4.8 0 8 0s6 1.1 8 3l-1.8 1.8C12.6 3.3 10.4 2.4 8 2.4z" fill="currentColor" opacity="0.3"/><path d="M8 5.6c-1.6 0-3 .6-4.2 1.6L2 5.4C3.6 4 5.7 3.2 8 3.2s4.4.8 6 2.2l-1.8 1.8C11 6.2 9.6 5.6 8 5.6z" fill="currentColor" opacity="0.6"/><path d="M8 8.8c-.8 0-1.6.3-2.2.8L8 12l2.2-2.4C9.6 9.1 8.8 8.8 8 8.8z" fill="currentColor"/></svg>
+        <svg width="27" height="12" viewBox="0 0 27 12"><rect x="0" y="1" width="23" height="10" rx="3" stroke="currentColor" stroke-width="1" fill="none" opacity="0.35"/><rect x="24" y="4" width="2" height="4" rx="1" fill="currentColor" opacity="0.3"/><rect x="1.5" y="2.5" width="18" height="7" rx="2" fill="currentColor"/></svg>
+      </span>
+    </div>
+    <div class="screen-content">
+      <div class="onboarding-content">
+        <div class="onboarding-hero">
+          <div class="onboarding-icon">
+            <div class="illustration-shield">
+              <div class="check"></div>
+            </div>
+          </div>
+          <h1 class="onboarding-title">You decide who can reach you.</h1>
+          <p class="onboarding-body">Set default sharing rules and override them by circle.</p>
+        </div>
+        <div class="onboarding-footer">
+          <div class="page-dots">
+            <span class="dot"></span>
+            <span class="dot active"></span>
+            <span class="dot"></span>
+          </div>
+          <button class="btn-primary">Continue</button>
+          <button class="btn-secondary">Back</button>
+        </div>
+      </div>
+    </div>
+    <div class="home-indicator"></div>
+  </div>
+
+  <!-- ===== S3: Welcome 3 — Trust ===== -->
+  <div class="iphone-frame" style="position:relative;">
+    <span class="frame-label">S3 — Welcome: Trust</span>
+    <div class="dynamic-island"></div>
+    <div class="status-bar">
+      <span class="time">9:41</span>
+      <span class="icons">
+        <svg width="17" height="12" viewBox="0 0 17 12"><rect x="0" y="3" width="3" height="9" rx="1" fill="currentColor" opacity="0.3"/><rect x="4.5" y="2" width="3" height="10" rx="1" fill="currentColor" opacity="0.5"/><rect x="9" y="1" width="3" height="11" rx="1" fill="currentColor" opacity="0.7"/><rect x="13.5" y="0" width="3" height="12" rx="1" fill="currentColor"/></svg>
+        <svg width="16" height="12" viewBox="0 0 16 12"><path d="M8 2.4C5.6 2.4 3.4 3.3 1.8 4.8L0 3C2 1.1 4.8 0 8 0s6 1.1 8 3l-1.8 1.8C12.6 3.3 10.4 2.4 8 2.4z" fill="currentColor" opacity="0.3"/><path d="M8 5.6c-1.6 0-3 .6-4.2 1.6L2 5.4C3.6 4 5.7 3.2 8 3.2s4.4.8 6 2.2l-1.8 1.8C11 6.2 9.6 5.6 8 5.6z" fill="currentColor" opacity="0.6"/><path d="M8 8.8c-.8 0-1.6.3-2.2.8L8 12l2.2-2.4C9.6 9.1 8.8 8.8 8 8.8z" fill="currentColor"/></svg>
+        <svg width="27" height="12" viewBox="0 0 27 12"><rect x="0" y="1" width="23" height="10" rx="3" stroke="currentColor" stroke-width="1" fill="none" opacity="0.35"/><rect x="24" y="4" width="2" height="4" rx="1" fill="currentColor" opacity="0.3"/><rect x="1.5" y="2.5" width="18" height="7" rx="2" fill="currentColor"/></svg>
+      </span>
+    </div>
+    <div class="screen-content">
+      <div class="onboarding-content">
+        <div class="onboarding-hero">
+          <div class="onboarding-icon">
+            <div class="illustration-lock">
+              <div class="lock-shackle"></div>
+              <div class="lock-body"></div>
+              <div class="lock-body-stroke"></div>
+              <div class="lock-hole"></div>
+            </div>
+          </div>
+          <h1 class="onboarding-title">No spam. No surprise outreach.</h1>
+          <p class="onboarding-body">We never notify anyone or expose your information without your permission.</p>
+        </div>
+        <div class="onboarding-footer">
+          <div class="page-dots">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot active"></span>
+          </div>
+          <button class="btn-primary">Get Started</button>
+          <button class="btn-secondary">Back</button>
+        </div>
+      </div>
+    </div>
+    <div class="home-indicator"></div>
+  </div>
+
+</body>
+</html>

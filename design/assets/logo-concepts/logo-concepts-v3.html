@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rin Logo Concepts — V3</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', system-ui, sans-serif;
+    background: #0a0a0a;
+    color: #F9FAFB;
+    padding: 48px 40px;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1 { text-align: center; font-size: 32px; font-weight: 700; margin-bottom: 6px; letter-spacing: -0.5px; }
+  .subtitle { text-align: center; font-size: 14px; color: #6B7280; margin-bottom: 56px; line-height: 1.6; }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 48px 36px;
+    max-width: 1240px;
+    margin: 0 auto;
+  }
+  .concept { text-align: center; }
+  .concept .icon-wrap {
+    width: 240px;
+    height: 240px;
+    margin: 0 auto 18px;
+    border-radius: 54px;
+    overflow: hidden;
+    box-shadow: 0 12px 40px rgba(0,0,0,0.6), 0 0 0 1px rgba(255,255,255,0.04);
+    transition: transform 0.2s;
+  }
+  .concept .icon-wrap:hover { transform: scale(1.04); }
+  .concept svg { width: 240px; height: 240px; display: block; }
+  .concept .label { font-size: 15px; font-weight: 600; color: #E5E7EB; margin-bottom: 2px; }
+  .concept .number { font-size: 11px; color: #4B5563; font-weight: 600; margin-bottom: 6px; letter-spacing: 1px; }
+  .concept .hidden { font-size: 11px; color: #1A73E8; font-weight: 500; margin-bottom: 4px; }
+  .concept .desc { font-size: 11px; color: #6B7280; max-width: 220px; margin: 0 auto; line-height: 1.45; }
+
+  /* Small preview row */
+  .preview-row {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 60px;
+    padding-top: 40px;
+    border-top: 1px solid #1a1a1a;
+  }
+  .preview-row .mini {
+    width: 48px; height: 48px;
+    border-radius: 11px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+  }
+  .preview-row .mini svg { width: 48px; height: 48px; }
+  .preview-label {
+    text-align: center; font-size: 12px; color: #4B5563; margin-top: 16px;
+  }
+
+  @media (max-width: 1100px) { .grid { grid-template-columns: repeat(3, 1fr); } }
+  @media (max-width: 800px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+</style>
+</head>
+<body>
+
+<h1>Rin — V3</h1>
+<p class="subtitle">One idea. Hidden depth. Drawable from memory.</p>
+
+<div class="grid">
+
+<!-- ============================================ -->
+<!-- 01: The R-Eye — R with iris in counter -->
+<!-- ============================================ -->
+<div class="concept">
+  <div class="icon-wrap">
+    <svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+      <rect width="240" height="240" fill="#0F172A"/>
+      <!-- R structure — bold geometric -->
+      <!-- Vertical stem -->
+      <rect x="52" y="48" width="22" height="144" rx="3" fill="#fff"/>
+      <!-- Bowl of R (top arc) — thick stroke -->
+      <path d="M 63 48 L 128 48 Q 178 48 178 96 Q 178 144 128 144 L 63 144"
+            fill="none" stroke="#fff" stroke-width="22" stroke-linejoin="round"/>
+      <!-- Leg of R -->
+      <line x1="128" y1="144" x2="188" y2="192" stroke="#fff" stroke-width="22" stroke-linecap="round"/>
+
+      <!-- THE HIDDEN MEANING: Eye/iris in the counter (enclosed space) -->
+      <!-- This is visible in the gap within the bowl -->
+      <circle cx="120" cy="96" r="22" fill="none" stroke="#1A73E8" stroke-width="3"/>
+      <circle cx="120" cy="96" r="10" fill="#1A73E8"/>
+      <circle cx="116" cy="92" r="3.5" fill="#fff" opacity="0.85"/>
+    </svg>
+  </div>
+  <div class="number">01</div>
+  <div class="label">R-Eye</div>
+  <div class="hidden">Hidden: iris watching from inside the R</div>
+  <div class="desc">The R contains an eye — seeing who people really are. Discoverable, not obvious.</div>
+</div>
+
+<!-- ============================================ -->
+<!-- 02: Fingerprint R — R formed by ridges -->
+<!-- ============================================ -->
+<div class="concept">
+  <div class="icon-wrap">
+    <svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+      <rect width="240" height="240" fill="#0F172A"/>
+      <!-- R shape formed by curved fingerprint-like ridges -->
+      <!-- Vertical ridges (stem) -->
+      <line x1="68" y1="44" x2="68" y2="196" stroke="#1A73E8" stroke-width="4" stroke-linecap="round"/>
+      <line x1="78" y1="44" x2="78" y2="196" stroke="#1A73E8" stroke-width="3" opacity="0.7" stroke-linecap="round"/>
+      <!-- Bowl ridges — arcing lines -->
+      <path d="M 68 50 Q 165 50 165 96" fill="none" stroke="#1A73E8" stroke-width="4" stroke-linecap="round"/>
+      <path d="M 78 58 Q 155 58 155 96" fill="none" stroke="#1A73E8" stroke-width="3" opacity="0.8" stroke-linecap="round"/>
+      <path d="M 88 66 Q 145 66 145 96" fill="none" stroke="#1A73E8" stroke-width="2.5" opacity="0.6" stroke-linecap="round"/>
+      <!-- Return ridges -->
+      <path d="M 165 96 Q 165 142 68 142" fill="none" stroke="#1A73E8" stroke-width="4" stroke-linecap="round"/>
+      <path d="M 155 96 Q 155 134 78 134" fill="none" stroke="#1A73E8" stroke-width="3" opacity="0.8" stroke-linecap="round"/>
+      <path d="M 145 96 Q 145 126 88 126" fill="none" stroke="#1A73E8" stroke-width="2.5" opacity="0.6" stroke-linecap="round"/>
+      <!-- Leg ridges -->
+      <line x1="120" y1="142" x2="178" y2="196" stroke="#1A73E8" stroke-width="4" stroke-linecap="round"/>
+      <line x1="112" y1="134" x2="170" y2="188" stroke="#1A73E8" stroke-width="3" opacity="0.8" stroke-linecap="round"/>
+      <line x1="104" y1="126" x2="162" y2="180" stroke="#1A73E8" stroke-width="2.5" opacity="0.6" stroke-linecap="round"/>
+      <!-- Fingerprint whorl detail in center -->
+      <circle cx="115" cy="96" r="14" fill="none" stroke="#1A73E8" stroke-width="2" opacity="0.4"/>
+      <circle cx="115" cy="96" r="6" fill="none" stroke="#1A73E8" stroke-width="1.5" opacity="0.3"/>
+    </svg>
+  </div>
+  <div class="number">02</div>
+  <div class="label">Fingerprint R</div>
+  <div class="hidden">Hidden: fingerprint ridges form the letter</div>
+  <div class="desc">The R is made of fingerprint lines — the most personal identifier. Unique to each person.</div>
+</div>
+
+<!-- ============================================ -->
+<!-- 03: Negative R — R carved from solid circle -->
+<!-- ============================================ -->
+<div class="concept">
+  <div class="icon-wrap">
+    <svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+      <rect width="240" height="240" fill="#0F172A"/>
+      <!-- Solid blue circle -->
+      <circle cx="120" cy="120" r="88" fill="#1A73E8"/>
+      <!-- R carved out as negative space -->
+      <defs>
+        <mask id="neg-r">
+          <rect width="240" height="240" fill="white"/>
+          <!-- Stem -->
+          <rect x="64" y="52" width="20" height="136" rx="2" fill="black"/>
+          <!-- Bowl -->
+          <path d="M 74 52 L 130 52 Q 172 52 172 92 Q 172 132 130 132 L 74 132"
+                fill="none" stroke="black" stroke-width="20" stroke-linejoin="round"/>
+          <!-- Leg -->
+          <line x1="126" y1="132" x2="176" y2="188" stroke="black" stroke-width="20" stroke-linecap="round"/>
+        </mask>
+      </defs>
+      <circle cx="120" cy="120" r="88" fill="#1A73E8" mask="url(#neg-r)"/>
+    </svg>
+  </div>
+  <div class="number">03</div>
+  <div class="label">Carved R</div>
+  <div class="hidden">Hidden: negative space defines the letter</div>
+  <div class="desc">R cut from a solid circle — like Apple's bite. The absence IS the identity. Bold, confident, ownable.</div>
+</div>
+
+<!-- ============================================ -->
+<!-- 04: R-Arrow — R with forward arrow in leg -->
+<!-- ============================================ -->
+<div class="concept">
+  <div class="icon-wrap">
+    <svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+      <rect width="240" height="240" fill="#0F172A"/>
+      <!-- Clean geometric R -->
+      <!-- Stem -->
+      <rect x="52" y="48" width="20" height="144" rx="2" fill="#fff"/>
+      <!-- Bowl -->
+      <path d="M 62 48 L 125 48 Q 172 48 172 94 Q 172 140 125 140 L 62 140"
+            fill="none" stroke="#fff" stroke-width="20" stroke-linejoin="round"/>
+      <!-- Leg as an ARROW (like FedEx but in the R's leg) -->
+      <polygon points="118,140 188,188 170,188 188,200 176,200 158,188 158,200 118,160"
+               fill="#1A73E8"/>
+      <!-- Simplified: just a bold leg that ends in arrowhead -->
+      <line x1="125" y1="140" x2="172" y2="182" stroke="#1A73E8" stroke-width="20" stroke-linecap="butt"/>
+      <polygon points="172,168 196,192 172,196" fill="#1A73E8"/>
+    </svg>
+  </div>
+  <div class="number">04</div>
+  <div class="label">R-Arrow</div>
+  <div class="hidden">Hidden: the leg IS an arrow → forward</div>
+  <div class="desc">The leg of the R becomes an arrow. Movement, progress, direction. Like FedEx's hidden arrow.</div>
+</div>
+
+<!-- ============================================ -->
+<!-- 05: R-Person — R reads as a walking figure -->
+<!-- ============================================ -->
+<div class="concept">
+  <div class="icon-wrap">
+    <svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+      <rect width="240" height="240" fill="#0F172A"/>
+      <!-- R that also reads as a person:
+           - Bowl = head
+           - Stem = body
+           - Leg = stride -->
+      <!-- Body/stem -->
+      <line x1="90" y1="98" x2="90" y2="200" stroke="#fff" stroke-width="18" stroke-linecap="round"/>
+      <!-- Head (circle at top of stem that's also the R's bowl) -->
+      <circle cx="126" cy="66" r="30" fill="none" stroke="#fff" stroke-width="18"/>
+      <!-- Neck connection -->
+      <line x1="90" y1="48" x2="90" y2="98" stroke="#fff" stroke-width="18" stroke-linecap="round"/>
+      <!-- Connecting to head -->
+      <line x1="90" y1="56" x2="96" y2="56" stroke="#fff" stroke-width="18"/>
+      <!-- Stride/leg — person walking forward -->
+      <line x1="90" y1="165" x2="156" y2="200" stroke="#1A73E8" stroke-width="18" stroke-linecap="round"/>
+      <!-- Arm gesture (subtle) -->
+      <line x1="90" y1="120" x2="136" y2="100" stroke="#fff" stroke-width="10" stroke-linecap="round" opacity="0.5"/>
+    </svg>
+  </div>
+  <div class="number">05</div>
+  <div class="label">R-Person</div>
+  <div class="hidden">Hidden: the R is also a person in stride</div>
+  <div class="desc">Look once: it's an R. Look again: it's a person walking forward. Identity personified.</div>
+</div>
+
+<!-- ============================================ -->
+<!-- 06: The Notch — Bold R with distinctive cut -->
+<!-- ============================================ -->
+<div class="concept">
+  <div class="icon-wrap">
+    <svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+      <rect width="240" height="240" fill="#0F172A"/>
+      <defs>
+        <mask id="notch-mask">
+          <rect width="240" height="240" fill="white"/>
+          <!-- Cut a circular notch where bowl meets leg — like Apple's bite -->
+          <circle cx="128" cy="136" r="14" fill="black"/>
+        </mask>
+      </defs>
+      <g mask="url(#notch-mask)">
+        <!-- Massive bold R -->
+        <!-- Stem -->
+        <rect x="44" y="40" width="28" height="160" rx="4" fill="#1A73E8"/>
+        <!-- Bowl -->
+        <path d="M 58 40 L 136 40 Q 192 40 192 90 Q 192 140 136 140 L 58 140"
+              fill="none" stroke="#1A73E8" stroke-width="28" stroke-linejoin="round"/>
+        <!-- Leg -->
+        <line x1="132" y1="140" x2="196" y2="200" stroke="#1A73E8" stroke-width="28" stroke-linecap="round"/>
+      </g>
+    </svg>
+  </div>
+  <div class="number">06</div>
+  <div class="label">The Notch</div>
+  <div class="hidden">Hidden: circular bite at the junction</div>
+  <div class="desc">A bold blue R with a clean circular notch — like Apple's bite. One unexpected element makes it unforgettable.</div>
+</div>
+
+<!-- ============================================ -->
+<!-- 07: R-Node — R with glowing connection point -->
+<!-- ============================================ -->
+<div class="concept">
+  <div class="icon-wrap">
+    <svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+      <rect width="240" height="240" fill="#0F172A"/>
+      <defs>
+        <filter id="node-glow" x="-100%" y="-100%" width="300%" height="300%">
+          <feGaussianBlur stdDeviation="8" result="blur"/>
+          <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+        </filter>
+      </defs>
+      <!-- Clean white R -->
+      <rect x="52" y="48" width="20" height="144" rx="2" fill="#fff"/>
+      <path d="M 62 48 L 128 48 Q 176 48 176 96 Q 176 144 128 144 L 62 144"
+            fill="none" stroke="#fff" stroke-width="20" stroke-linejoin="round"/>
+      <line x1="128" y1="144" x2="188" y2="192" stroke="#fff" stroke-width="20" stroke-linecap="round"/>
+      <!-- THE NODE: Glowing blue dot at the junction -->
+      <circle cx="128" cy="144" r="16" fill="#1A73E8" filter="url(#node-glow)"/>
+      <circle cx="128" cy="144" r="8" fill="#fff"/>
+    </svg>
+  </div>
+  <div class="number">07</div>
+  <div class="label">R-Node</div>
+  <div class="hidden">Hidden: glowing node at the junction point</div>
+  <div class="desc">A white R with a single glowing blue node where paths connect. The connection point IS the identity.</div>
+</div>
+
+<!-- ============================================ -->
+<!-- 08: The Loop — Continuous single-line R -->
+<!-- ============================================ -->
+<div class="concept">
+  <div class="icon-wrap">
+    <svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+      <rect width="240" height="240" fill="#0F172A"/>
+      <!-- R drawn in one continuous line — no breaks -->
+      <path d="M 80 196
+               L 80 48
+               L 140 48
+               Q 180 48 180 88
+               Q 180 128 140 128
+               L 80 128
+               L 176 196"
+            fill="none" stroke="#1A73E8" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Start dot -->
+      <circle cx="80" cy="196" r="8" fill="#fff"/>
+      <!-- End dot -->
+      <circle cx="176" cy="196" r="8" fill="#fff"/>
+    </svg>
+  </div>
+  <div class="number">08</div>
+  <div class="label">The Loop</div>
+  <div class="hidden">Hidden: one continuous unbroken line</div>
+  <div class="desc">The R drawn in a single continuous stroke — start to finish, no breaks. A complete journey. Two dots mark origin and destination.</div>
+</div>
+
+<!-- ============================================ -->
+<!-- 09: The Circle Break — Ring with R gap -->
+<!-- ============================================ -->
+<div class="concept">
+  <div class="icon-wrap">
+    <svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+      <rect width="240" height="240" fill="#0F172A"/>
+      <!-- A circle with a break in it — the break forms the R's leg -->
+      <!-- Main circle arc (most of the ring) -->
+      <path d="M 170 170
+               A 65 65 0 1 1 185 120"
+            fill="none" stroke="#1A73E8" stroke-width="16" stroke-linecap="round"/>
+      <!-- The break/gap becomes a diagonal leg like R's leg -->
+      <line x1="170" y1="170" x2="195" y2="195" stroke="#1A73E8" stroke-width="16" stroke-linecap="round"/>
+      <!-- Small inner mark suggesting R's junction -->
+      <circle cx="178" cy="145" r="4" fill="#fff" opacity="0.7"/>
+    </svg>
+  </div>
+  <div class="number">09</div>
+  <div class="label">Circle Break</div>
+  <div class="hidden">Hidden: broken ring + kick = abstract R</div>
+  <div class="desc">A circle that breaks into a diagonal kick. Almost complete — the break itself is the identity. Rin = ring, broken to become R.</div>
+</div>
+
+<!-- ============================================ -->
+<!-- 10: Stacked Circles R — Overlapping circles form R -->
+<!-- ============================================ -->
+<div class="concept">
+  <div class="icon-wrap">
+    <svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+      <rect width="240" height="240" fill="#0F172A"/>
+      <!-- R constructed from geometric circles only -->
+      <!-- Head circle (bowl of R) -->
+      <circle cx="130" cy="82" r="38" fill="none" stroke="#1A73E8" stroke-width="10"/>
+      <!-- Body line (stem) -->
+      <rect x="82" y="44" width="10" height="152" rx="5" fill="#1A73E8"/>
+      <!-- Subtle connection at junction -->
+      <circle cx="108" cy="120" r="5" fill="#1A73E8"/>
+      <!-- Leg as extending line from junction -->
+      <line x1="108" y1="120" x2="178" y2="196" stroke="#1A73E8" stroke-width="10" stroke-linecap="round"/>
+    </svg>
+  </div>
+  <div class="number">10</div>
+  <div class="label">Circle R</div>
+  <div class="hidden">Hidden: R from pure geometric primitives</div>
+  <div class="desc">R built from a circle, a line, and a dot. Minimal geometry. The bowl is literally a circle — rin.</div>
+</div>
+
+<!-- ============================================ -->
+<!-- 11: The Split — Halved R, two tones -->
+<!-- ============================================ -->
+<div class="concept">
+  <div class="icon-wrap">
+    <svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+      <rect width="240" height="240" fill="#0F172A"/>
+      <defs>
+        <clipPath id="left-half"><rect x="0" y="0" width="120" height="240"/></clipPath>
+        <clipPath id="right-half"><rect x="120" y="0" width="120" height="240"/></clipPath>
+      </defs>
+      <!-- Left half — white -->
+      <g clip-path="url(#left-half)">
+        <rect x="52" y="48" width="22" height="144" rx="3" fill="#fff"/>
+        <path d="M 63 48 L 130 48 Q 180 48 180 96 Q 180 144 130 144 L 63 144"
+              fill="none" stroke="#fff" stroke-width="22" stroke-linejoin="round"/>
+        <line x1="130" y1="144" x2="190" y2="192" stroke="#fff" stroke-width="22" stroke-linecap="round"/>
+      </g>
+      <!-- Right half — blue -->
+      <g clip-path="url(#right-half)">
+        <rect x="52" y="48" width="22" height="144" rx="3" fill="#1A73E8"/>
+        <path d="M 63 48 L 130 48 Q 180 48 180 96 Q 180 144 130 144 L 63 144"
+              fill="none" stroke="#1A73E8" stroke-width="22" stroke-linejoin="round"/>
+        <line x1="130" y1="144" x2="190" y2="192" stroke="#1A73E8" stroke-width="22" stroke-linecap="round"/>
+      </g>
+      <!-- Center dividing line -->
+      <line x1="120" y1="40" x2="120" y2="200" stroke="#0F172A" stroke-width="3"/>
+    </svg>
+  </div>
+  <div class="number">11</div>
+  <div class="label">The Split</div>
+  <div class="hidden">Hidden: two halves, two sides of identity</div>
+  <div class="desc">R split down the center — white and blue. The duality of how you're seen vs. who you are. Both halves make the whole.</div>
+</div>
+
+<!-- ============================================ -->
+<!-- 12: Rounded R — Soft, modern, confident -->
+<!-- ============================================ -->
+<div class="concept">
+  <div class="icon-wrap">
+    <svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+      <rect width="240" height="240" fill="#1A73E8"/>
+      <!-- White rounded R on blue background — inverted, like Beats or PayPal -->
+      <!-- Super rounded, friendly, modern R -->
+      <path d="M 72 192
+               L 72 52
+               Q 72 44 80 44
+               L 130 44
+               Q 180 44 180 86
+               Q 180 128 130 128
+               L 92 128"
+            fill="none" stroke="#fff" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Rounded leg -->
+      <path d="M 124 128 Q 140 150 168 192"
+            fill="none" stroke="#fff" stroke-width="24" stroke-linecap="round"/>
+    </svg>
+  </div>
+  <div class="number">12</div>
+  <div class="label">Rounded R</div>
+  <div class="hidden">Hidden: white on blue, inverted confidence</div>
+  <div class="desc">White R on blue. Fully rounded, soft, modern. Inverted color = confidence (like Beats' b). The R owns the entire space.</div>
+</div>
+
+</div>
+
+<!-- Small size preview -->
+<div class="preview-row">
+  <!-- Repeat each as 48px mini icons to test readability at small size -->
+  <div class="mini"><svg viewBox="0 0 240 240"><rect width="240" height="240" fill="#0F172A"/><rect x="52" y="48" width="22" height="144" rx="3" fill="#fff"/><path d="M 63 48 L 128 48 Q 178 48 178 96 Q 178 144 128 144 L 63 144" fill="none" stroke="#fff" stroke-width="22" stroke-linejoin="round"/><line x1="128" y1="144" x2="188" y2="192" stroke="#fff" stroke-width="22" stroke-linecap="round"/><circle cx="120" cy="96" r="22" fill="none" stroke="#1A73E8" stroke-width="3"/><circle cx="120" cy="96" r="10" fill="#1A73E8"/><circle cx="116" cy="92" r="3.5" fill="#fff" opacity="0.85"/></svg></div>
+
+  <div class="mini"><svg viewBox="0 0 240 240"><rect width="240" height="240" fill="#0F172A"/><line x1="68" y1="44" x2="68" y2="196" stroke="#1A73E8" stroke-width="4"/><path d="M 68 50 Q 165 50 165 96" fill="none" stroke="#1A73E8" stroke-width="4"/><path d="M 78 58 Q 155 58 155 96" fill="none" stroke="#1A73E8" stroke-width="3" opacity="0.8"/><path d="M 165 96 Q 165 142 68 142" fill="none" stroke="#1A73E8" stroke-width="4"/><path d="M 155 96 Q 155 134 78 134" fill="none" stroke="#1A73E8" stroke-width="3" opacity="0.8"/><line x1="120" y1="142" x2="178" y2="196" stroke="#1A73E8" stroke-width="4"/><line x1="112" y1="134" x2="170" y2="188" stroke="#1A73E8" stroke-width="3" opacity="0.8"/></svg></div>
+
+  <div class="mini"><svg viewBox="0 0 240 240"><rect width="240" height="240" fill="#0F172A"/><circle cx="120" cy="120" r="88" fill="#1A73E8"/><defs><mask id="neg-r-s"><rect width="240" height="240" fill="white"/><rect x="64" y="52" width="20" height="136" rx="2" fill="black"/><path d="M 74 52 L 130 52 Q 172 52 172 92 Q 172 132 130 132 L 74 132" fill="none" stroke="black" stroke-width="20" stroke-linejoin="round"/><line x1="126" y1="132" x2="176" y2="188" stroke="black" stroke-width="20" stroke-linecap="round"/></mask></defs><circle cx="120" cy="120" r="88" fill="#1A73E8" mask="url(#neg-r-s)"/></svg></div>
+
+  <div class="mini"><svg viewBox="0 0 240 240"><rect width="240" height="240" fill="#0F172A"/><rect x="52" y="48" width="20" height="144" rx="2" fill="#fff"/><path d="M 62 48 L 125 48 Q 172 48 172 94 Q 172 140 125 140 L 62 140" fill="none" stroke="#fff" stroke-width="20" stroke-linejoin="round"/><line x1="125" y1="140" x2="172" y2="182" stroke="#1A73E8" stroke-width="20" stroke-linecap="butt"/><polygon points="172,168 196,192 172,196" fill="#1A73E8"/></svg></div>
+
+  <div class="mini"><svg viewBox="0 0 240 240"><rect width="240" height="240" fill="#0F172A"/><line x1="90" y1="98" x2="90" y2="200" stroke="#fff" stroke-width="18" stroke-linecap="round"/><circle cx="126" cy="66" r="30" fill="none" stroke="#fff" stroke-width="18"/><line x1="90" y1="48" x2="90" y2="98" stroke="#fff" stroke-width="18" stroke-linecap="round"/><line x1="90" y1="56" x2="96" y2="56" stroke="#fff" stroke-width="18"/><line x1="90" y1="165" x2="156" y2="200" stroke="#1A73E8" stroke-width="18" stroke-linecap="round"/></svg></div>
+
+  <div class="mini"><svg viewBox="0 0 240 240"><rect width="240" height="240" fill="#0F172A"/><defs><mask id="nm-s"><rect width="240" height="240" fill="white"/><circle cx="128" cy="136" r="14" fill="black"/></mask></defs><g mask="url(#nm-s)"><rect x="44" y="40" width="28" height="160" rx="4" fill="#1A73E8"/><path d="M 58 40 L 136 40 Q 192 40 192 90 Q 192 140 136 140 L 58 140" fill="none" stroke="#1A73E8" stroke-width="28" stroke-linejoin="round"/><line x1="132" y1="140" x2="196" y2="200" stroke="#1A73E8" stroke-width="28" stroke-linecap="round"/></g></svg></div>
+
+  <div class="mini"><svg viewBox="0 0 240 240"><rect width="240" height="240" fill="#0F172A"/><rect x="52" y="48" width="20" height="144" rx="2" fill="#fff"/><path d="M 62 48 L 128 48 Q 176 48 176 96 Q 176 144 128 144 L 62 144" fill="none" stroke="#fff" stroke-width="20" stroke-linejoin="round"/><line x1="128" y1="144" x2="188" y2="192" stroke="#fff" stroke-width="20" stroke-linecap="round"/><circle cx="128" cy="144" r="16" fill="#1A73E8"/><circle cx="128" cy="144" r="8" fill="#fff"/></svg></div>
+
+  <div class="mini"><svg viewBox="0 0 240 240"><rect width="240" height="240" fill="#0F172A"/><path d="M 80 196 L 80 48 L 140 48 Q 180 48 180 88 Q 180 128 140 128 L 80 128 L 176 196" fill="none" stroke="#1A73E8" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/><circle cx="80" cy="196" r="8" fill="#fff"/><circle cx="176" cy="196" r="8" fill="#fff"/></svg></div>
+
+  <div class="mini"><svg viewBox="0 0 240 240"><rect width="240" height="240" fill="#0F172A"/><path d="M 170 170 A 65 65 0 1 1 185 120" fill="none" stroke="#1A73E8" stroke-width="16" stroke-linecap="round"/><line x1="170" y1="170" x2="195" y2="195" stroke="#1A73E8" stroke-width="16" stroke-linecap="round"/><circle cx="178" cy="145" r="4" fill="#fff" opacity="0.7"/></svg></div>
+
+  <div class="mini"><svg viewBox="0 0 240 240"><rect width="240" height="240" fill="#0F172A"/><circle cx="130" cy="82" r="38" fill="none" stroke="#1A73E8" stroke-width="10"/><rect x="82" y="44" width="10" height="152" rx="5" fill="#1A73E8"/><circle cx="108" cy="120" r="5" fill="#1A73E8"/><line x1="108" y1="120" x2="178" y2="196" stroke="#1A73E8" stroke-width="10" stroke-linecap="round"/></svg></div>
+
+  <div class="mini"><svg viewBox="0 0 240 240"><rect width="240" height="240" fill="#0F172A"/><defs><clipPath id="lh-s"><rect x="0" y="0" width="120" height="240"/></clipPath><clipPath id="rh-s"><rect x="120" y="0" width="120" height="240"/></clipPath></defs><g clip-path="url(#lh-s)"><rect x="52" y="48" width="22" height="144" rx="3" fill="#fff"/><path d="M 63 48 L 130 48 Q 180 48 180 96 Q 180 144 130 144 L 63 144" fill="none" stroke="#fff" stroke-width="22" stroke-linejoin="round"/><line x1="130" y1="144" x2="190" y2="192" stroke="#fff" stroke-width="22" stroke-linecap="round"/></g><g clip-path="url(#rh-s)"><rect x="52" y="48" width="22" height="144" rx="3" fill="#1A73E8"/><path d="M 63 48 L 130 48 Q 180 48 180 96 Q 180 144 130 144 L 63 144" fill="none" stroke="#1A73E8" stroke-width="22" stroke-linejoin="round"/><line x1="130" y1="144" x2="190" y2="192" stroke="#1A73E8" stroke-width="22" stroke-linecap="round"/></g></svg></div>
+
+  <div class="mini"><svg viewBox="0 0 240 240"><rect width="240" height="240" fill="#1A73E8"/><path d="M 72 192 L 72 52 Q 72 44 80 44 L 130 44 Q 180 44 180 86 Q 180 128 130 128 L 92 128" fill="none" stroke="#fff" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/><path d="M 124 128 Q 140 150 168 192" fill="none" stroke="#fff" stroke-width="24" stroke-linecap="round"/></svg></div>
+</div>
+<p class="preview-label">48px preview — how they look as actual app icons</p>
+
+</body>
+</html>

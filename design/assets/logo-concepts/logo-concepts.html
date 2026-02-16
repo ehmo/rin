@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rin Logo Concepts</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', system-ui, sans-serif;
+    background: #1a1a2e;
+    color: #F9FAFB;
+    padding: 40px;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    letter-spacing: -0.5px;
+  }
+  .subtitle {
+    text-align: center;
+    font-size: 15px;
+    color: #9CA3AF;
+    margin-bottom: 48px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .concept {
+    text-align: center;
+  }
+  .concept .icon-wrap {
+    width: 220px;
+    height: 220px;
+    margin: 0 auto 16px;
+    border-radius: 48px;
+    overflow: hidden;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+    position: relative;
+  }
+  .concept svg {
+    width: 220px;
+    height: 220px;
+    display: block;
+  }
+  .concept .label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #E5E7EB;
+    margin-bottom: 4px;
+  }
+  .concept .number {
+    font-size: 12px;
+    color: #6B7280;
+    font-weight: 500;
+  }
+  @media (max-width: 1100px) { .grid { grid-template-columns: repeat(3, 1fr); } }
+  @media (max-width: 800px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+</style>
+</head>
+<body>
+
+<h1>Rin — Logo Concepts</h1>
+<p class="subtitle">12 directions for the Rin app icon. Network intelligence, minimalist, geometric.</p>
+
+<div class="grid">
+
+<!-- 01 Network Graph -->
+<div class="concept">
+  <div class="icon-wrap">
+    <svg viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg">
+      <rect width="220" height="220" fill="#0F172A"/>
+      <!-- edges -->
+      <line x1="110" y1="100" x2="65" y2="60" stroke="#fff" stroke-opacity="0.25" stroke-width="1.5"/>
+      <line x1="110" y1="100" x2="155" y2="55" stroke="#fff" stroke-opacity="0.25" stroke-width="1.5"/>
+      <line x1="110" y1="100" x2="60" y2="145" stroke="#fff" stroke-opacity="0.25" stroke-width="1.5"/>
+      <line x1="110" y1="100" x2="160" y2="150" stroke="#fff" stroke-opacity="0.25" stroke-width="1.5"/>
+      <line x1="65" y1="60" x2="155" y2="55" stroke="#fff" stroke-opacity="0.15" stroke-width="1"/>
+      <line x1="60" y1="145" x2="160" y2="150" stroke="#fff" stroke-opacity="0.15" stroke-width="1"/>
+      <!-- outer nodes -->
+      <circle cx="65" cy="60" r="6" fill="#fff" opacity="0.8"/>
+      <circle cx="155" cy="55" r="5" fill="#fff" opacity="0.6"/>
+      <circle cx="60" cy="145" r="5" fill="#fff" opacity="0.7"/>
+      <circle cx="160" cy="150" r="6" fill="#fff" opacity="0.5"/>
+      <!-- central node -->
+      <circle cx="110" cy="100" r="12" fill="#1A73E8"/>
+      <circle cx="110" cy="100" r="6" fill="#1A73E8" filter="url(#glow1)"/>
+      <defs>
+        <filter id="glow1" x="-50%" y="-50%" width="200%" height="200%">
+          <feGaussianBlur stdDeviation="8" result="blur"/>
+          <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+        </filter>
+      </defs>
+    </svg>
+  </div>
+  <div class="label">Network Graph</div>
+  <div class="number">01</div>
+</div>
+
+<!-- 02 Letter R Graph -->
+<div class="concept">
+  <div class="icon-wrap">
+    <svg viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg">
+      <rect width="220" height="220" fill="#0F172A"/>
+      <!-- R shape from nodes and edges -->
+      <!-- vertical stroke -->
+      <line x1="75" y1="55" x2="75" y2="165" stroke="#fff" stroke-opacity="0.3" stroke-width="1.5"/>
+      <!-- top arc -->
+      <line x1="75" y1="55" x2="110" y2="55" stroke="#fff" stroke-opacity="0.3" stroke-width="1.5"/>
+      <line x1="110" y1="55" x2="135" y2="70" stroke="#fff" stroke-opacity="0.3" stroke-width="1.5"/>
+      <line x1="135" y1="70" x2="135" y2="95" stroke="#fff" stroke-opacity="0.3" stroke-width="1.5"/>
+      <line x1="135" y1="95" x2="110" y2="110" stroke="#fff" stroke-opacity="0.3" stroke-width="1.5"/>
+      <line x1="110" y1="110" x2="75" y2="110" stroke="#fff" stroke-opacity="0.3" stroke-width="1.5"/>
+      <!-- leg -->
+      <line x1="110" y1="110" x2="145" y2="165" stroke="#1A73E8" stroke-opacity="0.6" stroke-width="1.5"/>
+      <!-- nodes -->
+      <circle cx="75" cy="55" r="5" fill="#1A73E8"/>
+      <circle cx="110" cy="55" r="4" fill="#fff" opacity="0.8"/>
+      <circle cx="135" cy="70" r="4" fill="#fff" opacity="0.7"/>
+      <circle cx="135" cy="95" r="4" fill="#fff" opacity="0.7"/>
+      <circle cx="110" cy="110" r="6" fill="#1A73E8"/>
+      <circle cx="75" cy="110" r="4" fill="#fff" opacity="0.6"/>
+      <circle cx="75" cy="165" r="5" fill="#1A73E8"/>
+      <circle cx="145" cy="165" r="5" fill="#1A73E8"/>
+    </svg>
+  </div>
+  <div class="label">Letter R Graph</div>
+  <div class="number">02</div>
+</div>
+
+<!-- 03 Concentric Rings -->
+<div class="concept">
+  <div class="icon-wrap">
+    <svg viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg">
+      <rect width="220" height="220" fill="#0F172A"/>
+      <!-- rings -->
+      <circle cx="110" cy="110" r="75" fill="none" stroke="#60A5FA" stroke-opacity="0.3" stroke-width="1.2"/>
+      <circle cx="110" cy="110" r="50" fill="none" stroke="#1A73E8" stroke-opacity="0.5" stroke-width="1.5"/>
+      <circle cx="110" cy="110" r="25" fill="none" stroke="#1A73E8" stroke-opacity="0.2" stroke-width="1"/>
+      <!-- nodes on outer ring -->
+      <circle cx="110" cy="35" r="3.5" fill="#60A5FA" opacity="0.8"/>
+      <circle cx="175" cy="145" r="3" fill="#60A5FA" opacity="0.6"/>
+      <circle cx="45" cy="145" r="3" fill="#60A5FA" opacity="0.6"/>
+      <!-- nodes on middle ring -->
+      <circle cx="160" cy="110" r="3.5" fill="#1A73E8"/>
+      <circle cx="82" cy="67" r="3" fill="#1A73E8" opacity="0.8"/>
+      <!-- center dot -->
+      <circle cx="110" cy="110" r="6" fill="#1A73E8"/>
+      <circle cx="110" cy="110" r="3" fill="#fff"/>
+    </svg>
+  </div>
+  <div class="label">Concentric Rings</div>
+  <div class="number">03</div>
+</div>
+
+<!-- 04 Bridge Clusters -->
+<div class="concept">
+  <div class="icon-wrap">
+    <svg viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg">
+      <rect width="220" height="220" fill="#0F172A"/>
+      <!-- left cluster edges (blue) -->
+      <line x1="55" y1="75" x2="45" y2="120" stroke="#1A73E8" stroke-opacity="0.4" stroke-width="1.2"/>
+      <line x1="55" y1="75" x2="80" y2="105" stroke="#1A73E8" stroke-opacity="0.4" stroke-width="1.2"/>
+      <line x1="45" y1="120" x2="80" y2="105" stroke="#1A73E8" stroke-opacity="0.4" stroke-width="1.2"/>
+      <!-- right cluster edges (purple) -->
+      <line x1="140" y1="95" x2="165" y2="75" stroke="#7C3AED" stroke-opacity="0.4" stroke-width="1.2"/>
+      <line x1="140" y1="95" x2="170" y2="130" stroke="#7C3AED" stroke-opacity="0.4" stroke-width="1.2"/>
+      <line x1="165" y1="75" x2="170" y2="130" stroke="#7C3AED" stroke-opacity="0.4" stroke-width="1.2"/>
+      <!-- bridge -->
+      <line x1="80" y1="105" x2="110" y2="110" stroke="#fff" stroke-opacity="0.5" stroke-width="1.5"/>
+      <line x1="110" y1="110" x2="140" y2="95" stroke="#fff" stroke-opacity="0.5" stroke-width="1.5"/>
+      <!-- left cluster nodes -->
+      <circle cx="55" cy="75" r="5" fill="#1A73E8"/>
+      <circle cx="45" cy="120" r="4.5" fill="#1A73E8" opacity="0.8"/>
+      <circle cx="80" cy="105" r="5" fill="#1A73E8"/>
+      <!-- right cluster nodes -->
+      <circle cx="165" cy="75" r="5" fill="#7C3AED"/>
+      <circle cx="170" cy="130" r="4.5" fill="#7C3AED" opacity="0.8"/>
+      <circle cx="140" cy="95" r="5" fill="#7C3AED"/>
+      <!-- bridge node -->
+      <circle cx="110" cy="110" r="7" fill="#fff"/>
+    </svg>
+  </div>
+  <div class="label">Bridge Clusters</div>
+  <div class="number">04</div>
+</div>
+
+<!-- 05 Fingerprint Network -->
+<div class="concept">
+  <div class="icon-wrap">
+    <svg viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg">
+      <rect width="220" height="220" fill="#0F172A"/>
+      <defs>
+        <clipPath id="fp-clip"><rect x="45" y="45" width="130" height="130" rx="10"/></clipPath>
+      </defs>
+      <g clip-path="url(#fp-clip)">
+        <!-- fingerprint arcs made of dashed lines + nodes -->
+        <path d="M 80 170 Q 50 110 80 60" fill="none" stroke="#1A73E8" stroke-opacity="0.3" stroke-width="1" stroke-dasharray="4 6"/>
+        <path d="M 95 170 Q 70 110 95 55" fill="none" stroke="#1A73E8" stroke-opacity="0.4" stroke-width="1.2" stroke-dasharray="4 5"/>
+        <path d="M 110 165 Q 85 110 110 55" fill="none" stroke="#fff" stroke-opacity="0.3" stroke-width="1" stroke-dasharray="3 6"/>
+        <path d="M 125 170 Q 100 110 125 55" fill="none" stroke="#1A73E8" stroke-opacity="0.5" stroke-width="1.2" stroke-dasharray="4 5"/>
+        <path d="M 140 170 Q 120 110 140 60" fill="none" stroke="#fff" stroke-opacity="0.25" stroke-width="1" stroke-dasharray="4 6"/>
+        <!-- nodes along the curves -->
+        <circle cx="80" cy="65" r="2.5" fill="#1A73E8"/>
+        <circle cx="80" cy="110" r="3" fill="#1A73E8" opacity="0.8"/>
+        <circle cx="95" cy="80" r="2.5" fill="#fff" opacity="0.6"/>
+        <circle cx="95" cy="130" r="2" fill="#1A73E8" opacity="0.6"/>
+        <circle cx="110" cy="65" r="3" fill="#fff" opacity="0.7"/>
+        <circle cx="110" cy="110" r="4" fill="#1A73E8"/>
+        <circle cx="110" cy="155" r="2.5" fill="#fff" opacity="0.5"/>
+        <circle cx="125" cy="75" r="2.5" fill="#1A73E8" opacity="0.7"/>
+        <circle cx="125" cy="120" r="2" fill="#fff" opacity="0.5"/>
+        <circle cx="140" cy="90" r="2.5" fill="#fff" opacity="0.4"/>
+        <circle cx="140" cy="145" r="2" fill="#1A73E8" opacity="0.5"/>
+        <!-- connecting lines between nearby nodes -->
+        <line x1="80" y1="110" x2="95" y2="130" stroke="#1A73E8" stroke-opacity="0.2" stroke-width="0.8"/>
+        <line x1="110" y1="110" x2="125" y2="120" stroke="#fff" stroke-opacity="0.15" stroke-width="0.8"/>
+        <line x1="95" y1="80" x2="110" y2="65" stroke="#1A73E8" stroke-opacity="0.2" stroke-width="0.8"/>
+      </g>
+    </svg>
+  </div>
+  <div class="label">Fingerprint Network</div>
+  <div class="number">05</div>
+</div>
+
+<!-- 06 Constellation -->
+<div class="concept">
+  <div class="icon-wrap">
+    <svg viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg">
+      <rect width="220" height="220" fill="#0F172A"/>
+      <!-- constellation lines -->
+      <line x1="110" y1="60" x2="70" y2="90" stroke="#fff" stroke-opacity="0.15" stroke-width="1"/>
+      <line x1="110" y1="60" x2="150" y2="85" stroke="#fff" stroke-opacity="0.15" stroke-width="1"/>
+      <line x1="70" y1="90" x2="60" y2="135" stroke="#fff" stroke-opacity="0.12" stroke-width="0.8"/>
+      <line x1="150" y1="85" x2="160" y2="130" stroke="#fff" stroke-opacity="0.12" stroke-width="0.8"/>
+      <line x1="60" y1="135" x2="90" y2="160" stroke="#fff" stroke-opacity="0.12" stroke-width="0.8"/>
+      <line x1="160" y1="130" x2="130" y2="155" stroke="#fff" stroke-opacity="0.12" stroke-width="0.8"/>
+      <line x1="90" y1="160" x2="130" y2="155" stroke="#fff" stroke-opacity="0.12" stroke-width="0.8"/>
+      <line x1="70" y1="90" x2="150" y2="85" stroke="#fff" stroke-opacity="0.08" stroke-width="0.6"/>
+      <!-- stars -->
+      <circle cx="110" cy="60" r="7" fill="#1A73E8"/>
+      <circle cx="110" cy="60" r="4" fill="#1A73E8" filter="url(#glow6)"/>
+      <circle cx="70" cy="90" r="5" fill="#1A73E8" opacity="0.9"/>
+      <circle cx="150" cy="85" r="5.5" fill="#1A73E8" opacity="0.85"/>
+      <circle cx="60" cy="135" r="4" fill="#60A5FA" opacity="0.7"/>
+      <circle cx="160" cy="130" r="3.5" fill="#60A5FA" opacity="0.65"/>
+      <circle cx="90" cy="160" r="4.5" fill="#1A73E8" opacity="0.75"/>
+      <circle cx="130" cy="155" r="4" fill="#60A5FA" opacity="0.7"/>
+      <defs>
+        <filter id="glow6" x="-100%" y="-100%" width="300%" height="300%">
+          <feGaussianBlur stdDeviation="6" result="blur"/>
+          <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+        </filter>
+      </defs>
+    </svg>
+  </div>
+  <div class="label">Constellation</div>
+  <div class="number">06</div>
+</div>
+
+<!-- 07 Shield Graph -->
+<div class="concept">
+  <div class="icon-wrap">
+    <svg viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg">
+      <rect width="220" height="220" fill="#0F172A"/>
+      <!-- shield outline -->
+      <path d="M 110 45 L 160 70 L 160 120 Q 160 160 110 180 Q 60 160 60 120 L 60 70 Z"
+            fill="none" stroke="#fff" stroke-opacity="0.25" stroke-width="1.8" stroke-linejoin="round"/>
+      <!-- network inside shield -->
+      <line x1="110" y1="100" x2="90" y2="80" stroke="#1A73E8" stroke-opacity="0.5" stroke-width="1.2"/>
+      <line x1="110" y1="100" x2="130" y2="82" stroke="#1A73E8" stroke-opacity="0.5" stroke-width="1.2"/>
+      <line x1="110" y1="100" x2="95" y2="130" stroke="#1A73E8" stroke-opacity="0.5" stroke-width="1.2"/>
+      <line x1="110" y1="100" x2="128" y2="128" stroke="#1A73E8" stroke-opacity="0.5" stroke-width="1.2"/>
+      <line x1="90" y1="80" x2="130" y2="82" stroke="#1A73E8" stroke-opacity="0.25" stroke-width="0.8"/>
+      <!-- nodes -->
+      <circle cx="90" cy="80" r="4.5" fill="#1A73E8"/>
+      <circle cx="130" cy="82" r="4" fill="#1A73E8" opacity="0.85"/>
+      <circle cx="95" cy="130" r="4" fill="#1A73E8" opacity="0.8"/>
+      <circle cx="128" cy="128" r="3.5" fill="#1A73E8" opacity="0.75"/>
+      <circle cx="110" cy="100" r="6" fill="#1A73E8"/>
+      <circle cx="110" cy="100" r="3" fill="#fff" opacity="0.9"/>
+    </svg>
+  </div>
+  <div class="label">Shield Graph</div>
+  <div class="number">07</div>
+</div>
+
+<!-- 08 Hexagonal -->
+<div class="concept">
+  <div class="icon-wrap">
+    <svg viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg">
+      <rect width="220" height="220" fill="#0F172A"/>
+      <!-- hex edges -->
+      <polygon points="110,50 165,80 165,140 110,170 55,140 55,80"
+               fill="none" stroke="#fff" stroke-opacity="0.2" stroke-width="1.2"/>
+      <!-- spokes to center -->
+      <line x1="110" y1="110" x2="110" y2="50" stroke="#fff" stroke-opacity="0.15" stroke-width="1"/>
+      <line x1="110" y1="110" x2="165" y2="80" stroke="#fff" stroke-opacity="0.15" stroke-width="1"/>
+      <line x1="110" y1="110" x2="165" y2="140" stroke="#fff" stroke-opacity="0.15" stroke-width="1"/>
+      <line x1="110" y1="110" x2="110" y2="170" stroke="#fff" stroke-opacity="0.15" stroke-width="1"/>
+      <line x1="110" y1="110" x2="55" y2="140" stroke="#fff" stroke-opacity="0.15" stroke-width="1"/>
+      <line x1="110" y1="110" x2="55" y2="80" stroke="#fff" stroke-opacity="0.15" stroke-width="1"/>
+      <!-- vertex nodes -->
+      <circle cx="110" cy="50" r="5" fill="#1A73E8"/>
+      <circle cx="165" cy="80" r="5" fill="#1A73E8" opacity="0.9"/>
+      <circle cx="165" cy="140" r="5" fill="#1A73E8" opacity="0.85"/>
+      <circle cx="110" cy="170" r="5" fill="#1A73E8" opacity="0.8"/>
+      <circle cx="55" cy="140" r="5" fill="#1A73E8" opacity="0.85"/>
+      <circle cx="55" cy="80" r="5" fill="#1A73E8" opacity="0.9"/>
+      <!-- center -->
+      <circle cx="110" cy="110" r="8" fill="#1A73E8"/>
+      <circle cx="110" cy="110" r="4" fill="#fff"/>
+    </svg>
+  </div>
+  <div class="label">Hexagonal</div>
+  <div class="number">08</div>
+</div>
+
+<!-- 09 Gradient Ring -->
+<div class="concept">
+  <div class="icon-wrap">
+    <svg viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg">
+      <rect width="220" height="220" fill="#0F172A"/>
+      <defs>
+        <linearGradient id="ring-grad" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="#1A73E8"/>
+          <stop offset="100%" stop-color="#7C3AED"/>
+        </linearGradient>
+        <filter id="glow9" x="-50%" y="-50%" width="200%" height="200%">
+          <feGaussianBlur stdDeviation="4" result="blur"/>
+          <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+        </filter>
+      </defs>
+      <!-- ring -->
+      <circle cx="110" cy="110" r="60" fill="none" stroke="url(#ring-grad)" stroke-width="2.5"/>
+      <!-- position dot at top -->
+      <circle cx="110" cy="50" r="8" fill="#fff" filter="url(#glow9)"/>
+      <circle cx="110" cy="50" r="5" fill="#fff"/>
+    </svg>
+  </div>
+  <div class="label">Gradient Ring</div>
+  <div class="number">09</div>
+</div>
+
+<!-- 10 Layered Circles -->
+<div class="concept">
+  <div class="icon-wrap">
+    <svg viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg">
+      <rect width="220" height="220" fill="#0F172A"/>
+      <defs>
+        <filter id="blur10"><feGaussianBlur stdDeviation="1"/></filter>
+      </defs>
+      <!-- three overlapping circles -->
+      <circle cx="95" cy="90" r="42" fill="#1A73E8" opacity="0.35"/>
+      <circle cx="125" cy="90" r="42" fill="#7C3AED" opacity="0.35"/>
+      <circle cx="110" cy="120" r="42" fill="#22C55E" opacity="0.3"/>
+      <!-- overlap highlights -->
+      <circle cx="110" cy="95" r="15" fill="#fff" opacity="0.08"/>
+      <circle cx="100" cy="108" r="12" fill="#fff" opacity="0.06"/>
+      <circle cx="120" cy="108" r="12" fill="#fff" opacity="0.06"/>
+    </svg>
+  </div>
+  <div class="label">Layered Circles</div>
+  <div class="number">10</div>
+</div>
+
+<!-- 11 Pulse Wave -->
+<div class="concept">
+  <div class="icon-wrap">
+    <svg viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg">
+      <rect width="220" height="220" fill="#0F172A"/>
+      <!-- pulse line -->
+      <polyline points="30,120 55,120 70,70 90,120 110,55 130,120 150,75 170,120 190,120"
+                fill="none" stroke="#1A73E8" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+      <!-- glow behind line -->
+      <polyline points="30,120 55,120 70,70 90,120 110,55 130,120 150,75 170,120 190,120"
+                fill="none" stroke="#1A73E8" stroke-width="6" stroke-opacity="0.15" stroke-linejoin="round" stroke-linecap="round"/>
+      <!-- nodes at peaks and troughs -->
+      <circle cx="70" cy="70" r="4.5" fill="#1A73E8"/>
+      <circle cx="90" cy="120" r="3.5" fill="#fff" opacity="0.6"/>
+      <circle cx="110" cy="55" r="5.5" fill="#1A73E8"/>
+      <circle cx="110" cy="55" r="3" fill="#fff" opacity="0.8"/>
+      <circle cx="130" cy="120" r="3.5" fill="#fff" opacity="0.6"/>
+      <circle cx="150" cy="75" r="4.5" fill="#1A73E8"/>
+    </svg>
+  </div>
+  <div class="label">Pulse Wave</div>
+  <div class="number">11</div>
+</div>
+
+<!-- 12 Dot Matrix R -->
+<div class="concept">
+  <div class="icon-wrap">
+    <svg viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg">
+      <rect width="220" height="220" fill="#0F172A"/>
+      <!-- Dot matrix forming letter R -->
+      <!-- Grid spacing: 14px, starting at x=60, y=45 -->
+      <!-- Row 1 (top of R) -->
+      <circle cx="74" cy="50" r="3.5" fill="#1A73E8"/>
+      <circle cx="88" cy="50" r="3.5" fill="#1A73E8"/>
+      <circle cx="102" cy="50" r="3" fill="#1A73E8" opacity="0.9"/>
+      <circle cx="116" cy="50" r="2.5" fill="#1A73E8" opacity="0.7"/>
+      <circle cx="130" cy="50" r="2" fill="#fff" opacity="0.3"/>
+      <!-- Row 2 -->
+      <circle cx="74" cy="64" r="3.5" fill="#1A73E8"/>
+      <circle cx="88" cy="64" r="2" fill="#fff" opacity="0.2"/>
+      <circle cx="116" cy="64" r="2" fill="#fff" opacity="0.2"/>
+      <circle cx="130" cy="64" r="3" fill="#1A73E8" opacity="0.8"/>
+      <circle cx="144" cy="64" r="2.5" fill="#1A73E8" opacity="0.6"/>
+      <!-- Row 3 -->
+      <circle cx="74" cy="78" r="3.5" fill="#1A73E8"/>
+      <circle cx="130" cy="78" r="3" fill="#1A73E8" opacity="0.8"/>
+      <circle cx="144" cy="78" r="2.5" fill="#1A73E8" opacity="0.6"/>
+      <!-- Row 4 (middle bar) -->
+      <circle cx="74" cy="92" r="3.5" fill="#1A73E8"/>
+      <circle cx="88" cy="92" r="3" fill="#1A73E8" opacity="0.9"/>
+      <circle cx="102" cy="92" r="3" fill="#1A73E8" opacity="0.9"/>
+      <circle cx="116" cy="92" r="3" fill="#1A73E8" opacity="0.8"/>
+      <circle cx="130" cy="92" r="2.5" fill="#1A73E8" opacity="0.6"/>
+      <!-- Row 5 -->
+      <circle cx="74" cy="106" r="3.5" fill="#1A73E8"/>
+      <circle cx="88" cy="106" r="2" fill="#fff" opacity="0.15"/>
+      <circle cx="116" cy="106" r="3" fill="#1A73E8" opacity="0.7"/>
+      <circle cx="130" cy="106" r="2" fill="#fff" opacity="0.2"/>
+      <!-- Row 6 -->
+      <circle cx="74" cy="120" r="3.5" fill="#1A73E8"/>
+      <circle cx="130" cy="120" r="3" fill="#1A73E8" opacity="0.7"/>
+      <circle cx="144" cy="120" r="2" fill="#fff" opacity="0.2"/>
+      <!-- Row 7 -->
+      <circle cx="74" cy="134" r="3.5" fill="#1A73E8"/>
+      <circle cx="144" cy="134" r="3" fill="#1A73E8" opacity="0.7"/>
+      <!-- Row 8 (bottom) -->
+      <circle cx="74" cy="148" r="3.5" fill="#1A73E8"/>
+      <circle cx="88" cy="148" r="2" fill="#fff" opacity="0.15"/>
+      <circle cx="144" cy="148" r="2.5" fill="#1A73E8" opacity="0.6"/>
+      <circle cx="158" cy="148" r="2" fill="#1A73E8" opacity="0.4"/>
+      <!-- Row 9 -->
+      <circle cx="74" cy="162" r="3.5" fill="#1A73E8"/>
+      <circle cx="158" cy="162" r="3" fill="#1A73E8" opacity="0.6"/>
+      <!-- Scattered dim dots for data viz effect -->
+      <circle cx="60" cy="57" r="1.5" fill="#fff" opacity="0.08"/>
+      <circle cx="60" cy="99" r="1.5" fill="#fff" opacity="0.08"/>
+      <circle cx="60" cy="141" r="1.5" fill="#fff" opacity="0.08"/>
+      <circle cx="158" cy="57" r="1.5" fill="#fff" opacity="0.06"/>
+      <circle cx="158" cy="85" r="1.5" fill="#fff" opacity="0.06"/>
+      <circle cx="102" cy="120" r="1.5" fill="#fff" opacity="0.06"/>
+      <circle cx="102" cy="148" r="1.5" fill="#fff" opacity="0.06"/>
+    </svg>
+  </div>
+  <div class="label">Dot Matrix R</div>
+  <div class="number">12</div>
+</div>
+
+</div>
+
+</body>
+</html>
