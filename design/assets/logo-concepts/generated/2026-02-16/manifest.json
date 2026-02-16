@@ -1,0 +1,110 @@
+[
+  {
+    "slug": "01_signal_lens_r",
+    "file": "design/assets/logo-concepts/generated/2026-02-16/01_signal_lens_r.png",
+    "core_prompt": "Design a minimalist R monogram logo where the bowl of the R contains a precise circular lens/iris shape. The lens is integrated, not pasted. Use balanced stroke weight, calm geometry, and one intelligent cut that suggests focus and analysis. Optional accent color: #1A73E8 on white.",
+    "full_prompt": "Design a minimalist R monogram logo where the bowl of the R contains a precise circular lens/iris shape. The lens is integrated, not pasted. Use balanced stroke weight, calm geometry, and one intelligent cut that suggests focus and analysis. Optional accent color: #1A73E8 on white.\n\nsingle logo mark, flat vector, geometric precision, centered composition, white background, no text, no wordmark, no mockup, no shadows, no gradients unless specified, no photorealism, high contrast, export-ready brand symbol. avoid: 3D, bevel, shadow, mockup, gradient overload, tiny details, photorealism, watermark, extra symbols, letters beyond intended mark.",
+    "model": "gemini-3-pro-image-preview",
+    "attempts": 0,
+    "status": "skipped_existing"
+  },
+  {
+    "slug": "02_bridge_node_r",
+    "file": "design/assets/logo-concepts/generated/2026-02-16/02_bridge_node_r.png",
+    "core_prompt": "Create a geometric R logo mark built from two solid forms connected by one clean bridge element at the midsection, symbolizing trusted connection across people. Keep silhouette bold and memorable. Monochrome first.",
+    "full_prompt": "Create a geometric R logo mark built from two solid forms connected by one clean bridge element at the midsection, symbolizing trusted connection across people. Keep silhouette bold and memorable. Monochrome first.\n\nsingle logo mark, flat vector, geometric precision, centered composition, white background, no text, no wordmark, no mockup, no shadows, no gradients unless specified, no photorealism, high contrast, export-ready brand symbol. avoid: 3D, bevel, shadow, mockup, gradient overload, tiny details, photorealism, watermark, extra symbols, letters beyond intended mark.",
+    "model": "gemini-3-pro-image-preview",
+    "attempts": 0,
+    "status": "skipped_existing"
+  },
+  {
+    "slug": "03_orbit_core",
+    "file": "design/assets/logo-concepts/generated/2026-02-16/03_orbit_core.png",
+    "core_prompt": "Create an abstract logo mark with one central node and one near-complete orbital ring that opens into a subtle directional break. The form should feel intelligent, calm, and ownable, with minimal components and strong negative space.",
+    "full_prompt": "Create an abstract logo mark with one central node and one near-complete orbital ring that opens into a subtle directional break. The form should feel intelligent, calm, and ownable, with minimal components and strong negative space.\n\nsingle logo mark, flat vector, geometric precision, centered composition, white background, no text, no wordmark, no mockup, no shadows, no gradients unless specified, no photorealism, high contrast, export-ready brand symbol. avoid: 3D, bevel, shadow, mockup, gradient overload, tiny details, photorealism, watermark, extra symbols, letters beyond intended mark.",
+    "model": "gemini-3-pro-image-preview",
+    "attempts": 0,
+    "status": "skipped_existing"
+  },
+  {
+    "slug": "04_notched_circle_r",
+    "file": "design/assets/logo-concepts/generated/2026-02-16/04_notched_circle_r.png",
+    "core_prompt": "Design a minimal circular logo where a single diagonal notch transforms an almost-complete ring into an implied R structure. The notch must feel intentional and iconic, not decorative.",
+    "full_prompt": "Design a minimal circular logo where a single diagonal notch transforms an almost-complete ring into an implied R structure. The notch must feel intentional and iconic, not decorative.\n\nsingle logo mark, flat vector, geometric precision, centered composition, white background, no text, no wordmark, no mockup, no shadows, no gradients unless specified, no photorealism, high contrast, export-ready brand symbol. avoid: 3D, bevel, shadow, mockup, gradient overload, tiny details, photorealism, watermark, extra symbols, letters beyond intended mark.",
+    "model": "gemini-3-pro-image-preview",
+    "attempts": 0,
+    "status": "skipped_existing"
+  },
+  {
+    "slug": "05_pathline_r",
+    "file": "design/assets/logo-concepts/generated/2026-02-16/05_pathline_r.png",
+    "core_prompt": "Generate a monoline R symbol formed by one continuous path with one decisive directional turn. Keep stroke endings purposeful and compact. The logo should remain legible at app icon size.",
+    "full_prompt": "Generate a monoline R symbol formed by one continuous path with one decisive directional turn. Keep stroke endings purposeful and compact. The logo should remain legible at app icon size.\n\nsingle logo mark, flat vector, geometric precision, centered composition, white background, no text, no wordmark, no mockup, no shadows, no gradients unless specified, no photorealism, high contrast, export-ready brand symbol. avoid: 3D, bevel, shadow, mockup, gradient overload, tiny details, photorealism, watermark, extra symbols, letters beyond intended mark.",
+    "model": "gemini-3-pro-image-preview",
+    "attempts": 0,
+    "status": "skipped_existing"
+  },
+  {
+    "slug": "06_twin_arc_trustmark",
+    "file": "design/assets/logo-concepts/generated/2026-02-16/06_twin_arc_trustmark.png",
+    "core_prompt": "Create an abstract trustmark using two interlocking arcs that produce a stable central void and subtle R-read if viewed closely. Emphasize harmony, balance, and premium restraint.",
+    "full_prompt": "Create an abstract trustmark using two interlocking arcs that produce a stable central void and subtle R-read if viewed closely. Emphasize harmony, balance, and premium restraint.\n\nsingle logo mark, flat vector, geometric precision, centered composition, white background, no text, no wordmark, no mockup, no shadows, no gradients unless specified, no photorealism, high contrast, export-ready brand symbol. avoid: 3D, bevel, shadow, mockup, gradient overload, tiny details, photorealism, watermark, extra symbols, letters beyond intended mark.",
+    "model": "gemini-3-pro-image-preview",
+    "attempts": 0,
+    "status": "skipped_existing"
+  },
+  {
+    "slug": "07_constellation_cut",
+    "file": "design/assets/logo-concepts/generated/2026-02-16/07_constellation_cut.png",
+    "core_prompt": "Design a compact R silhouette containing a very sparse constellation of 3-4 nodes connected by short geometric links, using negative space to keep it clean. Avoid generic social-network icon style.",
+    "full_prompt": "Design a compact R silhouette containing a very sparse constellation of 3-4 nodes connected by short geometric links, using negative space to keep it clean. Avoid generic social-network icon style.\n\nsingle logo mark, flat vector, geometric precision, centered composition, white background, no text, no wordmark, no mockup, no shadows, no gradients unless specified, no photorealism, high contrast, export-ready brand symbol. avoid: 3D, bevel, shadow, mockup, gradient overload, tiny details, photorealism, watermark, extra symbols, letters beyond intended mark.",
+    "model": "gemini-3-pro-image-preview",
+    "attempts": 0,
+    "status": "skipped_existing"
+  },
+  {
+    "slug": "08_compass_notch",
+    "file": "design/assets/logo-concepts/generated/2026-02-16/08_compass_notch.png",
+    "core_prompt": "Design a minimalist circular logo with a subtle north-east notch/indicator integrated into the form, suggesting directional intelligence and guidance. Keep it non-literal, no arrows pasted on top.",
+    "full_prompt": "Design a minimalist circular logo with a subtle north-east notch/indicator integrated into the form, suggesting directional intelligence and guidance. Keep it non-literal, no arrows pasted on top.\n\nsingle logo mark, flat vector, geometric precision, centered composition, white background, no text, no wordmark, no mockup, no shadows, no gradients unless specified, no photorealism, high contrast, export-ready brand symbol. avoid: 3D, bevel, shadow, mockup, gradient overload, tiny details, photorealism, watermark, extra symbols, letters beyond intended mark.",
+    "model": "gemini-3-pro-image-preview",
+    "attempts": 0,
+    "status": "skipped_existing"
+  },
+  {
+    "slug": "09_prism_r",
+    "file": "design/assets/logo-concepts/generated/2026-02-16/09_prism_r.png",
+    "core_prompt": "Create a Bauhaus-inspired R mark reduced to three essential geometric facets with perfect spacing and structural clarity. No ornament. Timeless, rational, and highly legible.",
+    "full_prompt": "Create a Bauhaus-inspired R mark reduced to three essential geometric facets with perfect spacing and structural clarity. No ornament. Timeless, rational, and highly legible.\n\nsingle logo mark, flat vector, geometric precision, centered composition, white background, no text, no wordmark, no mockup, no shadows, no gradients unless specified, no photorealism, high contrast, export-ready brand symbol. avoid: 3D, bevel, shadow, mockup, gradient overload, tiny details, photorealism, watermark, extra symbols, letters beyond intended mark.",
+    "model": "gemini-3-pro-image-preview",
+    "attempts": 0,
+    "status": "skipped_existing"
+  },
+  {
+    "slug": "10_keyhole_node",
+    "file": "design/assets/logo-concepts/generated/2026-02-16/10_keyhole_node.png",
+    "core_prompt": "Generate a bold abstract R block mark with a rounded keyhole-like interior void that implies selective access and trust. Keep the shape friendly, not security-cliche. Strong silhouette required.",
+    "full_prompt": "Generate a bold abstract R block mark with a rounded keyhole-like interior void that implies selective access and trust. Keep the shape friendly, not security-cliche. Strong silhouette required.\n\nsingle logo mark, flat vector, geometric precision, centered composition, white background, no text, no wordmark, no mockup, no shadows, no gradients unless specified, no photorealism, high contrast, export-ready brand symbol. avoid: 3D, bevel, shadow, mockup, gradient overload, tiny details, photorealism, watermark, extra symbols, letters beyond intended mark.",
+    "model": "gemini-3-pro-image-preview",
+    "attempts": 0,
+    "status": "skipped_existing"
+  },
+  {
+    "slug": "11_echo_loop",
+    "file": "design/assets/logo-concepts/generated/2026-02-16/11_echo_loop.png",
+    "core_prompt": "Create a minimal dual-loop symbol where concentric echoes are interrupted by one asymmetric break that forms a distinct brand signature. Keep spacing optically perfect and scalable.",
+    "full_prompt": "Create a minimal dual-loop symbol where concentric echoes are interrupted by one asymmetric break that forms a distinct brand signature. Keep spacing optically perfect and scalable.\n\nsingle logo mark, flat vector, geometric precision, centered composition, white background, no text, no wordmark, no mockup, no shadows, no gradients unless specified, no photorealism, high contrast, export-ready brand symbol. avoid: 3D, bevel, shadow, mockup, gradient overload, tiny details, photorealism, watermark, extra symbols, letters beyond intended mark.",
+    "model": "gemini-3-pro-image-preview",
+    "attempts": 0,
+    "status": "skipped_existing"
+  },
+  {
+    "slug": "12_carved_r_monolith",
+    "file": "design/assets/logo-concepts/generated/2026-02-16/12_carved_r_monolith.png",
+    "core_prompt": "Design an app-icon-first logo: a solid rounded-square field with an R carved from negative space. The carving should be thick, clean, and recognizable at tiny sizes. Monochrome-first, then blue variant.",
+    "full_prompt": "Design an app-icon-first logo: a solid rounded-square field with an R carved from negative space. The carving should be thick, clean, and recognizable at tiny sizes. Monochrome-first, then blue variant.\n\nsingle logo mark, flat vector, geometric precision, centered composition, white background, no text, no wordmark, no mockup, no shadows, no gradients unless specified, no photorealism, high contrast, export-ready brand symbol. avoid: 3D, bevel, shadow, mockup, gradient overload, tiny details, photorealism, watermark, extra symbols, letters beyond intended mark.",
+    "model": "gemini-3-pro-image-preview",
+    "attempts": 0,
+    "status": "skipped_existing"
+  }
+]
