@@ -1,0 +1,54 @@
+{
+  "name": "rin-synthesis-v5",
+  "notes": "12 concepts synthesizing all V1-V4 learnings. One bold symbol, one ownable structural move. Optimized for social-category home screen presence. No letterforms, no chat bubbles, no generic network meshes.",
+  "concepts": [
+    {
+      "slug": "01_ripple_break",
+      "prompt": "Design an app icon symbol: two concentric thick rings sharing one aligned break/gap at the same angle. The gap suggests signal escaping outward. Thick strokes, bold geometry, no thin lines. One symbol only."
+    },
+    {
+      "slug": "02_split_disc",
+      "prompt": "Design an app icon symbol: one solid disc split into two halves by a precise narrow vertical gap. The two halves are offset slightly vertically from each other, suggesting connection through separation. Bold, geometric, one symbol."
+    },
+    {
+      "slug": "03_focal_ring",
+      "prompt": "Design an app icon symbol: one thick ring with a single centered solid dot inside. The dot does not touch the ring. Suggests focus, core insight, a lens finding signal. Extremely simple, bold strokes."
+    },
+    {
+      "slug": "04_wedge_view",
+      "prompt": "Design an app icon symbol: one solid circle with a single triangular wedge cleanly removed from it, like a pie slice taken out. The wedge suggests selective vision, looking into the network. Clean edges, bold form."
+    },
+    {
+      "slug": "05_linked_circles",
+      "prompt": "Design an app icon symbol: two identical thick-stroke circles overlapping at their edges to form one clean intersection zone. The overlap is the focal point. No fill in circles, just bold outlines. Suggests trusted connection between two entities."
+    },
+    {
+      "slug": "06_horizon_disc",
+      "prompt": "Design an app icon symbol: one solid circle bisected by a single clean horizontal gap that splits it into two equal halves with a thin space between them. Suggests analysis, seeing both sides, clarity through division. Minimal, bold."
+    },
+    {
+      "slug": "07_corner_key",
+      "prompt": "Design an app icon symbol: one bold rounded square with one corner replaced by a circular concave cut. The cut creates a distinctive keyhole-like negative space at one corner. Suggests selective access and trust. Thick, geometric."
+    },
+    {
+      "slug": "08_signal_arc",
+      "prompt": "Design an app icon symbol: one thick arc spanning roughly 270 degrees with a solid circular node at one terminal end. The open end suggests reach and direction. One symbol, bold stroke, geometric precision."
+    },
+    {
+      "slug": "09_offset_pair",
+      "prompt": "Design an app icon symbol: two solid circles of different sizes placed in deliberate diagonal offset from each other, almost touching but not overlapping. The size difference and precise spacing suggest hierarchy and relationship. Minimal, bold."
+    },
+    {
+      "slug": "10_split_monolith",
+      "prompt": "Design an app icon symbol: one tall rounded rectangle split horizontally by a single precise gap into two stacked blocks. The gap is the focal point, suggesting a bridge or channel between two solid forms. Bold, geometric."
+    },
+    {
+      "slug": "11_ring_terminal",
+      "prompt": "Design an app icon symbol: a three-quarter thick ring (270 degrees) where one end terminates in a squared-off flat cut and the other end terminates in a rounded bulb. The asymmetry of terminals creates brand distinction. Bold stroke."
+    },
+    {
+      "slug": "12_nested_squares",
+      "prompt": "Design an app icon symbol: two concentric rounded squares with one shared notch cut through both at the same position on one side. The notch aligns perfectly through both layers. Suggests layers of network with one point of access. Bold, thick, minimal."
+    }
+  ]
+}

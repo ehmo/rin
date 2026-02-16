@@ -1,0 +1,98 @@
+[
+  {
+    "slug": "01_ripple_break",
+    "file": "01_ripple_break.svg",
+    "core_prompt": "Two concentric thick rings sharing one aligned break/gap at the same angle. Signal escaping outward.",
+    "status": "ok",
+    "model": "gemini-2.5-flash",
+    "format": "svg"
+  },
+  {
+    "slug": "02_split_disc",
+    "file": "02_split_disc.svg",
+    "core_prompt": "Solid disc split by a vertical gap with offset halves. Connection through separation.",
+    "status": "ok",
+    "model": "gemini-2.5-pro (via CLI)",
+    "format": "svg"
+  },
+  {
+    "slug": "03_focal_ring",
+    "file": "03_focal_ring.svg",
+    "core_prompt": "Thick ring with a centered solid dot. Focus, core insight, a lens finding signal.",
+    "status": "ok",
+    "model": "gemini-2.5-flash",
+    "format": "svg"
+  },
+  {
+    "slug": "04_wedge_view",
+    "file": "04_wedge_view.svg",
+    "core_prompt": "Solid circle with a triangular wedge removed. Selective vision into the network.",
+    "status": "ok",
+    "model": "gemini-2.5-flash",
+    "format": "svg"
+  },
+  {
+    "slug": "05_linked_circles",
+    "file": "05_linked_circles.svg",
+    "core_prompt": "Two overlapping thick-stroke circles. Trusted connection between two entities.",
+    "status": "ok",
+    "model": "gemini-2.5-flash",
+    "format": "svg"
+  },
+  {
+    "slug": "06_horizon_disc",
+    "file": "06_horizon_disc.svg",
+    "core_prompt": "Solid circle bisected by a horizontal gap. Analysis, clarity through division.",
+    "status": "ok",
+    "model": "gemini-2.5-flash",
+    "format": "svg"
+  },
+  {
+    "slug": "07_corner_key",
+    "file": "07_corner_key.svg",
+    "core_prompt": "Rounded square with one corner replaced by a concave cut. Selective access and trust.",
+    "status": "ok",
+    "model": "gemini-2.5-pro (via CLI)",
+    "format": "svg"
+  },
+  {
+    "slug": "08_signal_arc",
+    "file": "08_signal_arc.svg",
+    "core_prompt": "Thick 270-degree arc with a node at one terminal. Reach and direction.",
+    "status": "ok",
+    "model": "gemini-2.5-flash",
+    "format": "svg"
+  },
+  {
+    "slug": "09_offset_pair",
+    "file": "09_offset_pair.svg",
+    "core_prompt": "Two different-sized solid circles in diagonal offset. Hierarchy and relationship.",
+    "status": "ok",
+    "model": "gemini-2.5-flash",
+    "format": "svg"
+  },
+  {
+    "slug": "10_split_monolith",
+    "file": "10_split_monolith.svg",
+    "core_prompt": "Tall rounded rectangle split by a horizontal gap. Bridge between two solid forms.",
+    "status": "ok",
+    "model": "gemini-2.5-flash",
+    "format": "svg"
+  },
+  {
+    "slug": "11_ring_terminal",
+    "file": "11_ring_terminal.svg",
+    "core_prompt": "Three-quarter ring with asymmetric terminals — flat cut vs rounded bulb.",
+    "status": "ok",
+    "model": "gemini-2.5-pro (via CLI)",
+    "format": "svg"
+  },
+  {
+    "slug": "12_nested_squares",
+    "file": "12_nested_squares.svg",
+    "core_prompt": "Two concentric rounded squares with one shared notch. Layers with one access point.",
+    "status": "ok",
+    "model": "gemini-2.5-pro (via CLI)",
+    "format": "svg"
+  }
+]

@@ -377,6 +377,39 @@ These products share aspects of the visual attitude Rin aims for:
 - Skeuomorphic or textured backgrounds (not nostalgic).
 - Neon gradients or glassmorphism for its own sake (not trendy for trend's sake).
 
+### 9.4 Logo Mark
+
+The rin logo is a dual-arc mark with a central focal node. Two interlocking semicircular arcs form a continuous flow, with a solid circle at the center representing the core insight point. The mark communicates network connectivity, relationship flow, and analytical focus.
+
+**Structure**: Two vertical arcs (one curves through the bottom half, one through the top half) connected at their endpoints, creating an S-like continuous path. A centered solid dot anchors the form.
+
+**Color assignments**:
+
+| Context | Bottom arc | Top arc | Center dot | Outer ring |
+|---------|-----------|---------|------------|------------|
+| Light mode | `#1A73E8` (primary blue) | `#7C3AED` (accent purple) | `#1A73E8` | `#E5E7EB` at 50% opacity |
+| Dark mode | `#60A5FA` (light blue) | `#A78BFA` (light purple) | `#60A5FA` | `rgba(255,255,255,0.1)` |
+| Monochrome | `#000000` | `#000000` | `#000000` | none |
+| Reversed (on blue) | `white` | `white` at 50% opacity | `white` | none |
+
+**App icon**: White mark on blue gradient background (`linear-gradient(135deg, #1A73E8, #1557B0)`). Stroke weight increases at smaller sizes for legibility.
+
+**SVG source**: `design/assets/logo-concepts/generated/2026-02-16-v6-brand-iterations/rin-mark-primary.svg`
+
+### 9.5 Wordmark
+
+The brand name is written in **lowercase**: **rin**. Not "Rin", not "RIN".
+
+**Wordmark font**: DM Sans, Medium weight (500), with `-0.5px` letter-spacing. Clean, geometric sans-serif that matches the precision of the logo mark and the instrument-like brand positioning.
+
+**Lockup**: Logo mark to the left, "rin" wordmark to the right, vertically centered. 12px gap between mark and text at standard size.
+
+**Usage rules**:
+- Always lowercase in the wordmark lockup.
+- In body copy and UI text, "rin" remains lowercase at the start of sentences. Capitalize only when required by platform conventions (e.g., iOS App Store title).
+- The period variant "rin." is reserved for splash screens and hero displays.
+- Never use "RIN" in all caps.
+
 ---
 
 ## 10) Applying This Guide
@@ -406,4 +439,6 @@ Read the copy out loud. If it sounds like a press release, rewrite it. If it sou
 
 3. **Unified or split voice (marketing vs. in-product)?** Unified voice, different sentence lengths. Voice principles (every word earns its place, state facts not feelings, confident not arrogant) apply everywhere. Marketing copy allows up to 25-word sentences. In-product copy stays at 12-word max. Same voice, different density. Matches Signal, Proton, and DuckDuckGo approach.
 
-4. **"Rin character" or tool-like?** Tool-like and impersonal. Rin is an instrument for measuring your network, not a companion. Character-driven apps (Alexa, Siri) create personality expectations that are hard to maintain and undermine trust. Aligns with Superhuman, Linear, and Things 3 reference points.
+4. **"Rin character" or tool-like?** Tool-like and impersonal. rin is an instrument for measuring your network, not a companion. Character-driven apps (Alexa, Siri) create personality expectations that are hard to maintain and undermine trust. Aligns with Superhuman, Linear, and Things 3 reference points.
+
+5. **Capitalization of brand name?** Lowercase "rin". The lowercase treatment reinforces the tool-like, instrument positioning — understated, not shouting. Aligns with brands like linear, arc, and notion that use lowercase. DM Sans Medium at 500 weight for the wordmark font: geometric, clean, precise.

@@ -1,0 +1,7 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="512" height="512" fill="white"/>
+  <!-- Top Block -->
+  <path fill="black" d="M131 96 A40 40 0 0 1 171 56 L341 56 A40 40 0 0 1 381 96 L381 226 L131 226 Z"/>
+  <!-- Bottom Block -->
+  <path fill="black" d="M131 286 L381 286 L381 416 A40 40 0 0 1 341 456 L171 456 A40 40 0 0 1 131 416 Z"/>
+</svg>

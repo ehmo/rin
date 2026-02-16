@@ -1,0 +1,24 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="512" height="512" fill="white"/>
+
+  <defs>
+    <!-- Clip path for the left half, defining the vertical cut for the gap -->
+    <clipPath id="clipLeftDisc">
+      <rect x="0" y="0" width="251" height="512"/>
+    </clipPath>
+    <!-- Clip path for the right half, defining the vertical cut for the gap -->
+    <clipPath id="clipRightDisc">
+      <rect x="261" y="0" width="251" height="512"/>
+    </clipPath>
+  </defs>
+
+  <!-- Left half of the disc, shifted up -->
+  <g transform="translate(0, -20)">
+    <circle cx="256" cy="256" r="200" fill="black" clip-path="url(#clipLeftDisc)"/>
+  </g>
+
+  <!-- Right half of the disc, shifted down -->
+  <g transform="translate(0, 20)">
+    <circle cx="256" cy="256" r="200" fill="black" clip-path="url(#clipRightDisc)"/>
+  </g>
+</svg>
