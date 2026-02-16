@@ -15,6 +15,7 @@ Define production topology, scaling transitions, and portability strategy across
 - `docs/operations/SYSTEM_RUNBOOK_V1.md`
 - `docs/architecture/CLOUD_PROVIDER_STRATEGY_V1.md`
 - `docs/operations/INCIDENT_RESPONSE_V1.md`
+- `docs/architecture/ONPREM_HYBRID_ARCHITECTURE_V1.md`
 
 ## Beads Mapping
 - `rin-3i0.9.*`

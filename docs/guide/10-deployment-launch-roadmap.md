@@ -16,6 +16,7 @@ Move from planning to staged launch, then manage future capability streams.
 - `docs/plan/LAUNCH_READINESS_CHECKLIST_V1.md`
 - `docs/analytics/KPI_HIERARCHY_V1.md`
 - `docs/plan/POST_LAUNCH_STABILIZATION_V1.md`
+- `docs/plan/QUARTERLY_REVIEW_CADENCE_V1.md`
 
 ## Beads Mapping
 - `rin-3i0.16.*`

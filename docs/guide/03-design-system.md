@@ -17,6 +17,7 @@ Create a coherent iOS design language for trust, identity, circles, and ranking 
 - `docs/product/IOS_PROFILE_CIRCLE_SCREEN_SPEC_V1.md`
 - `docs/product/IOS_SEARCH_DISCOVERY_SCREEN_SPEC_V1.md`
 - `docs/product/IOS_SCORE_EXPLANATION_SCREEN_SPEC_V1.md`
+- `docs/design/BRAND_NARRATIVE_V1.md`
 
 ## Beads Mapping
 - `rin-3i0.3.*`

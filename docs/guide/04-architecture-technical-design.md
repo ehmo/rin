@@ -26,10 +26,15 @@ Translate product behavior and contracts into service boundaries and implementat
 - `docs/architecture/OWNERSHIP_STATE_MACHINE_SPEC_V1.md`
 - `docs/architecture/EVENT_CONTRACT_CATALOG_V1.md`
 - `docs/architecture/MONOREPO_CONVENTIONS_V1.md`
+- `docs/architecture/DEVELOPER_PLATFORM_VISION_V1.md`
+- `docs/architecture/API_PRODUCTIZATION_TIERS_V1.md`
+- `docs/architecture/KYC_TRUST_ASSERTIONS_V1.md`
+- `docs/architecture/ONPREM_HYBRID_ARCHITECTURE_V1.md`
 
 ## Beads Mapping
 - `rin-3i0.4.*`
 - `rin-3i0.1.*`
+- `rin-3i0.18.*`
 
 Prev: [Design System and Interaction Language](03-design-system.md)
 Next: [Data, Search, and Ranking](05-data-search-ranking.md)

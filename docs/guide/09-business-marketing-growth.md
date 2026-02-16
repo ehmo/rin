@@ -15,6 +15,10 @@ Define monetization and distribution that reinforce trust and relationship utili
 - `docs/plan/BACKLOG_INDEX.md`
 - `docs/plan/ICP_MESSAGING_PILLARS_V1.md`
 - `docs/plan/IAP_SUBSCRIPTION_COMPLIANCE_V1.md`
+- `docs/plan/ACQUISITION_CHANNEL_STRATEGY_V1.md`
+- `docs/plan/REFERRAL_NETWORK_EFFECTS_V1.md`
+- `docs/plan/MONETIZATION_EXPERIMENTS_V1.md`
+- `docs/plan/UNIT_ECONOMICS_V1.md`
 
 ## Beads Mapping
 - `rin-3i0.13.*`
