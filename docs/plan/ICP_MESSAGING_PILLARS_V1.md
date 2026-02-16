@@ -140,9 +140,12 @@ Companion docs:
 
 ---
 
-## 7) Open Decisions
+## 7) Resolved Decisions
 
-1. Whether to launch on Product Hunt on Day 1 or wait until post-stabilization (Day 30+).
-2. Whether to create a landing page pre-launch for email collection.
-3. Whether the founder's personal brand should be central to marketing or Rin should have its own identity.
-4. Whether to target specific industries (tech, finance, real estate) in initial LinkedIn outreach.
+1. **Product Hunt timing?** Month 4-5 (Phase 2: Expanding Access). Post-stabilization, with early user testimonials and 1,000+ email list built. See `COMPETITIVE_POSITIONING_V1.md` §8.3 for full PH playbook.
+
+2. **Pre-launch landing page?** Yes. Single-page site with tagline, email capture, and privacy promise. Builds the email list needed for PH launch and provides SEO web property.
+
+3. **Founder brand vs. product brand?** Founder brand for Phase 0-2 (build-in-public, credibility, trust). Transition to product brand at Phase 3 (open access). Founder builds authenticity; product brand scales.
+
+4. **Target specific industries?** Yes -- tech, VC, and recruiting first on LinkedIn. Highest-density super connectors, most active on LinkedIn/X, highest willingness to pay. Expand to finance, real estate, and BD after initial validation.

@@ -558,15 +558,21 @@ When someone asks "what is Rin and how is it different?" -- these three sentence
 
 ---
 
-## 11) Open Decisions
+## 11) Resolved Decisions
 
-1. Whether to name Truecaller/Clay/LinkedIn explicitly in marketing materials (current brand guide says never name competitors in product copy -- but competitive landing pages and comparison blog posts are different from in-product copy).
-2. Whether to pursue a pre-launch landing page for email collection or go straight to TestFlight beta.
-3. Whether the founder's personal brand should be central to marketing or Rin should have its own voice (case studies suggest founder brand for build-in-public phase, product brand for scale phase).
-4. Whether to target specific industries in initial outreach (tech/VC/recruiting vs. broad "super connectors").
-5. Whether to launch on Product Hunt on Day 1 (maximum momentum) or Month 2-3 (post-stabilization, higher quality impression).
-6. Whether to invest in a "privacy comparison" calculator/tool as a free lead-gen asset (e.g., "How exposed are your contacts? Check which apps have uploaded your number.").
-7. Whether to pursue Apple's App Store editorial team for featuring (privacy + category creation angle aligns with Apple's current editorial priorities).
+1. **Name competitors in marketing?** Yes for web/blog comparison pages ("Rin vs Truecaller," "Rin vs Clay") -- standard SEO practice capturing high-intent search. No in-product copy per brand guide. Two zones, one rule each.
+
+2. **Pre-launch landing page?** Yes. Single-page site with tagline, "get early access" email form, and privacy promise. Builds the 1,000+ email list needed for Product Hunt. Costs almost nothing. Doubles as SEO web property.
+
+3. **Founder brand vs. product brand?** Founder brand for Phase 0-2 (build-in-public credibility, authenticity, trust). Transition to product brand at Phase 3 (open access). Every successful privacy app (Signal, DuckDuckGo, Arc) followed this founder-then-product arc.
+
+4. **Target specific industries?** Yes -- tech, VC, and recruiting first. Highest-density super connectors, most likely early adopters, most active on LinkedIn/X, highest willingness to pay. Expand to finance, real estate, and BD after validating.
+
+5. **Product Hunt timing?** Month 4-5 (Phase 2: Expanding Access). Product stabilized by then, early users have generated testimonials, founder has built PH community presence, email list is large enough. Saturday/Sunday launch for less competition (366 upvotes for #1 vs. 633 on Monday).
+
+6. **Privacy comparison tool?** Yes, but post-launch (Month 6+). "How exposed are your contacts?" aligns with positioning and mirrors DuckDuckGo's tracker-blocking growth driver. Requires engineering effort -- prioritize core product first, build as Tier 3 growth asset.
+
+7. **Pursue Apple editorial featuring?** Yes, actively from beta. Apply through App Store Connect editorial consideration form. Privacy-first + category creation ("network intelligence") + ATT alignment makes a strong editorial candidate. Prepare press kit with privacy angle front and center.
 
 ---
 

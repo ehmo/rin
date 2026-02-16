@@ -398,9 +398,12 @@ Read the copy out loud. If it sounds like a press release, rewrite it. If it sou
 
 ---
 
-## 11) Open Decisions
+## 11) Resolved Decisions
 
-1. Whether Rin should use first person ("I found 12 duplicates") or passive/impersonal ("12 duplicates found") — current samples use impersonal.
-2. Whether humor has any place in Rin's voice (current stance: no, unless testing reveals users respond to it in specific contexts).
-3. Whether the brand voice should evolve differently for marketing site vs. in-product copy, or stay unified.
-4. Whether to develop a distinct "Rin character" (the app as an entity that speaks) or keep it tool-like and impersonal.
+1. **First person vs. impersonal?** Impersonal. Rin is an instrument, not an assistant. "12 duplicates found" is factual. "I found 12 duplicates" implies agency and personality that conflicts with "substance over performance." Impersonal avoids the uncanny valley of a non-AI app speaking in first person. Aligns with Signal, Linear, and Superhuman patterns.
+
+2. **Humor in Rin's voice?** No humor in v1. Humor requires trust Rin hasn't earned yet and risks undermining the "sharp, factual, professional" positioning. Revisit only if qualitative user research specifically reveals users find Rin too sterile AND humor would solve that problem. Don't add humor preemptively.
+
+3. **Unified or split voice (marketing vs. in-product)?** Unified voice, different sentence lengths. Voice principles (every word earns its place, state facts not feelings, confident not arrogant) apply everywhere. Marketing copy allows up to 25-word sentences. In-product copy stays at 12-word max. Same voice, different density. Matches Signal, Proton, and DuckDuckGo approach.
+
+4. **"Rin character" or tool-like?** Tool-like and impersonal. Rin is an instrument for measuring your network, not a companion. Character-driven apps (Alexa, Siri) create personality expectations that are hard to maintain and undermine trust. Aligns with Superhuman, Linear, and Things 3 reference points.
