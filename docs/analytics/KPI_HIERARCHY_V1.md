@@ -47,12 +47,16 @@ Guardrails prevent growth at the expense of quality. If any guardrail breaches i
 
 | Metric | Formula | Threshold | Action if breached |
 |--------|---------|-----------|-------------------|
-| **D30 retention** | % users returning within 30 days of signup | >20% | Investigate churn drivers |
+| **D30 retention** | % users returning within 30 days of signup | >15% | Investigate churn drivers |
 | **Crash-free rate** | % sessions without crashes | >99.5% | Stop releases, fix stability |
 | **Contact import success** | % imports that complete without error | >95% | Pause onboarding changes |
 | **Dedup false positive rate** | % auto-merges that are wrong (user-reported) | <5% | Tighten confidence threshold |
 | **Dispute resolution time** | P95 time from submission to resolution | <48h for P0/P1 | Scale dispute handling |
-| **NPS** | Net Promoter Score from in-app survey | >20 | Deep-dive detractor feedback |
+| **NPS** | Net Promoter Score from in-app survey | >25 | Deep-dive detractor feedback |
+
+*D30 retention: Contacts apps are episodic; >15% D30 is the baseline, >20% is the stretch target.*
+
+*NPS floor >25 (guardrail), Stage 2 target >30, Stage 3 target >40, post-launch steady-state >30 (broader audience dilutes early-adopter NPS).*
 
 ---
 
@@ -100,7 +104,10 @@ Input metrics are the levers that drive MAU-V up. Organized by growth stage.
 
 | Metric | Definition | Target |
 |--------|-----------|--------|
-| Viral coefficient (k) | New users per existing user per month | >1.0 |
+| Viral coefficient (k) | New users per existing user per month | >0.5 |
+
+*K >1.0 is aspirational for mature product; K >0.5 is the launch gate per Referral Network Effects analysis.*
+
 | Organic install rate | % of installs with no invite attribution | Track only |
 | Graph density | Average mutual connections per user | >3 |
 
@@ -225,7 +232,7 @@ Primary metrics to watch:
 - Onboarding completion rate (target >80%).
 - First value delivery time (<5 min).
 - Dedup magic moment rate (>90% of importers).
-- Crash-free rate (>99%).
+- Crash-free rate (>99.5%).
 
 Ignore during Stage 1:
 - Retention (sample too small).
@@ -236,7 +243,7 @@ Ignore during Stage 1:
 
 Primary metrics to watch:
 - D7 retention (target >25%).
-- D30 retention (target >20%).
+- D30 retention (target >15%).
 - MAU-V (target >60%).
 - NPS (target >30).
 - Score engagement frequency.
@@ -248,7 +255,7 @@ Add during Stage 2:
 ### 8.3 Stage 3: Growth
 
 Primary metrics to watch:
-- Viral coefficient (target >1.0).
+- Viral coefficient (target >0.5).
 - Invite conversion (target >30%).
 - D30 retention (target >15%).
 - Premium paywall exposure (target >20%).

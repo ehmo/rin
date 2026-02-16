@@ -90,7 +90,7 @@ Set once, attached to every event automatically:
 | `$app_version` | string | `1.0.0` |
 | `$os_version` | string | `18.2` |
 | `device_model` | string | `iPhone 15 Pro` |
-| `user_class` | string | `personal` / `business` |
+| `user_class` | string | `personal` / `business`. Maps to architecture `profile_class` enum: `personal` = `single`, `business` = `business`. Shadow and employee classes are tracked via separate `profile_class` property on profile-specific events. See `docs/architecture/PROFILE_CLASS_CONTRACT_V1.md`. |
 | `profile_count` | int | `2` |
 | `beta_stage` | string | `stage_1` / `stage_2` / `stage_3` / `public` |
 | `account_age_days` | int | `14` |

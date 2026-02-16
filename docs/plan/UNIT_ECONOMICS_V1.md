@@ -16,9 +16,11 @@ Companion docs:
 |-------|-------|-------|
 | Monthly price | $4.99 | StoreKit localized |
 | Annual price | $49.99/yr ($4.17/mo effective) | ~16% discount |
-| Free-to-premium conversion | 4% | 3-5% typical for freemium |
+| Free-to-premium conversion | 4% | 3-5% typical for freemium (see note below) |
 | Plan mix (monthly:annual) | 40:60 | Annual highlighted as default |
 | Apple cut | 15% | Small Business Program (<$1M revenue) |
+
+**Note:** The 4% conversion rate is an aspirational target. The Monetization Experiments funnel model (20% paywall exposure x 5% trial start x 30% trial conversion) implies ~0.3% of MAU initially. Early-stage break-even likely requires higher organic conversion from power users. Monitor actual conversion from Beta Stage 2 onward and revise this model accordingly.
 
 ### Blended ARPU Calculation
 
@@ -67,7 +69,7 @@ At Stage A scale (single VM handles ~1,000 users), marginal cost per additional 
 |-------|--------------|-------------|-------|
 | 100 users | $75 | $0.75 | Fixed cost dominated |
 | 1,000 users | $75 | $0.075 | VM still has headroom |
-| 10,000 users | ~$130 | $0.013 | Stage B: 3 VMs + scaled DB |
+| 10,000 users | ~$100 | $0.010 | Stage B: ~EUR80/mo compute (Cloud Provider Strategy) plus managed DB scale-up and storage growth |
 | 100,000 users | ~$500 | $0.005 | Stage C: service split |
 
 ---
@@ -114,8 +116,8 @@ At 1,000 users (40 premium):
 
 At 10,000 users (400 premium):
   Revenue:  400 x $3.83 = $1,532/mo
-  Infra:    $130/mo
-  Margin:   ($1,532 - $130) / $1,532 = 92%
+  Infra:    $100/mo
+  Margin:   ($1,532 - $100) / $1,532 = 93%
 ```
 
 ---
@@ -170,9 +172,9 @@ For a modest $5,000/mo founder salary:
 | **Premium subs** (4%) | 4 | 40 | 400 | 4,000 |
 | **Gross revenue/mo** | $18 | $180 | $1,800 | $18,000 |
 | **Net revenue/mo** (after Apple) | $15 | $153 | $1,532 | $15,320 |
-| **Infra cost/mo** | $75 | $75 | $130 | $500 |
-| **Net margin/mo** | -$60 | +$78 | +$1,402 | +$14,820 |
-| **Gross margin %** | -300% | 51% | 92% | 97% |
+| **Infra cost/mo** | $75 | $75 | $100 | $500 |
+| **Net margin/mo** | -$60 | +$78 | +$1,432 | +$14,820 |
+| **Gross margin %** | -300% | 51% | 93% | 97% |
 | **Infra stage** | A (1 VM) | A (1 VM) | B (3 VMs) | C (10+ VMs) |
 | **ARR** | $180 | $1,836 | $18,384 | $183,840 |
 | **Viable?** | Hobby | Ramen break-even | Solo salary | Small team |

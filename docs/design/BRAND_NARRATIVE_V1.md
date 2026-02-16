@@ -147,7 +147,7 @@ Errors happen. The user doesn't need sympathy. They need to know what went wrong
 
 **Tone**: Motivating, practical. Never guilt-tripping.
 
-An empty screen is an opportunity to tell the user what value they'll unlock. Don't make them feel bad for not having done something yet. Show them the one action that fills the space.
+An empty screen is an opportunity to tell the user what value they'll gain. Don't make them feel bad for not having done something yet. Show them the one action that fills the space.
 
 - Lead with what they'll see once the state is populated.
 - Single clear CTA.

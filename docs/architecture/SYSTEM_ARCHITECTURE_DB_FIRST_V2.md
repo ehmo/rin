@@ -173,6 +173,8 @@ Publish:
 
 ### 8.1 Phone Hijack/Reassignment Risk
 
+**Updated:** The authoritative ownership state machine is defined in `docs/architecture/OWNERSHIP_STATE_MACHINE_SPEC_V1.md`. States: unclaimed, claim_pending, verified_active, challenged, limited, disputed, transferred, recovered, revoked.
+
 Required state machine:
 
 - `verified_active`

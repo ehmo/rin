@@ -5,7 +5,7 @@ Solo founder self-review. No board, no advisors. Lightweight but structured enou
 Companion docs:
 - `docs/analytics/KPI_HIERARCHY_V1.md` (metric definitions and targets)
 - `docs/plan/BACKLOG_INDEX.md` (Beads epic map)
-- `docs/plan/freeze/ADR_FORMAT_V1.md` (decision register)
+- `docs/plan/freeze/ARCH_DECISION_CLOSURE_V1.md` (decision register)
 
 ---
 
@@ -18,9 +18,9 @@ Complete this checklist every quarter. Output goes to `docs/reviews/YYYY-QN.md`.
 | Metric | Value | Trend | Target | Status |
 |--------|-------|-------|--------|--------|
 | MAU-V | | | See KPI doc | |
-| D30 retention | | | >20% | |
+| D30 retention | | | >15% | |
 | Premium conversion | | | >30% of trials | |
-| NPS | | | >20 | |
+| NPS | | | >25 | |
 | MRR | | | -- | |
 
 ### What Shipped

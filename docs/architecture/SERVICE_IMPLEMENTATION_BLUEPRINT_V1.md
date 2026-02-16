@@ -17,6 +17,8 @@ Primary references:
 ## 2. Delivery Model (Founder-Operable First)
 Use a staged model to minimize operational complexity early:
 
+**Staging terminology:** This document uses **Infrastructure Stage A/B/C** for deployment progression. User cohort progression uses **Beta Stage 1/2/3** — see Beta Cohort Strategy.
+
 1. Stage A: modular monolith deployment (single backend binary) with strict internal domain boundaries.
 2. Stage B: split high-churn workers/services (search projector, score orchestrator, dispute processor).
 3. Stage C: split API and domain services where scale guardrails force separation.
@@ -27,6 +29,9 @@ Contract rule:
 ## 3. Logical Service Map
 
 ### 3.1 API Gateway/BFF
+
+**Compatibility note:** ConnectRPC handlers produce `net/http.Handler` implementations. Fiber uses a custom context model. Use the `fibernewrelic`-style adapter pattern or consider switching to Chi/stdlib `net/http` mux for native ConnectRPC compatibility. Decision to be finalized at implementation.
+
 Responsibilities:
 - Fiber HTTP entrypoint.
 - AuthN/AuthZ enforcement and request validation.

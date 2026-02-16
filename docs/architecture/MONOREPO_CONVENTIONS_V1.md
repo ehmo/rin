@@ -100,6 +100,8 @@ Rules:
 
 ## 7.2 iOS (Swift)
 
+**Note:** iOS feature packages may be organized under `packages/swift/` or `apps/ios/Features/` — the exact structure will be finalized at implementation. Proto/contract files live in `packages/contracts/` (canonical path).
+
 - `apps/ios/App/` for app shell and navigation.
 - `apps/ios/Features/` for product features.
 - `packages/swift/` for shared Swift modules.

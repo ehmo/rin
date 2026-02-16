@@ -9,6 +9,8 @@ Companion docs:
 - `docs/plan/APPSTORE_COMPLIANCE_CHECKLIST_V1.md` (TestFlight requirements)
 - `docs/product/IOS_ONBOARDING_SCREEN_SPEC_V1.md` (onboarding funnel)
 
+**Staging terminology:** This document uses **Beta Stage 1/2/3** for user cohort progression. Infrastructure deployment uses a separate scheme (**Infrastructure Stage A/B/C**) — see Service Implementation Blueprint.
+
 ---
 
 ## 2) Staged Rollout Model
@@ -180,7 +182,7 @@ Public launch
 
 **Go to public launch when:**
 - [ ] D30 retention >15%.
-- [ ] Viral coefficient >1.0 (organic growth possible).
+- [ ] Viral coefficient >0.5 (organic growth emerging; K >1.0 is aspirational, not required for launch).
 - [ ] Premium paywall exposure >20% of users.
 - [ ] Infrastructure handles 1,000 concurrent users without degradation.
 - [ ] NPS >40.
@@ -190,7 +192,7 @@ Public launch
 
 **No-Go signals:**
 - D30 retention <10%.
-- Viral coefficient <0.5 (no organic spread).
+- Viral coefficient <0.3 (no organic spread).
 - Infrastructure instability under load.
 - App Store review rejection on any compliance item.
 

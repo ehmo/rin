@@ -37,23 +37,52 @@ Goal:
 
 ## Phase C: Security/Ownership and Event Contracts
 
-8. `docs/operations/DISPUTE_PLAYBOOK_V1.md`
-9. `docs/architecture/OWNERSHIP_STATE_MACHINE_SPEC_V1.md`
-10. `docs/architecture/EVENT_CONTRACT_CATALOG_V1.md`
+10. `docs/operations/DISPUTE_PLAYBOOK_V1.md`
+11. `docs/architecture/OWNERSHIP_STATE_MACHINE_SPEC_V1.md`
+12. `docs/architecture/EVENT_CONTRACT_CATALOG_V1.md`
 
 Goal:
 - lock dispute handling, state transitions, and event semantics.
 
 ## Phase D: Class and Scale Governance
 
-11. `docs/architecture/PROFILE_CLASS_CONTRACT_V1.md`
-12. `docs/architecture/SCALE_GUARDRAIL_CONTRACT_V1.md`
-13. `docs/architecture/DATA_MODEL_BOUNDARIES_V1.md`
-14. `docs/operations/SYSTEM_RUNBOOK_V1.md`
-15. `docs/architecture/MONOREPO_CONVENTIONS_V1.md`
+13. `docs/architecture/PROFILE_CLASS_CONTRACT_V1.md`
+14. `docs/architecture/SCALE_GUARDRAIL_CONTRACT_V1.md`
+15. `docs/architecture/DATA_MODEL_BOUNDARIES_V1.md`
+16. `docs/operations/SYSTEM_RUNBOOK_V1.md`
+17. `docs/architecture/MONOREPO_CONVENTIONS_V1.md`
 
 Goal:
 - lock class behavior, scale triggers, ownership boundaries, and day-2 operations.
+
+---
+
+## Extended Architecture Documents
+
+### iOS Architecture
+- `docs/architecture/IOS_APP_ARCHITECTURE_V1.md` — iOS app module structure and MVVM+Coordinator
+- `docs/architecture/IOS_API_CLIENT_V1.md` — ConnectRPC wire protocol and contract versioning
+- `docs/architecture/IOS_NAVIGATION_STATE_V1.md` — Navigation, deep linking, and state management
+- `docs/architecture/IOS_OFFLINE_STORAGE_V1.md` — SwiftData cache and mutation queue
+
+### Infrastructure
+- `docs/architecture/CLOUD_PROVIDER_STRATEGY_V1.md` — Hetzner + Cloudflare stack evaluation
+- `docs/architecture/ONPREM_HYBRID_ARCHITECTURE_V1.md` — K3s reference architecture
+- `docs/architecture/SECRETS_CONFIG_MANAGEMENT_V1.md` — SOPS + age secret management
+
+### Data and Search
+- `docs/architecture/SEARCH_RELEVANCE_STRATEGY_V1.md` — PostgreSQL FTS architecture
+- `docs/architecture/RANKING_QUALITY_EVALUATION_V1.md` — Synthetic persona test framework
+- `docs/architecture/DATA_RETENTION_DELETION_V1.md` — Three-stage anonymize-purge policy
+
+### Backend Evolution
+- `docs/architecture/BACKEND_MIGRATION_GUIDE_V1.md` — Stage A → B → C migration plan
+- `docs/architecture/EXPERIMENTATION_FRAMEWORK_V1.md` — PostHog A/B testing and ADR register
+
+### Developer Platform (v2/v3)
+- `docs/architecture/DEVELOPER_PLATFORM_VISION_V1.md` — Platform vision and capability model
+- `docs/architecture/API_PRODUCTIZATION_TIERS_V1.md` — Four-tier API access model
+- `docs/architecture/KYC_TRUST_ASSERTIONS_V1.md` — Trust assertions and portable badges
 
 ---
 

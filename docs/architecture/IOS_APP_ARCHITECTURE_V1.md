@@ -173,6 +173,8 @@ Settings and Security accessible from Profile tab.
 
 ## 5) Networking Layer (RinCore)
 
+**Updated:** The API client layer uses ConnectRPC with Protocol Buffers, not REST/JSON with Codable. See `docs/architecture/IOS_API_CLIENT_V1.md` for the definitive networking specification. The Codable references below are superseded.
+
 ### 5.1 API Client
 
 - Single `APIClient` actor in RinCore.
@@ -269,6 +271,7 @@ Settings and Security accessible from Profile tab.
 | **StoreKit 2** | Premium subscriptions | RinPremium package |
 | **CNContactStore** | Contact import | RinContacts package |
 | **SwiftData** | Local persistence | RinCore |
+| **connect-swift** | ConnectRPC client for Protocol Buffer API communication | RinCore |
 
 Principle: minimize third-party dependencies. Prefer Apple frameworks. Add dependencies only when build-vs-buy analysis clearly favors buy.
 
@@ -277,7 +280,11 @@ Principle: minimize third-party dependencies. Prefer Apple frameworks. Add depen
 ## 11) Open Decisions
 
 1. Whether to use SwiftData or Core Data for local persistence (SwiftData is newer but less battle-tested).
+   **Resolved:** SwiftData. See IOS_OFFLINE_STORAGE_V1.md.
 2. Exact analytics SDK choice for product events (Sentry vs Mixpanel vs custom).
+   **Resolved:** PostHog Cloud for product analytics, Sentry for crash reporting. See Experimentation Framework V1.
 3. Whether to support iOS 17+ only or iOS 16+ for broader reach.
+   **Resolved:** iOS 17+ (required by @Observable and SwiftData). See IOS_NAVIGATION_STATE_V1.md.
 4. Image caching strategy for profile photos (URLCache vs third-party like Kingfisher).
+   **Deferred:** LRU cache with 200MB limit specified in IOS_OFFLINE_STORAGE_V1.md; specific library TBD at implementation.
 5. Whether the card picker (profile switcher) should be a shared component in RinUI or scoped to RinProfiles.

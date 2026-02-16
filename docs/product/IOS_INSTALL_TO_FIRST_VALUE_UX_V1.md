@@ -30,7 +30,7 @@ Recommended for v1 testing:
 5. Setup order: name -> photo -> username.
 6. Username is skippable; system can assign random two-word default (minimum 6 characters).
 7. Circles start with immutable defaults:
-- `Everyone` (all contact-list based entities)
+- `Contacts` (all contact-list based entities)
 - `Public` (public follow-style visibility)
 8. Access controls are defaults-first with per-circle overrides.
 9. Contact sync should start as early as safely possible to finish during onboarding.
@@ -100,7 +100,7 @@ If skipped:
 ### Step 6: Default Circles + Sharing Defaults
 User sees:
 - immutable circles pre-created:
-  - `Everyone`
+  - `Contacts`
   - `Public`
 - one global sharing-default screen.
 - optional per-circle override entry point (can skip for now).

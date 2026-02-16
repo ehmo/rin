@@ -123,7 +123,7 @@ Key lesson: **unpredictability destroys developer trust.**
 
 1. **Authentication**: identity verification via "Sign In with Rin" (OAuth 2.0/OIDC).
 2. **Relationship-aware context**: ordinal trust distance, connection strength buckets, mutual connection count (not identities).
-3. **Score-based trust signals**: Rin score as a portable trust indicator (with user consent).
+3. **Score-based trust signals**: Rin Score as a portable trust indicator (with user consent).
 4. **Distribution**: ability to surface app actions within Rin's UI through sanctioned integration points.
 
 ### 5.2 What Developers Return to Rin
@@ -188,7 +188,7 @@ Capabilities (all require user consent):
 - trust distance between two users (ordinal: close/moderate/distant/unknown),
 - mutual connection count (integer, no identities),
 - relationship strength bucket for a pair (strong/moderate/weak/none),
-- user trust score (Rin score, numeric),
+- user trust score (Rin Score, numeric),
 - contextual relevance ranking (given a list of user IDs, return ranked by relevance to requester).
 
 What is never exposed:
@@ -220,18 +220,18 @@ Value to Rin:
 
 ### 6.4 Moat 4: Portable Trust Signal (v3+)
 
-Rin score as a cross-platform trust primitive.
+Rin Score as a cross-platform trust primitive.
 
 Concept:
-- Rin score becomes a portable credential that users carry across platforms,
+- Rin Score becomes a portable credential that users carry across platforms,
 - analogous to a credit score for social trust,
-- third-party apps can request a user's Rin score (with consent) for trust-sensitive decisions.
+- third-party apps can request a user's Rin Score (with consent) for trust-sensitive decisions.
 
 Use cases:
-- marketplace apps using Rin score to reduce fraud,
-- dating apps using Rin score for identity confidence,
-- professional networks using Rin score for credibility,
-- community platforms using Rin score for moderation trust.
+- marketplace apps using Rin Score to reduce fraud,
+- dating apps using Rin Score for identity confidence,
+- professional networks using Rin Score for credibility,
+- community platforms using Rin Score for moderation trust.
 
 Governance:
 - score is read-only for third parties (cannot be written or influenced),
@@ -249,7 +249,7 @@ Access: self-service registration, immediate access.
 Capabilities:
 - Sign In with Rin (OAuth 2.0/OIDC),
 - basic user identity (display name, profile image, verification status),
-- user's own Rin score (with user consent).
+- user's own Rin Score (with user consent).
 
 Rate limits: conservative (suitable for indie apps and prototypes).
 
@@ -281,7 +281,7 @@ Capabilities:
 - everything in Tier 1,
 - relationship strength bucket queries,
 - contextual relevance ranking (given N user IDs, ranked by relevance),
-- Rin score read for other users (with their consent),
+- Rin Score read for other users (with their consent),
 - progressive trust scoring (app's own trust level with Rin increases over time).
 
 Rate limits: generous.
@@ -377,7 +377,7 @@ If data can be extracted, it will eventually be misused. The only safe data is d
 - real-time API usage and quota monitoring,
 - user consent analytics (how many users authorized, revoked),
 - signal quality metrics (for apps participating in data reciprocity),
-- app trust score (progressive trust level with Rin),
+- app developer trust score (progressive trust level with Rin),
 - review status and compliance notifications.
 
 ### 9.4 Sandbox Environment
@@ -476,11 +476,11 @@ Deliverables:
 - Introduction/access pricing as platform infrastructure.
 - Data reciprocity framework (full, with progressive trust).
 - Developer marketplace (apps discoverable within Rin).
-- Portable trust signal (Rin score as cross-platform credential).
+- Portable trust signal (Rin Score as cross-platform credential).
 
 Success criteria:
 - platform API calls represent meaningful percentage of total Rin API traffic.
-- Rin score used as trust signal by 10+ external apps.
+- Rin Score used as trust signal by 10+ external apps.
 - Introduction facilitation generating measurable conversion.
 - Graph intelligence quality measurably improved by developer signal contributions.
 
@@ -523,7 +523,7 @@ Not fully specified here; included for architectural alignment.
 | Trust distance / relationship queries | 1-2 | Freemium: generous free tier, usage-based above threshold |
 | Relationship intelligence (batch) | 3 | Custom pricing, negotiated |
 | Introduction facilitation | 3 | Per-introduction fee or revenue share |
-| Portable trust signal (Rin score) | 2-3 | Usage-based |
+| Portable trust signal (Rin Score) | 2-3 | Usage-based |
 | Developer marketplace listing | 2-3 | Free basic listing; featured placement is paid |
 
 Architectural implication:
@@ -548,7 +548,7 @@ Architectural implication:
 ## 16) Open Questions
 
 1. **Consent UX**: how does per-app, per-scope consent present in iOS without excessive friction? Needs UX research.
-2. **Score stability under signal ingestion**: does third-party signal ingestion destabilize Rin score? Needs simulation.
+2. **Score stability under signal ingestion**: does third-party signal ingestion destabilize Rin Score? Needs simulation.
 3. **Pair-hash scheme**: exact double-blind hashing protocol for user pair signals. Needs cryptographic design.
 4. **Query budget calibration**: what per-user per-app query limits prevent reconstruction while remaining useful? Needs adversarial modeling.
 5. **Cross-app isolation enforcement**: technical mechanism for preventing query correlation across colluding apps. Needs security architecture.

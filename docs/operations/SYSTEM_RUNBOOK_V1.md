@@ -26,7 +26,7 @@ Related specs:
 ## 2.1 Control Plane
 
 - Go/Fiber API/BFF services.
-- PostgreSQL (or Citus in distributed mode).
+- PostgreSQL (or Citus in distributed mode (Infrastructure Stage C)).
 - NATS JetStream.
 - Core workers:
   - outbox publisher,
@@ -46,7 +46,7 @@ Related specs:
 ## 2.3 Projection Plane
 
 - Search backend:
-  - PG FTS in starter mode,
+  - PG FTS in starter mode (Infrastructure Stage A),
   - OpenSearch/Meilisearch in growth+.
 - Score serving projections in PostgreSQL.
 

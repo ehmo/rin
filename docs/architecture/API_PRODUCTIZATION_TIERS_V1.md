@@ -92,7 +92,7 @@ Non-goals:
 | Circle names | Read | Names of user's own circles (not circle members) |
 | Suggest connection | Write | Submit a suggested contact/connection to user. Displayed in Rin's UI, not the app's UI |
 
-**Consent model:** Per-app, per-scope. User sees: "App X wants to see your Rin score summary and circle names." Each scope is independently toggleable.
+**Consent model:** Per-app, per-scope. User sees: "App X wants to see your Rin Score summary and circle names." Each scope is independently toggleable.
 
 **Key constraint:** The "suggest connection" write operation triggers a flow inside Rin's native UI. The developer app cannot render or control how the suggestion is displayed.
 
@@ -546,6 +546,6 @@ Each phase gate requires:
 | Derived insight | A computed, bounded result that does not reveal raw graph data (e.g., "close" distance category instead of "2 hops") |
 | Mediated flow | A UI flow where Rin's native interface handles sensitive data display, triggered by but not controlled by the developer app |
 | Dual consent | Requirement that both users in a multi-user query have independently granted the relevant scope to the requesting app |
-| Trust score | Internal Rin metric tracking a developer's API usage quality and compliance |
+| Developer trust score | Internal Rin metric tracking a developer's API usage quality and compliance. Not to be confused with the Trust component of the user-facing Rin Score. |
 | Epsilon budget | Differential privacy parameter controlling the total information leakage allowed per partner per time window |
 | Graph reconstruction | The threat of an attacker iteratively querying the API to rebuild the underlying social graph |

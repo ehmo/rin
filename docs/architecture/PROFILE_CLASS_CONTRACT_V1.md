@@ -39,6 +39,8 @@ General invariants:
 
 ## 3.1 `single`
 
+User-facing label: **Primary**. In all UX and UI contexts, `single` profiles are displayed as 'Primary' to the user.
+
 Definition:
 - Standard human profile for individual users.
 
@@ -90,7 +92,7 @@ Default discoverability:
 - discoverable by default unless policy restricts.
 
 Ranking rule:
-- business ranking policy deferred; v1 uses separate visibility metrics, not personal Rin score.
+- business ranking policy deferred; v1 uses separate visibility metrics, not personal Rin Score.
 
 ## 3.4 `employee`
 

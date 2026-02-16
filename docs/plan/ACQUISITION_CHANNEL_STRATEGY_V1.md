@@ -746,8 +746,8 @@ Every channel is evaluated on 4 metrics:
 LTV = (% who convert to premium) x ($4.99/mo) x (avg. subscription months)
     + (viral value: users they refer who also convert)
 
-Conservative estimate: LTV = $8-15 per user (blended free + premium)
-Premium-only LTV: $4.99 x 8 months avg. retention = ~$40
+Conservative estimate: LTV = $6-12 per user (blended free + premium)
+Premium-only LTV: $3.83/mo net (after Apple 15%) x 8 months avg. retention = ~$31
 ```
 
 **Target CAC:LTV ratio**: >3:1 (spend $1 to earn $3+).

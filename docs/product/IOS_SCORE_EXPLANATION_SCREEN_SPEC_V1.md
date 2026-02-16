@@ -147,14 +147,14 @@ Used in Score tab (SC1) and Profile Home (P1 stats row).
 ```
         ┌─────────┐
        ╱    72     ╲
-      │   Strong    │
+      │    Good     │
        ╲           ╱
         └─────────┘
      Updated today 2:00 AM
 ```
 
 - Circular progress ring: fill proportional to score (72/100 = 72% arc).
-- Color: matches quality label color (green for Strong).
+- Color: matches quality label color (blue for Good).
 - Number: large bold font, centered.
 - Label: below number, smaller font.
 
@@ -213,7 +213,7 @@ Dynamic one-sentence summary generated from component data:
 
 ## 7) Accessibility
 
-- Score number: VoiceOver reads "Rin Score: 72 out of 100, rated Strong".
+- Score number: VoiceOver reads "Rin Score: 72 out of 100, rated Good".
 - Component bars: "Network Quality: 68 percent, contributing 40 percent of total score".
 - Sparkline: "Score trend over last 30 days. Tap for details."
 - History chart: "Score history chart. Tap data points for exact values."
